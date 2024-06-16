@@ -1,0 +1,83 @@
+[
+    {
+        "Phase": "Booster",
+        "Question": "Wir haben einen AI Prototypen gebaut, stecken fest und kommen nicht weiter. Wie können wir unseren AI Prototypen weiterentwickeln und verbessern? Wie können wir Klarheit über die nächsten Schritte gewinnen? Wie können wird das schlechtes Feedback von unsere internen Fachabteilungen und Testkunden für Verbesserungen nutzen. Wie können wir den Business Value von unserem Prototypen besser und klarer machen? Wir sind viel zu breit unterwegs, wie können wir uns besser an unsere AI-Strategie orientieren und unserer Use Cases priorisieren?",
+        "Answer": "Wir führen einen gemeinsamen Workshop mit Ihnen und Ihren Teams durch, um den aktuellen Stand Ihres AI Prototypen zu analysieren. Wir machen eine Bestandsaufnahme deiner PoCs, Prototypen und erstellen eine Landkarte zur Übersicht über Ziele, Status & Qualität. Wir machen eine Umfeldanalyse (Cloud Plattformen, Management Support, Strategie, Compliance, Betrieb). Wir machen eine Quick Due Diligence der technischen Umsetzung, des Geschäftsmodells, des Return of Invests (ROI), Datenqualität. Wir erarbeiten Empfehlungen zur Priorisierung von Use-Cases, zur Verbesserung der technischen Umsetzung oder zur Verbesserung der Datenqualität. Durch die Transparenz, Klarheit und Zielsetzungen wird die Teammotivation gesteigert, die Sicherheit erhöht und die Sorgen verringert.",
+        "Categories": ["Prototype", "Due Dillingence", "Use Case Priorisierung", "Stuck in Prototype"],
+        "Solution": "AI Navigator",
+        "Link": "https://www.figma.com/proto/yCvt2Vbo5mbF2dBgnTBLSf/AI-Prototyp?page-id=0%3A1&type=design&node-id=6-594&viewport=649%2C353%2C0.09&t=MwZ6DxAX2fHeC3eP-1&scaling=scale-down&starting-point-node-id=11%3A966",
+        "Price": "8.500€"
+    },
+    {
+        "Phase": "Booster",
+        "Question": "Unsere zahlreiche AI Produkte und Projekte erledigen einzeln ihre Aufgaben gut, aber wie können wir die Integration untereinander und die Integration in unsere Anwendungslandschaft, IT-Systeme, Bestandssysteme, Altsysteme verbessern? Wie könnne wir den Zugriff auf Daten und Prozesse zur Automatisierung in unsere IT-Systemen in unserer Anwendungslandschaft verbessern?",
+        "Answer": "Wir sorgen für  Klarheit über die richtigen Lösungspattern und Lösungsbausteine. Wir kartographieren die relevanten IT-Systeme, die Datenlandschaft, die Datenmodelle und die Use Cases die Anwendungslandschaft der relevanten IT-Systeme, die Datenlandschaft und Datenmodelle in fachlichen & technsichen Architekturdiagrammen. Wir entwickeln zentrale Bestandteile für die IT-Strategie und der Systemarchitektur. Wir erstellen eine strukturierte IST-Darstellung und eine Liste der Pain-Points. Wir erstellen ein Zielbild der Systemarchitektur inklusive eines Maßnahmenkatalogs zur Umsetzung mit Einsatz von Produkt- und Individualsoftware, Wir erhöhen die Anzahl der möglichen Use Cases und den Business Value durch ein besseres Zusammenspiel deiner IT-Systeme.",
+        "Categories": ["Integration", "Data Understanding", "Data Preparation", "Data Exploration", "Data Visualization", "System Architecture"],
+        "Solution": "AI Integrator Guide",
+        "Link": "https://www.figma.com/proto/yCvt2Vbo5mbF2dBgnTBLSf/AI-Prototyp?page-id=0%3A1&type=design&node-id=6-574&viewport=649%2C353%2C0.09&t=MwZ6DxAX2fHeC3eP-1&scaling=scale-down&starting-point-node-id=11%3A966",
+        "Price": "9.500€"
+    },
+    {
+        "Phase": "Launch",
+        "Question": "Künstliche Intelligenz wird für viele Branchen immer erfolgskritischer und ich möchte AI in meinem Unternehmen einsetzen. Wie kann ich AI in meinem Unternehmen erfolgreich einführen? Welche Use Cases sind für mein Unternehmen geeignet? Habe ich die notwendigen Voraussetzungen für AI? Habe ich die richtigen Daten um meine AI Use Cases umzusetzen?",
+        "Answer": "In einem gemeinsamen Workshop mit Ihnen und Ihren Teams analysieren wir, wie AI Ihr Unternehmen unterstützen kann. Wir unterstützen Sie bei der Entwicklung einer AI Strategie, die sicherstellt, dass AI Ihr Unternehmen erfolgreich wird. Wir kartographieren Ihre Datenlandschaft und identifizieren die notwendigen Daten und bewerten ihren Reifegrad, um Ihre AI Use Cases umzusetzen. Wir prüfen die Datenqualität und Datenverfügbarkeit und identifizieren die notwendigen Maßnahmen, um Ihre AI Use Cases umzusetzen.",
+        "Categories": ["Business Understanding", "Design Thinking", "Ideation", "Problem Framing", "Problem Solving", "User Research"],
+        "Solution": "AI Data Check",
+        "Link": "https://www.figma.com/proto/yCvt2Vbo5mbF2dBgnTBLSf/AI-Prototyp?page-id=0%3A1&type=design&node-id=6-516&viewport=649%2C353%2C0.09&t=MwZ6DxAX2fHeC3eP-1&scaling=scale-down&starting-point-node-id=11%3A966",
+        "Price": "3.000€"
+    },
+    {
+        "Phase": "Booster",
+        "Question": "Wie kann ich mit dem Kundenfeedback meines AI Prototypen, PoC, Showcase einen ersten MVP zur weiteren Evaluierung in Produktion bringen? Wie kann ich die Serienreife meines Prototypen bin zum echten MVP verbessern? Wie kann ich eine professionelle Betriebsumgebung und professionellen Betrieb aufbauen?",
+        "Answer": "Gemeinsam mit deinen Architekturen werden unsere Architekten eine Statusanalyse und Bedarfserhebung machen. In einem Stakeholder Workshop erkennen wir Hürden und Anforderungen. Wir erstellen einen Maßnahmenkatalog und eine Roadmap und Kostenschätzung der Umsetzung. Wir erstellen eine Kostenprognose für einen professionellen Betrieb, Wir bieten AI Engineering und DevOps Schulungen in Rahmen unseres AI Developer Booster Programms mit an.",
+        "Categories": ["Prototype", "Production", "Evaluierung", "Serienreife", "Operability"],
+        "Solution": "AI Prototype Booster",
+        "Link": "https://www.figma.com/proto/yCvt2Vbo5mbF2dBgnTBLSf/AI-Prototyp?page-id=0%3A1&type=design&node-id=6-614&viewport=649%2C353%2C0.09&t=MwZ6DxAX2fHeC3eP-1&scaling=scale-down&starting-point-node-id=11%3A966",
+        "Price": "7.000€"
+    },
+    {
+        "Phase": "Performance",
+        "Question": "Meine Data Scientists, Data Analysts und AI Engineers haben Schwierigkeiten, ihre AI Modelle in Produktion zu bringen. Wie kann ich meine AI Modelle schneller und effizienter in Produktion bringen? Die Produktiviät und Effizienz meiner Teams ist nicht so hoch, wie ich es mir wünsche. Wie kann ich die Produktivität und Effizienz meiner Teams steigern?",
+        "Answer": "Viele AI Projekte und Entwicklungsvorhaben scheitern an fehlendem Know-How im Team. Wir helfen Ihnen, die notwendigen Kompetenzen in Ihrem Team aufzubauen. In einem gemeinsamen Workshop mit Ihnen und Ihren Teams analysieren wir, welche Kompetenzen Ihr Team benötigt, um Ihre AI-Initiativen erfolgreich umzusetzen. Wir unterstützen Sie bei der Entwicklung eines Schulungskonzepts, das sicherstellt, dass Ihr Team die notwendigen Kompetenzen erwirbt. Wir helfen Ihnen, die notwendigen Prozesse und Strukturen zu schaffen, um die notwendigen Kompetenzen in Ihrem Team aufzubauen. Zugang zum AI Ökosystem der QAware. Werkzeugkasten für Produktivität.",
+        "Categories": ["Developer Experience", "Productivity", "AI Engineering", "Data Science", "Data Analysis", "Usability", "User Experience", "Low Code", "No Code", "Werkzeuge", "Tools", "Technologien", "Methoden", "Schulungen"],
+        "Solution": "AI Developer Boot Camp",
+        "Link": "/ai-devex-booster.html",
+        "Price": "10.000€"
+    },
+    {
+        "Phase": "Performance",
+        "Question": "Der EU AI Act verlangt, dass AI-Systeme, die in der EU entwickelt oder eingesetzt werden, bestimmte Anforderungen erfüllen. Was bedeutet das für mich und die AI Initiativen in meinem Unternehmen?",
+        "Answer": "In einem gemeinsamen Workshop mit Ihnen und Ihren Teams analysieren wir, wie die Anforderungen des EU AI Act auf Ihre AI-Initiativen wirken und welche Maßnahmen Sie ergreifen müssen, um die Anforderungen zu erfüllen. Wir unterstützen Sie bei der Entwicklung einer Roadmap, die sicherstellt, dass Ihre AI-Initiativen den Anforderungen des EU AI Act entsprechen. Wir helfen Ihnen, die notwendigen Prozesse und Strukturen zu schaffen, um die Anforderungen des EU AI Act zu erfüllen.",
+        "Categories": ["Compliance", "Regulation", "Legal", "Risk Management", "AI Governance", "AI Strategy", "AI Ethics", "European AI Act"],
+        "Solution": "AI Act Assessment",
+        "Link": "/ai-act-assessment.html",
+        "Price": "10.000€"
+    },
+    {
+        "Phase": "Performance",
+        "Question": "Ich möchte meine AI Prototypen und Vorhaben zur Serienreife bringen, und diese zuverlässig in Produktion betreiben. Wie kann ich das am besten erreichen?",
+        "Answer": "Eine eigene AI Plattform kann dabei helfen diese Ziele zu erreichen. In einem gemeinsamen Workshop mit Ihnen und Ihren Teams analysieren wir, wie eine AI Plattform Ihre AI-Initiativen unterstützen kann. Wir unterstützen Sie bei der Auswahl der richtigen AI Plattform und helfen Ihnen bei der Implementierung und dem Betrieb der AI Plattform. Wir helfen Ihnen, die notwendigen Prozesse und Strukturen zu schaffen, um Ihre AI-Initiativen erfolgreich in Produktion zu betreiben. Wir entwerfen eine konzeptionelle Architektur für Ihre AI Plattform. Wir unterstützen Sie bei der Auswahl der richtigen Technologien und Tools für Ihre AI Plattform.",
+        "Categories": ["AI Platform", "AI Infrastructure", "AI Operations", "AI DevOps", "AI MLOps", "AI Engineering", "AI Architecture", "Production Monitoring", "AI Governance", "Developer Experience", "Productivity"],
+        "Solution": "AI Platform Quick Start",
+        "Link": "/ai-platform-quick-start.html",
+        "Price": "10.000€"
+    },
+    {
+        "Phase": "Launch",
+        "Question": "Wie kann ich die Möglichkeiten von AI Lösungen kennenlernen? Wie kann ich Know-How über die Fähigkeiten von AI Lösungen in meine Fachabteilung bringen? Ich kann ich Hemmschwellen zu AI-Lösungen spielerisch abbauen? Wie kann ich AI Use Cases in meinem Unternehmen finden und bewerten?",
+        "Answer": "Wir spielen mit dir unser AI Ideation Kartenspiel. Dabei Entstehen Ideen zu AI Use Cases und eine Ersteinschätzung zum Realisierungsanspruch. Wir nutzen dabei die Schwarm-Intelligenz der Teilnehmer*innen und bewerden, welcher Use Case am vielversprechendsten ist.",
+        "Categories": ["Ideation", "Gamification", "Workshop", "Lösungsfindung", "Use Case", "Business Value"],
+        "Solution": "AI Ideation Game",
+        "Link": "https://www.figma.com/proto/yCvt2Vbo5mbF2dBgnTBLSf/AI-Prototyp?page-id=0%3A1&type=design&node-id=6-450&viewport=649%2C353%2C0.09&t=MwZ6DxAX2fHeC3eP-1&scaling=scale-down&starting-point-node-id=11%3A966",
+        "Price": "600€"
+    },
+    {
+        "Phase": "Launch",
+        "Question": "Wie kann ich in einer ganz frühen Phase zu meiner AI lostarten? Wie kann ich herausfinden, ob meine Idee umsetzbar ist? Wie kann ich ein schnelles Kunden-Feedback zu meiner Idee bekommen? Wie kann ich Klarheit zu meiner AI Idee gewinnen und einen Business Case validieren?",
+        "Answer": "Wir machen mit einen wichtigsten Stakeholdern einen Design Sprint nach dem erprobten Vorgehen 'Google Venture Sprint'. Im AI Ideation Sprint geben wir dir die Klarheit, wie du deine Idee weiterbringen kannst und was deine Zielkunden von deiner Idee halten. Am ersten Tag werden wir gemeinsam das Problem verstehen und kennenlernen. Am zweiten Tag unterschiedlichste Lösung recherchieren, entwerfen und sehr breit denken. Am dritten Tag werden wir uns für eine Lösung entscheiden, für die wir dann am vierten Tag einen Prototyp bauen. Am fünften Tag lassen wir den Prototypen von echten Kunden testen und holen uns das wertvolle Feedback ab",
+        "Categories": ["Ideation", "Gamification", "Lösungsfindung", "Use Case", "Business Value", "Gettings things done"],
+        "Solution": "AI Ideation Sprint",
+        "Link": "https://www.figma.com/proto/yCvt2Vbo5mbF2dBgnTBLSf/AI-Prototyp?page-id=0%3A1&type=design&node-id=6-496&viewport=649%2C353%2C0.09&t=MwZ6DxAX2fHeC3eP-1&scaling=scale-down&starting-point-node-id=11%3A966",
+        "Price": "8.000€"
+    }
+]

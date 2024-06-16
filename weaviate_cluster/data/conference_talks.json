@@ -1,0 +1,2072 @@
+[
+  {
+    "title": "Einsatz von \"Cloud-native\" Technologien on-the-edge in der Fertigung",
+    "time": "Freitag 21.06.2024 | 10:00 - 10:45 | Stage 1",
+    "speaker": "Jeremy Theocharis",
+    "company": "United Manufacturing Hub",
+    "keywords": [
+      "produktion",
+      "edge",
+      "data-intensive"
+    ],
+    "abstract": "In diesem Fachvortrag demonstriere ich am Beispiel des Open-Source-Projekts \"United Manufacturing Hub\", wie moderne \"Cloud-Native\" Technologien wie Kubernetes, Grafana und TimescaleDB effektiv mit bewährten Systemen wie Kafka und MQTT kombiniert werden können. Dies erfolgt im Rahmen einer hybriden Architektur, um spezifische Herausforderungen in der Fertigungsindustrie – einschließlich Bereichen wie Chemie, Pharma und Energie – zu bewältigen. Der Fokus liegt dabei auf Problemen, die typischerweise in \"data-intensive\" Anwendungen auftreten:\n1. Das Versenden von Events durch ein verteiltes System, um sowohl Telemetriedaten zu sammeln als auch reale Betriebsvorgänge wie die Steuerung von Maschinen zu ermöglichen. Es müssen die Daten ggf. zwischen gespeichert werden, und trotzdem noch sichergestellt werden, dass wichtige Vorgänge zuverlässig ausgeführt werden\n2. Organisatorische Herausforderungen, insbesondere die Anpassung der Technologien, sodass sie auch von Nicht-IT-Fachleuten genutzt werden können.",
+    "about_speaker": [
+      "- Mitbegründer und CTO des United Manufacturing Hub (UMH), einem Open-Source-Projekt (https://umh.docs.umh.app/docs/)",
+      "- Ich veröffentliche regelmäßig technisch anspruchsvolle Blogartikel auf unserem Lernportal: https://learn.umh.app/",
+      "- Erfahrener Redner, unter anderem auf der von Heise organisierten \"Building IoT\" in München (letztes Jahr eine Rede, dieses Jahr zwei)."
+    ]
+  },
+  {
+    "title": "Entwicklungsumgebung auf Knopfdruck",
+    "time": "Freitag 21.06.2024 | 12:00 - 12:45 | Stage 1",
+    "speaker": "Dr. Harald Gerhards",
+    "company": "infologistix GmbH",
+    "keywords": [
+      "GitOps",
+      "Github",
+      "Kubernetes",
+      "Cloud",
+      "SUSE Rancher",
+      "Rancher Fleet",
+      "NueVector",
+      "AKS"
+    ],
+    "abstract": "Was wäre schöner für die agile Entwicklung, als direkt mit der Erstellung eines neuen Branches auch eine komplette neue Umgebung mit Namespaces, Datenbanken etc. zu erhalten?\nNaja, vielleicht, dass automatische Bauen, Testen und Deployen jeder Änderung und das automatische Löschen der Umgebung beim Merge into Master? Aber zum Glück geht das ja auch alles zusammen mit Github Actions und Rancher Fleet.\nWährend Github und Github Actions weit verbreitet sind, ist die Nutzung einer Cloud API über Actions schon seltener genutzt und das Projekt Rancher Fleet als GitOps-Tool für Multicluster-Architekturen eher unbekannt.\nDer Vortrag wird zeigen, wie wir für die DevOps-Teams eines Kunden eine leichtgewichtige Automatisierung für Feature-Entwicklung und Staging in deiner Multicluster-Kubernetes-Umgebung realisiert haben. Wir demonstrieren die Umsetzung anhand einer SUSE Rancher Plattform mit NeuVector, Istio und AKS auf Microsoft Azure.",
+    "about_speaker": "(no data)"
+  },
+  {
+    "title": "Einblicke in das Cloud-Transformations-Reisetagebuch der BA",
+    "time": "Freitag 21.06.2024 | 13:00 - 13:45 | Stage 1",
+    "speaker": "Clemens Wunder",
+    "company": "Bundesagentur für Arbeit",
+    "keywords": [
+      "UserStory",
+      "CloudTransformation"
+    ],
+    "abstract": "Die Bundesagentur für Arbeit ist eine der größten Behörden in Deutschland und betreibt in Europa nicht nur eines der größten Rechenzentren in der öffentlichen Verwaltung, sondern auch seit Jahren erfolgreich eine eigene leistungsfähige Private Cloud Infrastruktur. Das Jahr 2023 war ein Schlüsseljahr, in dem entscheidende Hürden aus dem Weg geräumt wurden. Dadurch haben sich der Wille als auch die Möglichkeiten der öffentlichen Verwaltung gestärkt, den mutigen Sprung in die Cloud zu wagen. Verfolgen Sie  den Pfad, den die BA zur Cloud-Transformation eingeschlagen hat und erfahren Sie aus erster Hand, welche Herausforderungen und Chancen auf diesem Weg lagen. Es werden einige Anekdoten über Stolpersteine sowie überraschende Lösungen aufgezeigt.",
+    "about_speaker": "(no data)"
+  },
+  {
+    "title": "From Isolated Services to Integrated Ecosystems: Platform Evolution at DB",
+    "time": "Freitag 21.06.2024 | 14:00 - 14:45 | Stage 1",
+    "speaker": "Dr. Gualter Baptista",
+    "company": "DB Systel GmbH",
+    "keywords": [
+      "platforms",
+      "community building",
+      "developer experience",
+      "hackathons"
+    ],
+    "abstract": "The cloudification of Deutsche Bahn in 2016 has marked the beginning of a significant digital transformation. The move from traditional data centres to cloud computing was followed by a cultural change (agility, devops), and, later on, by the emergence of digital platforms. Initially the platforms were mostly a collection of atomized services, each with their own teams and requirements management. However, the goal was always to weave these individual strands together into an interconnected tapestry.\nCentral to this transformative journey have been our Hackathons. Starting as focused events around specific services, they have evolved to target and integrate various platforms under the build IT umbrella, including Developer Experience, Enterprise Integration, Data Management, AI, IoT, and Low Code/No Code platforms. These Hackathons have become more than just coding events; they are incubators of a robust, collaborative community, bridging gaps between different technology domains and across Deutsche Bahn's business units.\nThis presentation will explore how these Hackathons, along with our online communities and similar events, play a pivotal role in moving from a collection of isolated services to a synergistic, integrated ecosystem. We'll share insights on how fostering this community-driven approach has been instrumental in accelerating Deutsche Bahn's digitalization, transforming the transportation sector's technological landscape.",
+    "about_speaker": "(no data)"
+  },
+  {
+    "title": "Cloud Simplified",
+    "time": "Freitag 21.06.2024 | 15:00 - 15:45 | Stage 1",
+    "speaker": "Daniel Hauck",
+    "company": "Flyeralarm",
+    "keywords": [
+      "CI",
+      "CI/CD",
+      "Pipeline",
+      "IDP",
+      "Gitlab",
+      "Repository",
+      "Yaml",
+      "Developer Experience",
+      "Continuous Integration"
+    ],
+    "abstract": "Auf der CloudLand 2023 haben wir euch erzählt, wie wir uns vorstellen unsere hauseigene Developer Plattform aufzubauen. Jetzt ein Jahr später, haben wir nun eine Menge Erfahrungen bei der Migration sammeln können und möchten diese mit euch Teilen. Dabei wird starker Fokus auf die Standardisierung unserer CI/CD Prozesse gelegt und was sich auf dem Weg dorthin für uns geändert hat. Zu dem reinen Wechsel von 1.900 Projekten in Bitbucket/Bamboo nach GitLab kamen desweitern neue Prozesse, um dem Domain Driven Design unserer Applikationen auch auf Repository Ebene treu zu bleiben. Dabei wollen wir euch einen Einblick geben, wie wir in einem Drahtseilakt zwischen Standardisierung und zu starker Einschränkung unserer CI/CD Pipelines vereinfachen konnten.",
+    "about_speaker": "(no data)"
+  },
+  {
+    "title": "Erfahrungsbericht zu Entwicklung und Betrieb der effizienten Digitalisierung der",
+    "time": "Freitag 21.06.2024 | 10:00 - 10:45 | Stage 2",
+    "speaker": "Gunther Thielemann",
+    "company": "SLIX Gesellschaft für Computersysteme mbH",
+    "keywords": [
+      "K8s",
+      "GitOpts",
+      "Flux",
+      "Terraform",
+      "CI/CD"
+    ],
+    "abstract": "SLIM-X ist eine cloud-basierte Softwarelösung zur Digitalisierung von lerntherapeutischen Praxen und verschafft den Anwendern mehr Zeit für ihre Kernaufgaben.\nDieser Vortrag konzentriert sich auf die technologischen Aspekte von SLIM-X und teilt wertvolle Erfahrungen aus der Entwicklungs- und Implementierungsphase sowie beim Betrieb und dem Monitoring der Services.\nWir gehen darauf ein, wie SLIM-X moderne Cloud-Architekturen und DevOps-Methoden nutzt, um eine skalierbare, zuverlässige und benutzerfreundliche Verwaltungslösung zu bieten. Insbesondere werden die Rolle von Kubernetes (K8s) und die Anwendung von GitOps in der Entwicklung und im Betrieb von SLIM-X beleuchtet.\nDer Vortrag stellt dar, wie diese Technologien dazu beitragen, Verwaltungsprozesse in lerntherapeutischen Praxen zu optimieren, indem sie effiziente Datenverwaltung, Automatisierung von Routineaufgaben und flexible Zugriffsmöglichkeiten ermöglichen. Zudem wird erörtert, wie SLIM-X dazu beiträgt, Lerntherapeuten mehr Zeit für ihre Kernaufgaben zu verschaffen.\nEin besonderer Fokus liegt auf den gesammelten Erfahrungen während der Entwicklung und dem Einsatz von SLIM-X. Wir teilen Einblicke in Herausforderungen, Lösungsansätze und Erfolge.\nAbschließend wird diskutiert, wie SLIM-X als Beispiel für erfolgreiche Digitalisierungsprozesse in spezialisierten Fachbereichen dienen kann und wie die Technologie die Qualität der Dienstleistung sowie die Kundenzufriedenheit steigert.",
+    "about_speaker": "(no data)"
+  },
+  {
+    "title": "Eine Reise nach Mordor und zurück–Bericht aus 2 Jahren PublicSector-Cloudprojekt",
+    "time": "Freitag 21.06.2024 | 11:00 - 11:45 | Stage 2",
+    "speaker": "Stephan Tönnies",
+    "company": "Aleri Solutions GmbH",
+    "keywords": [
+      "Erfahrungsbericht",
+      "Public Sector"
+    ],
+    "abstract": "Ein Projekt, sie zu knechten, sie alle zu finden,\nIns Dunkel zu treiben und ewig zu binden\nIm Lande Deutschland, wo die Schatten drohn.\nMeine Rede ist von Daten. Bildungsdaten.\nIch war in den letzten zwei Jahren in einem Public Sector Cloudprojekt als Business Analyst tätig. Wir wurden von einer Bundesbehörde gefördert zu „Erforschen“ und Erproben wie wir Daten in dem Bildungswesen standardisiert bereitgestellt werden können.\nDiesem Vortag möchte ich meine Erfahrungen teilen, welche ich in dem Laufe des Projekts gesammelt habe, wie wir durch schwierige Passagen durchgekommen sind und auch welche Verluste wir auf dem Weg gemacht haben. Ich möchte zeigen, wie wir uns an dunkle Orte verirrten und wie das Licht in den dunkelsten Gegenden wiedergefunden haben.\nEs werden Themen umrissen wie Identitätsmanagementsysteme, Standardisierung von Schnittstellen mit anderen Playern, Umstrukturierung der eigenen Datenstrukturen, Migrationen, Abstimmungen mit Playern auf dem Bildungsmarkt und vieles mehr.\nWenn du Interesse hast mich auf meine Reise durch die „Vergangenheit“ zu begleiten, über den Tellerrand zu blicken, eine weitere Perspektive (eine BA-Sicht) auf IT-Transformationsprojekte kennenzulernen und von meinen gewonnenen Erfahrungen zu profitieren, dann lade ich dich gerne zu meinem Vortrag ein.\nOder um es in Galadriels Worten zu sagen: “May it be a light for you in dark places when all other lights go out...”",
+    "about_speaker": "(no data)"
+  },
+  {
+    "title": "Setting up a Smart Factory Platform for a food company in 6 months",
+    "time": "Freitag 21.06.2024 | 12:00 - 12:45 | Stage 2",
+    "speaker": "Moritz Glükher",
+    "keywords": [
+      "Smart Factory Platfrom",
+      "AWS",
+      "Use Case Ideation",
+      "Data Management",
+      "Dashboarding",
+      "Change Management"
+    ],
+    "abstract": "Our presentation outlines the ambitious task of establishing a Smart Factory Platform within a strict 6-month timeline, emphasizing key success factors for transforming an organization (Gustavo Gusto GmbH & CO. KG) into a data-driven entity from scratch. The initial phase focuses on the rapid deployment of a scalable AWS Architecture, laying the foundation for a resilient infrastructure. Subsequent steps include defining a comprehensive Data Strategy, deriving use cases from stakeholders' needs, and adopting a 'Working Backwards' approach to prioritize impactful use cases. The implementation phase underscores concentrating on core strengths and incremental growth.\nThe agenda concludes with an insightful Outlook into the Future, considering the evolving technological landscape. It provides strategic insights for organizations to remain adaptable and future-proof their Smart Factory Platforms. This structured agenda serves as a practical roadmap for organizations to navigate the complexities of setting up a Smart Factory Platform and becoming a data-driven entity within a tight timeframe.",
+    "company": "(no data)",
+    "about_speaker": "(no data)"
+  },
+  {
+    "title": "Serverless Produktentwicklung: Meilensteine und Erkenntnisse aus 3 Jahren",
+    "time": "Freitag 21.06.2024 | 13:00 - 13:45 | Stage 2",
+    "speaker": "Frederick Gamer",
+    "company": "viadee Unternehmensberatung AG",
+    "keywords": [
+      "Serverless",
+      "Firebase",
+      "GCP",
+      "Cloud Native",
+      "Erfahrungsbericht"
+    ],
+    "abstract": "Serverless Plattformen sind das Idealbild der Cloud Infrastrukturen, um sich auf seine Fachlogik konzentrieren zu können. In 36 Monaten Produktentwicklung haben wir von begeisternder Entwicklungsgeschwindigkeit bis unlösbaren Herausforderungen alles erleben dürfen. Auf diese Reise mit Firebase und der Google Cloud Platform möchten wir Euch mitnehmen und Euch an den Real-Life-Erfahrungen mit Functions, Managed Services und Automatisierungen teilhaben lassen.\nDabei geben wir Einblick in unsere Architektur sowie erlebte Potentiale und Grenzen der verwendeten Infrastruktur sowie organisatorische Herausforderungen, die wir erlebt haben.\nAls Take-Aways bringen wir Sensibilisierung für Herausforderungen und Vorfreude auf reale Potentiale, wie geringe Betriebskosten und hohe Entwicklungsfreiheit.",
+    "about_speaker": "(no data)"
+  },
+  {
+    "title": "Von Fully-Managed zu On-Premise - Unser Weg durch die Clouds",
+    "time": "Freitag 21.06.2024 | 14:00 - 14:45 | Stage 2",
+    "speaker": "Kai Culemann",
+    "company": "Landesamt für Geoinformation und Landesvermessung Niedersachsen",
+    "keywords": [
+      "OpenShift",
+      "Azure"
+    ],
+    "abstract": "Am Kooperationsprojekt \"Geodigitalisierungskomponente\" (GDIK) zwischen den Ländern Bayern und Niedersachsen zeigen wir unseren Weg durch die Clouds.\nIm Projekt wurde eine recht simple Web-Component zur Erfassung von Geometrien in Online-Formularen entwickelt. Die Konfiguration der Komponente erfolgt über ein JSON-Dokument, dass der Komponente bekannt gegeben wird. Um dieses möglichst einfach erstellen zu können, haben wir ein GUI mit zugehörigen Services aufgebaut. Unser Ziel ist es sowohl das Konfigurieren so einfach wie möglich zu gestalten als auch die Konfigurations-API der Komponente mit den Konfigurationen der Nutzer synchron zu halten.\nUm schnell zu einem produktiven Ergebnis zu kommen und uns voll auf die Entwicklung der Services zu konzentrieren, haben wir einen Fully-Managed-Ansatz in Azure gewählt. Im Moment arbeiten wir am Umzug unserer Architektur hin zu Open Shift, um vom Cloudanbieter unabhängiger zu werden. Mit den dabei gesammelten Erfahrungen wird es dann weiter gehen in eine On-Premise Lösung im bayrischen Landesnetz.\nWir wollen euch auf unsere Reise durch die Clouds mitnehmen und stellen euch dabei unsere (Fehl-)Entscheidungen und Lösungswege vor.",
+    "about_speaker": "(no data)"
+  },
+  {
+    "title": "Karate und Gatling - Testautomatisierung und integrierte Lasttests",
+    "time": "Freitag 21.06.2024 | 15:00 - 15:45 | Stage 2",
+    "speaker": "Johannes Schützner",
+    "company": "Mercedes-Benz AG",
+    "keywords": [
+      "Qualität",
+      "API-Tests",
+      "Lasttests",
+      "Performancetests",
+      "CI/CD Pipeline"
+    ],
+    "abstract": "Die Basis von guter Qualität von Microservices sind sicherlich passende Unit- und Integrationstests. Um darauf aufbauend die Funktionalität über REST-Endpunkte automatisiert testen zu können und sicherzustellen, kann Karate genutzt werden. Es ist ein Open-Source Tool für die API Testautomatisierung mit einer sprachunabhängigen Syntax.\nKarate kann nahtlos mit Gatling für Lasttests und Performancetests erweitert werden. Dies erlaubt es auf elegante Art spezifische Workloads in der Skalierung und im Ablauf zu definieren und auf diese Weise Microservices auch unter Last und im Grenzbereich zu testen und auf Herz und Nieren zu prüfen.\nAll diese Tests können in CI/CD Pipelines integiert und kontinuierlich ausführt werden, sodass mögliche Probleme und Verschlechterungen direkt erkannt werden.\nDieser Vortrag führt in Karate API Tests und das Gatling Open Source Lasttool ein und schildert Erfahrungswerte und Lessons Learned.",
+    "about_speaker": "(no data)"
+  },
+  {
+    "title": "Siemens CommsCloud - bring digital marketing to the next level",
+    "time": "Freitag 21.06.2024 | 10:00 - 10:45 | Stage 3",
+    "speaker": "Thomas König",
+    "company": "Groundfog GmbH",
+    "keywords": [
+      "aws",
+      "cloud-native",
+      "b2b",
+      "digital transformation"
+    ],
+    "abstract": "Together with Siemens, we established an innovative, event-driven, cloud-based and edge-optimised delivery platform. Along the way we built something that not only helped Siemens to deliver their marketing content better than before, we also provided internal services solving the needs of several business units by other departments at Siemens. We call it CommsCloud.\nIn this talk, we want to give insights into the digital landscape of Siemens. We will elaborate on why we mainly rely on serverless infrastructures and managed services in favour of containerised solutions and how this helps to reduce complexity and costs for maintenance and operation to a bare minimum. You will also learn how the CommsCloud deployment has been automated using the in-house developer platform code.siemens.com leveraging the power of GitLab and IaC (Infrastructure as Code).",
+    "about_speaker": "(no data)"
+  },
+  {
+    "title": "Setting up a Smart Factory Platform for a food company in 6 months",
+    "time": "Freitag 21.06.2024 | 12:00 - 12:45 | Stage 2",
+    "speaker": "Moritz Glükher",
+    "keywords": [
+      "Smart Factory Platfrom",
+      "AWS",
+      "Use Case Ideation",
+      "Data Management",
+      "Dashboarding",
+      "Change Management"
+    ],
+    "abstract": "Our presentation outlines the ambitious task of establishing a Smart Factory Platform within a strict 6-month timeline, emphasizing key success factors for transforming an organization (Gustavo Gusto GmbH & CO. KG) into a data-driven entity from scratch. The initial phase focuses on the rapid deployment of a scalable AWS Architecture, laying the foundation for a resilient infrastructure. Subsequent steps include defining a comprehensive Data Strategy, deriving use cases from stakeholders' needs, and adopting a 'Working Backwards' approach to prioritize impactful use cases. The implementation phase underscores concentrating on core strengths and incremental growth.\nThe agenda concludes with an insightful Outlook into the Future, considering the evolving technological landscape. It provides strategic insights for organizations to remain adaptable and future-proof their Smart Factory Platforms. This structured agenda serves as a practical roadmap for organizations to navigate the complexities of setting up a Smart Factory Platform and becoming a data-driven entity within a tight timeframe.",
+    "company": "(no data)",
+    "about_speaker": "(no data)"
+  },
+  {
+    "title": "Von Null auf Cloud in 100 Tagen",
+    "time": "Freitag 21.06.2024 | 12:00 - 12:45 | Stage 3",
+    "speaker": "Sven Illert",
+    "company": "Robotron Datenbank-Software GmbH",
+    "keywords": [
+      "OCI",
+      "Hyperscaler",
+      "Oracle",
+      "Exadata",
+      "Success Story"
+    ],
+    "abstract": "Plante man in der Vergangenheit die Einführung einer neuen Software, die für Millionen von Kunden genutzt wird und wollte dabei höchsten Verfügbarkeitsansprüchen genügen, war dies in der Regel mit einem gehörigen Planungs- und Implementierungsaufwand verbunden. Zudem bedeutete dies für ein Software zentriertes Unternehmen wie die Robotron Datenbank-Software GmbH, Untersützung in Form von Hardwareintegratoren und Betreibern zu suchen. Doch mit Hyperscalern wie der Oracle Cloud Infrastructure ergeben sich völlig neue Möglichkeiten den gesamten Betrieb einer komplexen Anwendung als SaaS bereitzustellen und dabei in nur einem Bruchteil der bisher benötigten Zeit die ersten Dienste in produktive Nutzung zu überführen. In diesem Vortrag soll über die Erfahrungen über ein solches Projekt berichtet werden, bei welchem Technologien wie die Oracle Exadata, diverse Netzanbindungen, Application Server mit Weblogic und Oracle Forms innerhalb eines Quartals integriert wurden. Dabei wird auf technische und organisatorische Hürden und Besonderheiten sowie die ausschlaggebenden Gründe für den Erfolg des Projekts eingegangen.",
+    "about_speaker": "(no data)"
+  },
+  {
+    "title": "Navigating the Cloud-native Sustainability Landscape towards Green K8s Clusters",
+    "time": "Freitag 21.06.2024 | 13:00 - 13:45 | Stage 3",
+    "speaker": "Mario-Leander Reimer",
+    "company": "QAware GmbH",
+    "keywords": [
+      "Kubernetes",
+      "Sustainability",
+      "Green-IT",
+      "Kepler",
+      "HPA",
+      "VPA",
+      "Keda",
+      "Carbon-aware",
+      "Karpenter",
+      "Karmada"
+    ],
+    "abstract": "The cloud already has a larger CO2 footprint than the worldwide aviation industry. With increasing digitalization and cloudification this trend will continue if we don't do anything about it. Many Kubernetes installations are greatly oversized in terms of the resources actually required and thus contribute unnecessarily to global warming. How big is the footprint of your cluster and its workloads? In this session we will outline and demonstrate different approaches and technologies for measuring, scaling, scheduling and resource tuning that help to make your K8s clusters green(er).",
+    "about_speaker": "(no data)"
+  },
+  {
+    "title": "Multicloud Portable Java Applications Made Easy",
+    "time": "Freitag 21.06.2024 | 14:00 - 14:45 | Stage 3",
+    "speaker": "Sachin Pikle",
+    "company": "Oracle Corporation",
+    "abstract": "The lack of standard APIs across clouds makes it nearly impossible to write portable cloud applications, but with Graal Cloud Native application portability becomes possible. Graal Cloud Native lets you take full advantage of powerful cloud services without coupling to proprietary platform APIs. Easily use services such as object storage, cloud databases, secret management, and more and deploy to popular cloud platforms. In this session, you'll learn how to build a portable cloud native Java application that starts instantly and uses fewer resources to reduce cloud compute costs.",
+    "keywords": "(no data)",
+    "about_speaker": "(no data)"
+  },
+  {
+    "title": "Minimising the Carbon Footprint of Workloads",
+    "time": "Freitag 21.06.2024 | 15:00 - 15:45 | Stage 3",
+    "speaker": "Michael Mueller",
+    "company": "re:cinq",
+    "keywords": [
+      "greenIT",
+      "sustainableIT",
+      "DevOps",
+      "SRE"
+    ],
+    "abstract": "The rapid advancement of technology has brought transformative advancements in various aspects of our lives, revolutionising communication, commerce, and nearly every industry. However, this transformation has also come at a significant environmental cost, with the energy consumption of data centers and computing infrastructure significantly contributing to global carbon emissions.\nAs we strive to build a more sustainable future, it is imperative that the DevOps community takes a leading role in minimising the environmental impact of our software and platforms.\nFrom optimising resource utilisation to leveraging cloud computing, we will delve into a range of approaches to mitigating the environmental impact of the software and platforms we build. This talk will create awareness for engineers on how to design, develop, and deploy sustainable computing solutions that promote a greener digital future.",
+    "about_speaker": "(no data)"
+  },
+  {
+    "title": "The Future Of Declarative Infrastructure",
+    "time": "Freitag 21.06.2024 | 10:00 - 10:45 | Stage 4",
+    "speaker": "Christopher Haar",
+    "company": "upbound.io",
+    "keywords": [
+      "configuration management",
+      "iac",
+      "cloud",
+      "kubernetes",
+      "control plane"
+    ],
+    "abstract": "In this talk, we'll go through the history of the tools used to manage infrastructure and the principles behind them them. They goal is to understand how we got where we are today and what the future holds for us. We'll also look at the current state of the art and the problems that we're facing today. Finally, we'll look at the future of declarative infrastructure and what we can expect from it.\nThe rapidly evolving landscape of modern computing has paved the way for groundbreaking innovations in the realm of infrastructure management. Declarative Infrastructure, a paradigm that emphasizes specifying \"what\" state the infrastructure should be in rather than \"how\" to achieve that state, has emerged as a powerful approach to handle the complexities of managing distributed systems.\nAdvancements in declarative infrastructure have been driven by advancements in cloud computing, containerization, and orchestration technologies.\nDespite its promises, the declarative infrastructure faces several challenges. As systems grow in size and complexity, ensuring consistency, compliance, and security across diverse infrastructures becomes a critical concern. Furthermore, achieving real-time reactivity and resilience in highly dynamic environments remains a significant challenge for existing declarative frameworks.\nIn this talk, we'll take a look at the past, the history, the present, and the future of the tools used to manage infrastructure, and everything else.",
+    "about_speaker": "(no data)"
+  },
+  {
+    "title": "Cloud Native IAM mit Keycloak",
+    "time": "Freitag 21.06.2024 | 11:00 - 11:45 | Stage 4",
+    "speaker": "Dominik Schlosser",
+    "company": "Freelancer",
+    "keywords": [
+      "IAM",
+      "OIDC",
+      "Keycloak",
+      "Cloud Native",
+      "Configuration as Code",
+      "Kubernetes"
+    ],
+    "abstract": "Keycloak ist seit letztem Jahr Mitglied der Cloud Native Computing Foundation (CNCF) und positioniert sich damit offiziell als Cloud Native Lösung für Identity- und Access-Management.\nIn diesem Talk zeige ich, wie wir Keycloak in einer Kubernetes basierten Cloud betreiben. Dies umfasst von der Wahl der Datenbank, über technische und fachliche Konfiguration bis hin zu Fragen des Multistandortbetriebes und der Integration in ein Servicemesh viele Aspekte und Fragestellungen moderner Cloud Native Umgebungen.\nDarüber hinaus gehe ich auf die Frage ein, ob und wann es sich lohnt Keycloak als IAM-Lösung einer der bestehenden Angebote in AWS und Co vorzuziehen und zeige abschließend Bereiche auf, in denen Keycloak noch besser werden muss, um sich wirklich \"Cloud Native\" nennen zu können.",
+    "about_speaker": "(no data)"
+  },
+  {
+    "title": "Resilience-Patterns in Cloud-Anwendungen (nicht nur für Go)",
+    "time": "Freitag 21.06.2024 | 13:00 - 13:45 | Stage 4",
+    "speaker": "Kristian Köhler",
+    "company": "Source Fellows GmbH",
+    "keywords": [
+      "Resilience-Patterns",
+      "Go",
+      "Software-Architektur",
+      "Patterns"
+    ],
+    "abstract": "Mit der Anzahl der angebundenen externen Komponenten innerhalb einer Anwendung steigt die Anzahl der potentiellen Fehlerquellen nahezu beliebig. Cloud-native Anwendungen müssen auf Fehlersituationen vorbereitet sein. Soviel steht fest.\nPassende Lösungsbeschreibungen liefern Resilience-Patterns, mit denen man auftretende Probleme in der Umgebung abmildern kann. Allerdings macht eine unreflektierte Einbindung dieser Muster in der Praxis wenig Sinn und kann in Bezug auf eine saubere Software-Architektur selbst fehleranfällig bzw. sogar kontraproduktiv sein.\nDer Vortrag stellt verbreitete Resilience-Patterns vor und zeigt anhand von praxiserprobten Go-basierten Beispielen wie diese in eine moderne Software-Architektur eingebunden werden können.",
+    "about_speaker": "(no data)"
+  },
+  {
+    "title": "Wie Verantwortung nicht nur übertragen sondern auch übernommen wird",
+    "time": "Freitag 21.06.2024 | 14:00 - 14:45 | Stage 4",
+    "speaker": "Christina Lerch",
+    "company": "pentacor GmbH",
+    "keywords": [
+      "Partizipation",
+      "Soziokratische Wahl",
+      "Wertschätzung",
+      "Selbstorganisation",
+      "Agile Werte",
+      "Verantwortungsverteilung",
+      "Kulturwandel",
+      "Commitment",
+      "Stärkenbewusstsein"
+    ],
+    "abstract": "Die Ideen und Versprechen von mehr Selbstorganisation sind verlockend, doch ohne einen nachhaltigen Kulturwandel bleiben sie unerfüllt. Ein entscheidender Schritt auf dem Weg dorthin kann die Einführung partizipativer Verantwortungsverteilung sein - erst recht, wenn dies mit einer Atmosphäre der Wertschätzung einhergeht. Jede auf diese Weise investierte Minute stärkt die agilen Werte in einem Team oder Unternehmen und entfaltet damit das Potential der Menschen. So finden Mut, Offenheit, Commitment, Vertrauen und Respekt den Weg von der “Wertewand“ in den gelebten Alltag.\nPraxisnah wird in diesem Vortrag eine Methode vorgestellt, wie Unternehmen oder Teams effektiv Verantwortlichkeiten verteilen können, wobei  die Würdigung individueller Stärken im Fokus steht. Die Vorteile des Vorgehens werden vermittelt, ohne die damit verbundenen Herausforderungen zu beschönigen. Wie sorgt man dafür, dass sich Verantwortung verteilt und nicht bündelt? Wie findet man die bestgeeignete Person für eine Aufgabe? Und wie gewährleistet man, dass Verantwortung nicht nur übertragen, sondern auch effektiv gelebt wird? Wer Antworten will kommt zu diesem Vortrag.",
+    "about_speaker": "(no data)"
+  },
+  {
+    "title": "Release fast or Die",
+    "time": "Freitag 21.06.2024 | 15:00 - 15:45 | Stage 4",
+    "speaker": "Paul Niebler",
+    "company": "Pexon Consulting GmbH / AWS MeetUp Frankfurt",
+    "keywords": [
+      "devops kubernetes istio cloud-migration cloud-native"
+    ],
+    "abstract": "Eine ursprüngliche JavaEE Migration auf JBoss mit 3-monaten Release Cycles wurde in die Cloud migriert. Ergebnisse u.a.:\n- tägliche Releases, same-day fix als ein Autohaus in Italien Bug gemeldet hat (normalerweise 3 Monate Prozess)\n- Canary Deployments mit Istio\n- deutlich verbesserte Developer Workflows (u.a. mit Telepresence direkt auf Kubernetes Dev live entwickeln, top tool von der CNCF auf das ich kurz eingehen würde)\nAuf dem Weg dahin viele Lessons Learned, wie schaltet man einen extrem großen Monolithen Schritt für Schritt ab, verschiedene&nbsp;Cloud Native Tools. Release-Zyklen wurden nach und nach verkürzt. Statt Gitflow haben wir trunk based development gemacht mit features toggles, was uns ermöglicht hat über toggles in Produktion&nbsp;verschiedene Features einfach on demand ein- und auszuschalten.\nEuch erwartet eine spannende&nbsp;Story des Projekts inklusive Vorstellung von Cloud Tools wie Telepresense und&nbsp;Istio sowie&nbsp;Lessons Learned zur Cloud-Architektur.\n",
+    "about_speaker": "(no data)"
+  },
+  {
+    "title": "Verdächtiges Verhalten in Containern mit Falco erkennen",
+    "time": "Freitag 21.06.2024 | 10:00 - 11:45 | Blue Lounge",
+    "speaker": "Dr. Tobias Heide",
+    "company": "viadee AG",
+    "keywords": [
+      "Security",
+      "DevSecOps",
+      "Docker",
+      "Kubernetes"
+    ],
+    "abstract": "Falco ist eine open-source, cloud-native Security-Platform für Container-Umgebungen, die Angreifer und potenzielle Bedrohungen basierend auf dem Verhalten von Containern erkennt. Dafür werden Kernel Events und Kubernetes Metadaten ausgewertet und real-time Alarme erzeugt. Damit ist Falco ein effektives Tool, um im Rahmen des DevSecOps permanenten Einblick in das technische Verhalten der Anwendungen zu bekommen und somit das anwendungseigene Logging zu ergänzen. Ohne eine Software, wie Falco, fehlt häufig der Einblick in das Verhalten von Containern wenn z.B. verdächtige Shell-Kommandos ausgeführt werden.\nDer Workshop gibt eine anfänger-taugliche Einführung in das Setup und die Funktion von Falco und alle Teilnehmenden haben die Möglichkeit das Security-Tool selbst ausprobieren.\nThemen des Workshops sind:\n- Eine Vorstellung von Falco und den Anwendungsbereichen\n- Gemeinsam Falco als Docker-Container lokal aufsetzen und ausprobieren (mit GUI, Alerts etc.)\n- Falco-Events simulieren, um Alarme zu erzeugen und auswerten zu können\n- Eigenen Regeln für Anwendungen schreiben für ein feines Monitoring der eigenen Anwendungen\n- Ausblick auf Verknüpfungsmöglichkeiten von Falco mit bestehenden Monitoring-Systemen",
+    "about_speaker": "(no data)"
+  },
+  {
+    "title": "Passgenaues IAM: Keycloak an die eigenen Anforderungen anpassen",
+    "time": "Freitag 21.06.2024 | 12:00 - 14:45 | Blue Lounge",
+    "speaker": "Dominik Schlosser",
+    "keywords": [
+      "Keycloak",
+      "IAM",
+      "Customizing"
+    ],
+    "abstract": "Identity- und Access Management ist etwas, das auf den ersten Blick einfach klingt (wie schwer kann ein Loginprozess schon sein?) aber in der Regel schon nach kurzer Zeit erstaunlich viele unternehmensspezifische Besonderheiten offenbart. Das beginnt bei der optischen Integration der Loginseiten ins Corporate Design, beinhaltet die Integration des Systems in die Security-Infrastruktur (API-Management, vorgelagerte Policy Enforcement Points usw.) und die Verknüpfung der Accounts mit den Daten dahinterliegender Fachsysteme. Eventuell sollen externe Identity Provider angebunden und ausgeklügelte Registrierungsprozesse umgesetzt werden.\nDann vielleicht noch ein zweiter Faktor oder gleich die Loginmöglichkeit via Passkey? Eventuell besteht auch die Notwendigkeit einer Integration in Mobile Apps inkl. Übergang zu Inhalten im Web-Portal. Und natürlich müssen verschiedene nicht standardisierte Informationen ins Access Token.\nIn diesem Workshop werdet ihr feststellen, warum Keycloak auch im Cloud-Zeitalter die Angebote der großen Provider aussticht: Anpassbarkeit.\nVon Theme-Anpassungen über Custom Token-Mapper bis hin zu größeren Anpassungen wie nicht-standardisierte Loginmethoden werden wir die volle Bandbreite des Keycloak Extension-Modells kennenlernen. Außerdem schauen wir uns ein paar der coolsten out-of-the-box Features wie Passkeys an.",
+    "company": "(no data)",
+    "about_speaker": "(no data)"
+  },
+  {
+    "title": "EventStorming - der Hands-On-Workshop",
+    "time": "Freitag 21.06.2024 | 10:00 - 12:45 | Red Lounge",
+    "speaker": "Max Jung",
+    "company": "Freiberufler. meetup Gruppe DigitalCraftsmenNordoberpfalz (DCN), sowie JUG Oberpfalz",
+    "keywords": [
+      "EventStorming",
+      "Big Picture EventStorming",
+      "DDD",
+      "Domain Driven Design",
+      "Discovery",
+      "Architektur",
+      "Bounded Context"
+    ],
+    "abstract": "Ein Raum voller Menschen, Ideen und einer Wand, die am Ende des Tages mit bunten Post-Its bedeckt ist. Von außen betrachtet mag es chaotisch erscheinen, doch im Domain Driven Design (DDD) hat sich gerade das Big Picture EventStorming als effektive Methode für die Discovery-Phase etabliert.\nOb du neu in dieser Methode bist oder schon Erfahrungen gesammelt hast, ob du Entwickler, Tester, Anwender, Unternehmer, Student oder einfach nur neugierig bist - Jetzt hast du die einzigartige Chance, dabei zu sein und EventStorming selbst zu erleben!\nWir werden uns eine leicht zugängliche Beispiel-Domäne vornehmen und diese gemeinsam \"erstürmen\". Max, unser erfahrener Facilitator, wird uns nach einem völlig ausreichenden, kurzen Intro durch die verschiedenen Phasen leiten. Nach etwa zwei Stunden werden wir nicht nur einen beeindruckenden Stand an der Wand, sondern auch viele Eindrücke, Aha-Momente und sicherlich einige Fragen haben - gerne auch kritische! Darüber können wir gerne in der folgenden halben Stunde direkt in den Austausch gehen.\nBring neben Neugier bitte auch bequeme Schuhe mit - EventStorming findet im Stehen statt. (Wer aber sitzen muss, zB aus gesundheitlichen Gründen, dem wird natürlich eine Sitzgelegenheit geboten.)\nTeilnehmer-Limit: 20 Personen für einen geeigneten Raum. Denkbar wären aber auch 2 Gruppen in 2 benachbarten Räumen, dann wären es bis zu 18 Personen je Raum.",
+    "about_speaker": "(no data)"
+  },
+  {
+    "title": "Live Hacking Cloud Architectures",
+    "time": "Freitag 21.06.2024 | 13:00 - 14:45 | Red Lounge",
+    "speaker": "Mirna Alaisami",
+    "company": "Novatec Consulting GmbH",
+    "keywords": [
+      "Cloud",
+      "Security",
+      "Kubernetes",
+      "Observability",
+      "tetragon"
+    ],
+    "abstract": "As more organizations are moving to the cloud, cloud architectures are getting more sophisticated by having a kind of technology diversity. This includes for example container orchestrators, database services, event meshes, networking components and virtual machines.\nWhen it comes to security, observability on this diversity is paramount. The main question here is, do you really perceive when your app landscape is under attack?\nIn this workshop, you will have the opportunity to execute various attack vectors and implement ways to mitigate and observe them. Many technologies will be used such as Kubernetes, eBPF, Cillium, Falco and much more!\nYou will not only learn how to place proper technologies in a hands-on environment but also have the opportunity to attack other participants environments! The environment is based on a real-world cloud architecture, being compromised by scanning web applications and lateral movement with the goal of exfiltrating data. All technologies and documentations are open source and can be utilized in your digital realm afterwards.\nThe only things you need to attend: modern web browser, stable internet connection, patience and curiosity.\n",
+    "about_speaker": "(no data)"
+  },
+  {
+    "title": "Azure Governance Best Practices and Enterprise-Scale",
+    "time": "Freitag 21.06.2024 | 10:00 - 11:45 | Green Lounge",
+    "speaker": "Gregor Reimling",
+    "company": "Azure Bonn Community",
+    "keywords": [
+      "Azure",
+      "Azure Security",
+      "Enterprise Scale"
+    ],
+    "abstract": "In the past, Microsoft published many documentations and white papers for the adoption of Azure in enterprise environments. This includes Cloud Adoption Framework (CAF) and the Well Architecture Framework. Alongside an overview of those whitepapers, we will show some hands-on and live-demos to manage your cloud environment. In particular, Azure Policy, Defender for Cloud and Azure Advisor will helps you to enforce your policies across compliance and security.\nIn the second part of the session , we will give you an overview of the „Enterprise-Scale“ reference architecture. This enables you to build landing zone(s) that represents the strategic design path and follows design principles of critical design for shared services (e.g. identity, network,..).\nFurthermore, it includes learnings from previous engineering engagements and provides architecture design patterns from Microsoft.\nVarious reference implementations allow to deploy (modular) templates depending on customer needs such as kind of connectivity (cloud-only, Hub/Spoke, vWAN).\nIn this workshop, we like to introduce the \"Enterprise-scale\" architecture, and some of the included aspects, considerations, or approaches. A particular focus will be on security best practices with Entra ID and RBAC.",
+    "about_speaker": "(no data)"
+  },
+  {
+    "title": "Gemeinsame Optimierung der Build-Geschwindigkeit von Container-Images",
+    "time": "Freitag 21.06.2024 | 12:00 - 12:45 | Green Lounge",
+    "speaker": "Dr. Marius Shekow",
+    "company": "SprintEins GmbH",
+    "keywords": [
+      "docker",
+      "ci/cd",
+      "optimization"
+    ],
+    "abstract": "In dieser Ensemble Clouding / Mob Programming Session sammeln wir gemeinsam Tipps & Tricks zur Optimierung eines Dockerfiles, und wenden das gesammelte Wissen auch direkt an, um die Build-Geschwindigkeit eines Docker-Images soweit wie möglich zu minimieren. Umso schneller die Build-Zeit eines Image ist, umso schneller sind dementsprechend die CI/CD-Pipelines und umso höher die Entwickler-Zufriedenheit.\nAusgehend von einem bestehenden Dockerfile arbeiten wir gemeinsam kollaborativ (via Live Share oder CodeTogether) an selben Datei und optimieren sie schrittweise. Die Teilnehmer dürfen eigene (öffentlich zugängliche) Git-Repositorys vorschlagen.\nFalls wir bereits vor Session-Ende die bestmögliche Build-Geschwindigkeit herausgeholt haben, widmen wir uns noch der Verbesserung der Image-Security.",
+    "about_speaker": "(no data)"
+  },
+  {
+    "title": "Progressive Delivery - Automatische Canary Deployments mit Flagger",
+    "time": "Freitag 21.06.2024 | 13:00 - 14:45 | Green Lounge",
+    "speaker": "Florian Heubeck",
+    "company": "MediaMarktSaturn Technology",
+    "keywords": [
+      "Continues Delivery",
+      "GitOps",
+      "Kubernetes",
+      "Service Mesh"
+    ],
+    "abstract": "Das ultimative Ziel eines jeden autarken Entwicklungsteams ist vollständige Automatisierung.\nMeist verstehen wir darunter \"Continuous Delivery\", also das (automatische) Deployen jeder Änderung (vielleicht sogar) nach Produktion.\nGutes Monitoring sorgt für Zuversicht, da Probleme automatisch erkannt und gemeldet werden, jedoch besteht dann zumeist manueller Handlungsbedarf.\nUm die Auswirkungen von Problemen durch Software- oder Konfigurationsänderungen (auf den Kunden) gering zu halten, existieren diverse Deploymentstrategien wie z.B. das Canary Deployment.\nIn diesem Workshop werden wir ein produktionstaugliches Setup auf Kubernetes erstellen, das automatische Canary Deployments (und Rollbacks) mithilfe eines (optionalen) Service-Mesh und des Deployment-Koordinators \"Flagger\" durchführt.\nAusgehend davon, lassen sich weitere Strategien (A/B, Blue/Green) umsetzen.\n",
+    "about_speaker": "(no data)"
+  },
+  {
+    "title": "Follow along: Azure Automanage Machine Configuration for large environments",
+    "time": "Freitag 21.06.2024 | 10:00 - 11:45 | QAware Lounge",
+    "speaker": "Jan-Hendrik Peters",
+    "company": "shiftavenue GmbH",
+    "keywords": [
+      "Azure",
+      "Machine Configuration",
+      "Policy-driven infrastructure",
+      "PowerShell"
+    ],
+    "abstract": "You are on the verge of onboarding your on-premises systems to Azure Arc and plan to manage them using Azure Automanage Machine Configuration?\nOr do you already have everything set up, but want an overview of what is possible beyond pre-made Machine Configuration templates? This session has got you covered.\nUsing the popular configuration blueprint from the DSC community, you will be introduced to a scalable and manageable way of creating machine configurations for the full Microsoft product stack typically found on server SKUs. You are invited to follow along in this session to create and publish configuration for your own machines. Whether your IaaS workloads are running on-premises or on Azure does not matter, as we will see during the session.",
+    "about_speaker": "(no data)"
+  },
+  {
+    "title": "Barrierefreiheit für alle - Digitalisierung ohne Hindernisse",
+    "time": "Freitag 21.06.2024 | 12:00 - 13:45 | QAware Lounge",
+    "speaker": "René Matthäi",
+    "company": "Bundesamt für Migration und Flüchtlinge",
+    "keywords": [
+      "Barrierefreiheit",
+      "WCAG",
+      "BITV",
+      "Inklusion",
+      "Accessibility",
+      "A11y",
+      "Agile Testing",
+      "Agiles Testen",
+      "Qualität",
+      "Quality",
+      "Quality by Design",
+      "Selbsterfahrung",
+      "End User Journey",
+      "Usability"
+    ],
+    "abstract": "Barrierefreie Anwendungen sind im öffentlichen Sektor seit dem 23.6.2021 Pflicht. Dazu müssen sie alle Prüfungen nach BITV 2.0 erfolgreich erfüllen. Ab dem 28.6.2025 gilt dies nun auch für etliche Anwendungen von Privatunternehmen, z. B. bei Bankdienstleistungen und der Personenbeförderung, aber auch für Messenger- und Telefondienste. Wer sind die Zielgruppen und wie fühlt sich das an? Was steckt hinter den Anforderungen und was ist im Rahmen der Softwareentwicklung zu tun? Welche Fähigkeiten braucht man dafür im Team und wie baut man die auf? Welche Rolle sollte das bisherige Qualitäts-Personal dabei einnehmen? Alle Teilnehmenden sind eingeladen, sich im Rahmen eines teilweise nichtlinearen Formats über Barrierefreiheit zu informieren, eigene Erfahrungen mit Barrieren zu machen und in die Diskussion über Zielkonflikte bei der Umsetzung und entsprechende Konsequenzen zu gehen. Dies wird im Wortsinne zum Teil \"spielerisch\" passieren. Denkbar ist ein Beitrag von 45-60 min, aber auch ein längeres Format bis zu 2 h kann sinnvoll gefüllt werden, wobei man dann tiefer eintaucht. Es wird gleichzeitig ähnlich dem Format eines \"World Café\" mehrere Stationen geben, die die Teile \"Information\", \"Spiel\", \"Diskussion\" und \"Selbsterfahrung\" repräsentieren. Bis zu 60 Teilnehmende können mitmachen. Referiert bzw. moderiert und betreut wird durch einen Personenkreis (2-5), der zu diesem Zeitpunkt noch nicht final feststeht. Das Niveau könnte auf \"Für Fortgeschrittene\" angepasst werden.",
+    "about_speaker": "(no data)"
+  },
+  {
+    "title": "Wie baut man eine effektive DevOps-Organisation?",
+    "time": "Freitag 21.06.2024 | 14:00 - 14:45 | QAware Lounge",
+    "speaker": "David das Neves",
+    "company": "shiftavenue GmbH",
+    "keywords": [
+      "DevOps",
+      "Organisation",
+      "SRE",
+      "PlatformEngineering"
+    ],
+    "abstract": "Überall werden die Buzzwords wie DevOps, SRE, Platform Engineering und CCoE inflationär genutzt, aber wie kann man diese effektiv organisieren? Das fragt ihr euch auch? Dann seid ihr hier richtig!\nWir schauen uns zusammen diese verschiedenen Teams und Buzzwords genauer an und machen die daraus resultierenden Probleme in vielen Umgebungen transparent. Anschließend schauen wir uns zusammen die wichtigsten Empfehlungen an, wie man alles für den Aufbau einer effektiven Organisation aufbauen kann und was man unbedingt vermeiden sollte. Zu guter Letzt werden wir auch datengesteuerte Ansätze zeigen, um die Maturity weiter zu steigern.",
+    "about_speaker": "(no data)"
+  },
+  {
+    "title": "Warum sich Datenbank-Fans auch für Kafka und Debezium interessieren sollten?",
+    "time": "Freitag 21.06.2024 | 10:00 - 11:45 | Orange Lounge",
+    "speaker": "Dirk Krautschick",
+    "company": "Aiven",
+    "keywords": [
+      "Kafka",
+      "Debezium",
+      "Cloud Services",
+      "Database",
+      "Streaming"
+    ],
+    "abstract": "Im Bereich Data Management läutete das Zusammenspiel von Datenbanken, Kafka und Debezium bereits eine neue Ära von Möglichkeiten ein. Dieser Vortrag soll eine Übersicht darüber bieten, warum Kafka und Debezium nicht nur als eine weitere Technologie sondern auch als ergänzendes Werkzeug für Datenbank Enthusiasten eine gewisse Aufmerksamkeit verdient\nDie Diskussion beginnt damit, die Stärken von Kafka als robuste Event-Streaming-Plattform und Debezium als Dreh- und Angelpunkt für die Erfassung von Änderungsdaten (CDC) darzustellen. Zusätzlich die Integration dieser Technologien erklärt, wie ihre Synergie die Datenverbreitung und -synchronisierung in Echtzeit erleichtert.\nWährend des gesamten Vortrags werden wir auf die Vorteile eingehen, die sich ergeben, wenn Postgres-Enthusiasten Kafka und Debezium nutzen, von der Erschließung von Datenbankänderungen bis hin zur Stärkung der Datenkonsistenz über verteilte Systeme hinweg. Praktische Einblicke und Beispiele aus der Praxis werden die potenziellen Fallstricke dieser Integration verdeutlichen, gepaart mit Strategien zur Bewältigung von den entsprechenden Herausforderungen.\nZiel dieses Vortrags ist es, aus Sicht eines PostgreSQL DBAs die symbiotische Beziehung zwischen Datenbanken, Kafka und Debezium als Schlüssel zur Erschließung des vollen Potenzials des eigenen Datenumfeld einfach und praxisnah vorzustellen.\nZusätzlich wird in einem darauf folgenden und kompakten Hands-On Workshop gezeigt, wie schnell und effizient\nman selbst eine eigene Testumgebung in der Cloud erzeugen kann, um das Zusammenspiel von PostgreSQL, Debezium\nund Kafka auszuprobieren!",
+    "about_speaker": "(no data)"
+  },
+  {
+    "title": "Craft Fully Open Imperative and Reactive Cloud-Native Microservices",
+    "time": "Freitag 21.06.2024 | 12:00 - 14:45 | Orange Lounge",
+    "speaker": "Emily Jiang",
+    "keywords": [
+      "Imperative",
+      "Java",
+      "MicroProfile",
+      "Reactive Messaging",
+      "Jakarta EE",
+      "Open Liberty"
+    ],
+    "abstract": "In this engaging hands-on lab, you will delve into the world of both imperative (REST-based) and reactive (event-driven) cloud-native Java microservices. We will guide you through the process of writing, building, testing, and running these microservices in cloud environments utilizing MicroProfile and Jakarta EE powered by Open Liberty. Moreover, we will examine how the new innovative feature of Liberty remarkably enhances the startup performance using CRIU and scalability of your microservices. With this dynamic learning experience, you will gain valuable insights and hands-on experience in developing efficient cloud-native microservices.",
+    "company": "(no data)",
+    "about_speaker": "(no data)"
+  },
+  {
+    "title": "Data Mesh & DDD: Synergien für datengetriebene Exzellenz",
+    "time": "Donnerstag 20.06.2024 | 11:00 - 11:45 | Stage 1",
+    "speaker": "Fabian Hardt",
+    "company": "OPITZ CONSULTING Deutschland GmbH",
+    "keywords": [
+      "Data Mesh",
+      "Analytics",
+      "Infrastructure",
+      "Integration"
+    ],
+    "abstract": "Dieser Vortrag beleuchtet das Konzept des Data Mesh, das einen Paradigmenwechsel in der Verwaltung von Daten in Unternehmen verspricht. Data Mesh geht über traditionelle Vorgehen einer zentralen Datenhaltung für analytische Daten hinaus, indem es eine dezentrale, föderierte Dateninfrastruktur fördert. Das Versprechen eines Data Mesh: Datensilos, wie wir sie bisher kennen, gehören der Vergangenheit an.\nDer Vortrag beginnt mit einer Einführung in die Herausforderungen herkömmlicher Datenarchitekturen und zeigt auf, wie Data Mesh diese adressiert.\nIm weiteren Verlauf werden die vier Grundprinzipien von Data Mesh detailliert erläutert: Domain-oriented decentralized Data ownership and architecture, Data as a product, Self-serve data infrastructure as a platform, Federated governance. Diese Prinzipien ermöglichen eine effiziente Skalierung, verbessern die Datenqualität und fördern die Eigenverantwortung der Teams für ihre Daten. Dabei wird auch betrachtet, was diese Ideen eines Data Mesh für die Organisation und die Menschen bedeuten.\nEin besonderer Fokus dieses Vortrags liegt auf den Parallelen zu modernen cloud-nativen OLTP-Architekturen, wobei die Übertragbarkeit der Data-Mesh-Prinzipien auf bereits in diesem Zusammenhang bereits etablierte Integrationskonzepte und -prozesse betont wird. Der Vortrag endet mit einem Ausblick auf zukünftige Entwicklungen im Bereich Data Mesh und gibt Empfehlungen für Unternehmen, die eine agile und skalierbare Datenstrategie anstreben.",
+    "about_speaker": "(no data)"
+  },
+  {
+    "title": "Skalierbar aber dennoch bezahlbar: ELT/ETL Strecken als Cloud-Native Pipelines",
+    "time": "Donnerstag 20.06.2024 | 12:00 - 12:45 | Stage 1",
+    "speaker": "Dr. Jan Kneissler",
+    "company": "E. Breuninger GmbH & Co.",
+    "keywords": [
+      "DAG",
+      "Pipeline",
+      "ETL",
+      "ELT",
+      "Cloud-native",
+      "Kubernetes",
+      "Docker",
+      "BigQuery",
+      "Data-Mesh",
+      "scaling",
+      "cost-efficiency",
+      "resource-efficiency"
+    ],
+    "abstract": "Der Vortrag stellt einen innovativen Low-Code-Ansatz für beliebig skalierbare und dennoch kostengünstige Datenpipelines vor, sogenannte Directed Acyclic Graphs (DAGs).  Nach einer kritischen Betrachtung traditioneller Technologien zeigen wir die Vorteile der Verwendung von Cloud-nativen Technologien auf.\nZentral ist dabei die Einführung einer einfachen Fassade als Schnittstelle zur Cloud-Infrastruktur.  Die Abstraktion macht die Komplexität der genutzten Cloud-Umgebung für den Anwender unsichtbar und soll langfristig Unabhängigkeit von spezifischen Cloud-Anbietern erreichen.\nEine Hierarchie von getrennten, aber voneinander abhängigen Datenpipelines wird unter Versionsverwaltung von mehreren Teams definiert, wodurch der neue Ansatz ideal im Data-Mesh-Umfeld eingesetzt werden kann.\nLow-Code-Technologien und das Baukastenprinzip ermöglichen die effiziente Entwicklung von Datenpipelines mit minimalem Programmieraufwand. Entwickler können auf vordefinierte Docker-Images zurückgreifen und erhalten Unterstützung beim Aufbau eigener, spezifischer Prozessschritte.\nEin weiterer zentraler Fokus liegt auf der CO2- und Kosteneffizienz des Ansatzes. Die dynamische Skalierung in der Cloud durch KI-gestützte Ressourcenanforderungen stellt sicher, dass nur die tatsächlich genutzten Ressourcen bereitgestellt und abgerechnet werden.\nInsgesamt erwarten wir einen Paradigmenwechsel bei der Entwicklung und dem Betrieb von ELT/ETL Datenstrecken durch moderne Cloud-native Technologien.",
+    "about_speaker": "(no data)"
+  },
+  {
+    "title": "Flux mit Flagger und Istio -  Progressive Kubernetes Deployments",
+    "time": "Donnerstag 20.06.2024 | 13:00 - 13:45 | Stage 1",
+    "speaker": "Thorsten Wussow",
+    "company": "SLIX Gesellschaft für Computersysteme mbH",
+    "keywords": [
+      "CI/CD",
+      "DevOps",
+      "GitOps",
+      "Flux",
+      "Flagger",
+      "Deployment",
+      "Automatisierung",
+      "Pipeline"
+    ],
+    "abstract": "Heutzutage ist eine hohe Erreichbarkeit von Applikationen essentiell, auch bei einem Wechsel auf eine neue Version. Ebenso gibt es eine hohe Kadenz der Bereitstellungen. Dies birgt immer das Risiko, das sich Fehler in der neuen Version einschleichen, oder Ausfälle der Software während der Bereitstellung auftreten. Eine Möglichkeit das Risiko zu minimieren ist das verwenden von verschiedenen Deploymentstrategien wie z.B. Blue/Green Deployments, Canary-Deployments oder A/B-Testing.\nEin Tool das uns hier sehr gut unterstützen kann ist Flagger. In diesem Vortrag wird anhand von Live-Demos gezeigt wie mit Flagger im Zusammenspiel mit Flux, Istio (oder einem anderen ServiceMesh) oder einem IngressController diese Deploymentstrategien umgesetzt werden können. Auch werden die Unterschiede zwischen Canary Deployments, A/B Testing, Blue/Green Deployment und weiteren Strategien erläutert und wann man welche Methode verwenden kann.",
+    "about_speaker": "(no data)"
+  },
+  {
+    "title": "Expedition Kubernetes Cluster: Auf den Spuren eines Netzwerkpakets",
+    "time": "Donnerstag 20.06.2024 | 14:00 - 14:45 | Stage 1",
+    "speaker": "Marius Dorlöchter",
+    "company": "ORDIX AG",
+    "keywords": [
+      "Kubernetes",
+      "Networking",
+      "kube-proxy",
+      "CNI",
+      "iptables",
+      "VXVLAN",
+      "BGP",
+      "eBPF"
+    ],
+    "abstract": "In unseren Seminaren und Kundenprojekten haben wir wiederholt festgestellt, dass das Thema Kubernetes Networking für viele schwer zu greifen ist. Dies lässt aus unserer Sicht durch die Komplexität des Zusammenspiels der einzelnen Komponenten und Technologien innerhalb des Clusters begründen. Wir haben gute Erfahrung damit gemacht, die einzelnen Kommunikationsszenarien für sich zu betrachten und zu erläutern. Dabei möchten wir vermitteln, welche Komponenten und Technologien die Kommunikation im Kubernetes Cluster ermöglichen und wie diese zusammenarbeiten. Ein tieferes Verständnis erleichtert im Fehlerfall das Debugging und ist nebenbei gut fürs Ego.\nIn unserem Vortrag folgen wir den Netzwerkpaketen auf ihrer Reise in folgenden Szenarien:\n-              zwischen zwei Containern in einem Pod\n-              zwischen zwei Pods\n-              intern über einen Service mit einem Pod\n-              extern über einen Service mit einem Pod\nAuf ihrer Reise kommen die Pakete mit verschiedenen Komponenten und Technologien in Berührung, die wir in dem Zuge näher betrachten wollen. Dabei werden wir uns verschiedene Lösungen (iptables, eBPF, VXVLAN, BGP, usw.) für die einzelnen Probleme ansehen und vergleichen.",
+    "about_speaker": "(no data)"
+  },
+  {
+    "title": "Der KI-gestützte Entwickler",
+    "time": "Donnerstag 20.06.2024 | 15:00 - 15:45 | Stage 1",
+    "speaker": "John Fletcher",
+    "company": "codecentric AG",
+    "keywords": [
+      "KI",
+      "LLM",
+      "Lokale LLM",
+      "Tools",
+      "Effizienz",
+      "Recht",
+      "Entwicklung"
+    ],
+    "abstract": "Fühlst du dich von täglich neuen KI-Tools abgehängt? In diesem Vortrag werfen wir einen praktischen Blick darauf, wie eine effiziente KI-gestützte Entwicklung heute aussieht. Wir stellen dir eine gezielte Auswahl an kommerziellen und Open-Source Tools vor, inklusiv lokale Lösungen, bei denen keine Daten deinen Rechner verlassen.\nAnhand unserer praktischen Erfahrungen zeigen wir dir, wie du deinen Alltag als Entwickler mit KI am besten beschleunigen kannst. Unser Ziel ist es, dass du nach dem Vortrag direkt durchstartest.\n\nThemen:\nWerkzeuge: Copilot-ähnliche Coding-Assistenten, Terminal-Tricks, extra Tools, neueste Entwicklungen.\nDatenschutz: LLMs in Europa und auf localhost, rechtliche Überlegungen, Einsatzmöglichkeiten, wenn KI verboten ist.\nMindset: AI-first Denkweise, verbreite KI-Fähigkeiten, bleibe auf dem neuesten Stand.\n(Nicht abgedeckt: Software bauen, die KI benutzt)\nLernziele:\nWie du KI in deiner täglichen Arbeit einsetzen kannst und daran denkst es auch zu benutzen.\nWelches Tool du für dein spezifisches Szenario nutzen kannst.\nWie du mit rechtlichen und sicherheitsrelevanten Fragen umgehst.",
+    "about_speaker": "(no data)"
+  },
+  {
+    "title": "\"Cloud Migration? Ja klar! Aber was mach' ich mit meinen Teams?\"",
+    "time": "Donnerstag 20.06.2024 | 16:00 - 16:45 | Stage 1",
+    "speaker": "Oliver Wünschel",
+    "keywords": [
+      "Cloud",
+      "DevOps",
+      "Plattformteam",
+      "Skillset",
+      "interaktiv",
+      "Diskussion",
+      "Success Stories",
+      "Migration",
+      "Entwicklungsteam"
+    ],
+    "abstract": "\"Cloud Migration? Ja klar! Technik hab' ich! Aber was mach ich jetzt mit meinen Mitarbeitenden?!\", ist die humorvoll formulierte Frage, deren Antwort wir uns gemeinsam in diesem interaktiven Workshop nähern wollen. Wird ein Entwicklungsteam automatisch zum eigenverantwortlichen \"DevOps Team\", nur weil ihm nun ein Kubernetes Cluster zur Verfügung steht? Kann ich nicht einfach mein \"Betriebsteam\" zu einem \"Betrieb-as-a-Service-Team\" machen? Muss ich mich als Entwickler jetzt wirklich um alles selbst kümmern? Was ist überhaupt ein Plattform Engineer und welche Skills sollte er haben? Gemeinsam beleuchten wir die Herausforderungen für neue und bestehende Teams in einer IT-Organisation während und nach der Migration in die Cloud. Welche Soft- und Hardskills sind Voraussetzung und nicht an Effizienz oder Effektivität zu verlieren?\nAnhand einer beispielhaften Migration eines fiktiven Unternehmens, führe ich Sie durch die Hürden einer Cloudmigration mit dem Fokus auf Teamentwicklung. Währenddessen teile ich meine Erfahrungen aus diversen Migrationen und zeige auf, welche Fehler in der Praxis vorkommen können. In diesem Beitrag, der explizit zum Mitmachen und Mitdiskutieren auffordert, erstellen wir gemeinsam eine Roadmap, die Führungskräften, Mitarbeiten und auch Consultants dabei unterstützt, die richtigen Entscheidungen zu treffen, die notwendigen Skills zu erlangen oder auch den eigenen Kunden bestmöglich dabei zu unterstützen.",
+    "company": "(no data)",
+    "about_speaker": "(no data)"
+  },
+  {
+    "title": "Effizientes Kubernetes Flotten-Management mit Cluster API und GitOps",
+    "time": "Donnerstag 20.06.2024 | 17:00 - 17:45 | Stage 1",
+    "speaker": "Mario-Leander Reimer",
+    "company": "QAware GmbH",
+    "keywords": [
+      "Cluster-API",
+      "Kubernetes",
+      "GitOps",
+      "vCluster"
+    ],
+    "abstract": "GitOps hat sich zum wichtigsten Ansatz für das einfache, sichere und nachvollziehbare Deployment von Kubernetes-Workloads entwickelt. In diesem Vortrag bieten wir eine umfassende Einführung in das Cluster-API und zeigen, wie damit ganze Flotten von Kubernetes-Clustern mit modernen GitOps-Methoden effizient und zuverlässig verwalten können. Nach praktischen Demonstration auf AWS und GCP, um den schnellen Einstieg zu ermöglichen, zeigen wir als Highlight eine weitere, leichtgewichtige Möglichkeit eine Vielzahl virtueller Cluster mit Hilfe der Cluster-API und vCluster bereitzustellen.  Dieser Vortrag bietet wertvolle Einblicke und praktische Anleitungen für #CloudNativeNerds und Platform Engineers.",
+    "about_speaker": "(no data)"
+  },
+  {
+    "title": "The Future of AI is Now - Chancen & Hürden in Computer Vision und NLP",
+    "time": "Donnerstag 20.06.2024 | 18:00 - 18:45 | Stage 1",
+    "speaker": "Martin Förtsch",
+    "company": "TNG Technology Consulting GmbH",
+    "keywords": [
+      "Artificial Intelligence",
+      "Machine Learning",
+      "GPT",
+      "LLM",
+      "Large Language Model"
+    ],
+    "abstract": "Was kann Künstliche Intelligenz heute leisten? In diesem Vortrag zeigen wir anhand einer Vielzahl von Live-Beispielen, ob der Begriff ein überhyptes Buzzword oder die Schlüsseltechnologie der digitalen Zukunft ist.\nDas TNG Innovation Hacking Team arbeitet seit Jahren an zahlreichen KI-Projekten im Bereich Computer Vision und Natural Language Processing. Thomas Endres, Martin Förtsch und Jonas Mayer nehmen Sie mit auf eine Reise durch die Welt der Künstlichen Intelligenz und deren Architektur. Anhand verschiedener Innovations-Projekte beleuchten die Vortragenden den grundsätzlichen Aufbau der zugrunde liegenden neuronalen Netze, aber auch deren Limitierungen. Ein Feuerwerk an Live-Demonstrationen und Showcases rundet das unterhaltsame Erlebnis ab. Dabei sein werden neuronale Netze zur Erzeugung von Kunst, Deepfakes in Echtzeit, ein NLP-Chatbot, sowie eine KI, die Social Media Kommentare generieren kann.",
+    "about_speaker": "(no data)"
+  },
+  {
+    "title": "Zusammenarbeit von IT Infrastuktur- und Entwicklungsteams in Unternehmen",
+    "time": "Donnerstag 20.06.2024 | 11:00 - 11:45 | Stage 2",
+    "speaker": "Tobias Felies",
+    "company": "Hyperscale IT GmbH",
+    "keywords": [
+      "Automation",
+      "Cloud Automation",
+      "New Work Style",
+      "Agile",
+      "Infrastruktur",
+      "Cloud Services"
+    ],
+    "abstract": "- Bei den Themen DevOps, Automation & CI/CD werden oftmals innerhalb von Unternehmen in verschiedenen Projekten unterschiedliche Ansätze verfolgt. Die business-nahen Teams versuchen moderne Lösungen für das Unternehmen zu etablieren und nutzen dafür vermehrt Cloud Services aus unterschiedlichsten Bereichen. Die IT Infrastrukturabteilung kommt bei den unterschiedlichen Cloud Services und wachsenden Anforderungen an Security und Compliance nicht hinterher und kann deshalb die für die Businessteams notwendigen Cloud Services nicht in dem Maß betrachten, der eigentlich aus Security & Compliance erfordert wird. Die Folge: Die Businessteams wollen nicht darauf warten bis ein Cloud Service von der IT Infrastrukturabteilung bereitgestellt werden kann und starten mit einem eigenen Team an der Umsetzung der Lösung. Das Problem: Synergien innerhalb des Unternehmens können nicht geschaffen werden; der Betrieb ist oftmals nur eingeschränkt definiert und wenn dann die Rufe nach Unterstützung seitens der internen IT zunehmen, sind oftmals beide Parteien überfordert - die Folge: Die Qualität der Lösung leidet. Mit diesem Vortrag möchte ich aufzeigen wie eine moderne Arbeitsweise zwischen IT-Abteilung und Business-Abteilungen zustande kommen kann um die Möglichkeiten von Cloud Services für das Unternehmen voll auszuschöpfen. Dabei wird auch aufgezeigt, wie eine Zusammenarbeit von Business Teams und der IT Abteilung aussehen muss damit alle an einem Strang ziehen können.",
+    "about_speaker": "(no data)"
+  },
+  {
+    "title": "Nachhaltig in der Cloud unterwegs - was können wir tun?",
+    "time": "Donnerstag 20.06.2024 | 12:00 - 12:45 | Stage 2",
+    "speaker": "Dr. Christoph Schönnenbeck",
+    "company": "viadee Unternehmensberatung",
+    "keywords": [
+      "cloud",
+      "sustainability",
+      "nachhaltigkeit",
+      "kepler",
+      "knative",
+      "serverless",
+      "architektur",
+      "platform",
+      "aws",
+      "azure",
+      "gcp",
+      "co2",
+      "emissionen"
+    ],
+    "abstract": "Rechenzentren emittieren mehr CO2 als der weltweite Luftverkehr. In dieser Session wollen wir uns zunächst gemeinsam anschauen, wie man den Fußabdruck der eigenen Cloud-Plattform messen kann. Dazu liefern sowohl die Cloud-Provider sowie weitere Open-Source-Tools ohne viel Aufwand übersichtliche Reports, die man gut für erste Optimierungsschritte nutzen kann. Im Anschluss zeigen wir Möglichkeiten auf, den eigenen Cloud-Fußabdruck zu reduzieren. Hierzu kann man sowohl auf Plattformebene (z.B. intelligente Cluster-Skalierung) wie auch auf Architektur- und Anwendungsebene (z.B. Serverless) ansetzen.",
+    "about_speaker": "(no data)"
+  },
+  {
+    "title": "OpenTelemetry - Observability neu gedacht",
+    "time": "Donnerstag 20.06.2024 | 13:00 - 13:45 | Stage 2",
+    "speaker": "Winfried Bittner",
+    "company": "sidion GmbH",
+    "keywords": [
+      "opentelemetry",
+      "observability",
+      "tracing",
+      "logs",
+      "devops",
+      "metric",
+      "jaeger",
+      "traces",
+      "grafana",
+      "elk",
+      "prometheus"
+    ],
+    "abstract": "Observability wird selbst heute noch in Software-Projekten viel zu stiefmütterlich behandelt. Dabei ist der Wert von Observability im Betrieb, vor allem in einem Cloud- / Microservice-Umfeld, von unschätzbarem Wert. Die Hürden sind anfangs aber recht hoch. So viele Möglichkeiten und unterschiedliche Frameworks und Tools gilt es zu betrachten und auszuwählen. Genau hier setzt OpenTelemetry an, es erleichtert den Einstieg in eine Welt, in der wir stets wissen, was unsere Anwendung macht und Fehlersuche nicht zu einer unendlichen Geschichte wird. In dem Vortrag werden die Vorteile von OpenTelemetry diskutiert, einem Open-Source-Projekt, das eine einheitliche Sammlung von Tools, APIs und SDKs für das Erfassen, Verarbeiten und Exportieren von Telemetriedaten bietet. Wir besprechen, wie OpenTelemetry Interoperabilität und Flexibilität bietet, um Telemetriedaten unabhängig von Sprache, Plattform oder Cloud-Umgebung zu erfassen und zu exportieren. Zudem wird die Skalierbarkeit von OpenTelemetry erläutert, die es ermöglicht, große Mengen an Telemetriedaten zu erfassen und zu verarbeiten, und somit für Cloud-Umgebungen besonders relevant ist.\nZusammenfassend verdeutlicht der Vortrag, dass OpenTelemetry eine einheitliche und flexible Methode zur Erfassung und Verarbeitung von Telemetriedaten bietet, um Entwicklern und Betreibern die Möglichkeit zu geben, Anwendungen in Echtzeit zu überwachen, zu optimieren und zu verbessern.",
+    "about_speaker": "(no data)"
+  },
+  {
+    "title": "From Zero to still Zero: die schönsten Fehler auf dem Weg in die Cloud",
+    "time": "Donnerstag 20.06.2024 | 14:00 - 14:45 | Stage 2",
+    "speaker": "Lars Röwekamp",
+    "company": "open knowledge GmbH",
+    "keywords": [
+      "Cloud",
+      "Architecture",
+      "Patterns",
+      "Migration"
+    ],
+    "abstract": "\"Cloud is the new Normal”, so Andrew R. Jassy (CIO AWS). Was also liegt näher, als genau jetzt den Schritt in die Cloud zu wagen? Passende Blaupausen dazu gibt es mehr als genug. Aber ist dieser Schritt wirklich so einfach, wie uns die verschiedenen Cloud-Anbieter glauben machen wollen? Natürlich nicht. Diese Session zeigt anhand typischer Antipattern, wie der Weg in die Cloud garantiert im Desaster endet und wie man sich dagegen wappnen kann. Ähnlichkeiten zu existierenden Projekten sind rein zufällig – oder auch nicht.",
+    "about_speaker": "(no data)"
+  },
+  {
+    "title": "Kubernetes Observability with eBPF",
+    "time": "Donnerstag 20.06.2024 | 15:00 - 15:45 | Stage 2",
+    "speaker": "Alessandro Vozza",
+    "company": "Cloud Native Computing Foundation",
+    "keywords": [
+      "eBPF",
+      "Kubernetes"
+    ],
+    "abstract": "eBPF is a revolutionary technology with origins in the Linux kernel that can run sandboxed programs in an operating system kernel. It is used to safely and efficiently extend the capabilities of the kernel without requiring to change kernel source code or load kernel modules. BumbleBee (https://github.com/solo-io/bumblebee) is a new Open Source project which helps to build, run and distribute eBPF programs using OCI images. It allows you to focus on writing eBPF code, while taking care of the user space components – automatically exposing your data as metrics or logs. In this workshop, we’re introducing eBPF and the different ways to create eBPF programs. Then, attendees are creating their first eBPF program using BCC and libbpf to have a better understanding of the main concepts. Finally, they are going through several labs to build and deploy an eBPF program with BumbleBee. They also deploy Prometheus and a web application on Kubernetes to display all the communications happening in the Kubernetes cluster.",
+    "about_speaker": "(no data)"
+  },
+  {
+    "title": "Innovation für Nachhaltigkeit: die Zukunft der energieeffizienten Cloud",
+    "time": "Donnerstag 20.06.2024 | 16:00 - 16:45 | Stage 2",
+    "speaker": "Dr. Stephan Michard",
+    "company": "Red Hat",
+    "keywords": [
+      "Cloud",
+      "Sustainability",
+      "GreenIT",
+      "Nachhaltigkeit"
+    ],
+    "abstract": "In dem Vortrag wird der Fokus auf den nachhaltigen Betrieb von IT-Systemen gelegt. Es beginnt mit einer Definition von Nachhaltigkeit und der Bedeutung der Betrachtung von Stromverbrauch und CO2-Emissionen in Rechenzentren. Die Rolle von IT-Unternehmen und IT-Abteilungen in der Förderung von Nachhaltigkeit wird betont, insbesondere ihr Beitrag zu den Nachhaltigkeitszielen.\nVerschiedene Ansätze zur Bewältigung dieser Herausforderung werden präsentiert, darunter ein Projekt der Cloud Native Computing Foundation zur Messung und Optimierung des Energieverbrauchs in Kubernetes-Clustern. Die Technologie Kepler, die mit eBPF, Machine-Learning-Modellen und Referenzwerten arbeitet, wird vorgestellt. Sie ermöglicht detaillierte Analysen des Energieverbrauchs und hilft, energieintensive Workloads zu identifizieren. Eine Demonstration von Kepler zeigt, wie diese Technologie den CO2-Fußabdruck reduziert und IT-Nachhaltigkeit fördert.\nDer Vortrag endet mit der Vorstellung der non-profit Initiativen OS-Climate und Green Software Foundation, die sich auf den Aufbau eines Ökosystems zur Entwicklung nachhaltiger Software konzentrieren.\nZusammenfassend bietet der Vortrag einen umfassenden Einblick in aktuelle Bestrebungen und Lösungen im Bereich der IT-Nachhaltigkeit und unterstreicht die Bedeutung nachhaltiger Praktiken in der Technologiebranche.",
+    "about_speaker": "(no data)"
+  },
+  {
+    "title": "Observability fully automated",
+    "time": "Mittwoch 19.06.2024 | 12:00 - 12:45 | Stage 1",
+    "speaker": "Sebastian Maischl",
+    "company": "Nürnberg AWS User Group",
+    "keywords": [
+      "OpenTelemetry",
+      "Kubernetes",
+      "eBPF",
+      "Elastic",
+      "Observability"
+    ],
+    "abstract": "In den vergangenen Jahren ist das Bewusstsein für Observability stark gewachsen.\nUnter Verwendung von modernen Ansätzen wie:\n- eBPF\n(eventbasierte Ausführung von Code direkt im Linux-Kernel)\n- OpenTelemetry\n(etablierter Standard für Telemetriedatenerfassung)\nist es möglich, die entsprechenden Informationen zu sammeln und zu verarbeiten.\nDies bietet eine generische und automatisierte Implementierung einer Observability-Lösung, ohne die Notwendigkeit, manuelle Anpassungen am Code vornehmen zu müssen.\nObservability ist von entscheidender Bedeutung, um in komplexen IT-Umgebungen wie Cloud-Infrastrukturen, verteilten Anwendungen und Datencentern eine effektive Überwachung und Diagnose zu ermöglichen.\nMit Telemetriedaten können Unternehmen:\n- Probleme frühzeitig erkennen und beheben, bevor sie sich auf die Benutzer auswirken\n- Performance-Engpässe identifizieren und optimieren\n- Ressourcen effizienter zuweisen\n- Sicherheitsbedrohungen erkennen\nIm Laufe der Session behandeln wir unter anderem folgende Technologien:\n- OpenTelemetry\n- eBPF\n- APM (Elastic)\n- Auto-Intrumentation\n- Propagation (Tracing)\nZur Darstellung und Auswertung der Daten verwenden wir Kibana und APM (Elastic), eine Plattform zur zentralen Sammlung und Auswertung von Telemetriedaten, die unter anderem die Funktionalitäten von Prometheus, Loki, Grafana und Jaeger vereint und somit die Einrichtung und Pflege verschiedener Plattformen vermeidet.",
+    "about_speaker": "(no data)"
+  },
+  {
+    "title": "Cloud eXtreme: Serverless Architecture",
+    "time": "Donnerstag 20.06.2024 | 18:00 - 18:45 | Stage 2",
+    "speaker": "Lars Röwekamp",
+    "company": "open knowledge GmbH",
+    "keywords": [
+      "Cloud",
+      "serverless",
+      "Architecture",
+      "Pattern"
+    ],
+    "abstract": "Eine einzelne Serverless Function zu schreiben und produktiv zu stellen ist dank NoOps-Ansatz denkbar einfach. Nur leider macht eine Schwalbe noch keinen Sommer und eine einzelne Serverless Function noch keinen sinnvollen Anwendungsfall! Wie also konzipiert man eine Anwendung als Zusammenspiel von mehreren Serverless Functions und diversen weiteren Cloud-Komponenten? Gibt es spezielle Architektur-Pattern, die sich im Serverless-Umfeld anbieten? Und wie wirken sich diese auf den Software-Lifecycle aus? Was, wenn die niedlichen kleinen Funktionen sich zur Laufzeit nicht so verhalten, wie gewünscht? Wie sieht das Monitoring der einzelnen Funktionen und des Systems als Ganzes aus? Und was ist mit Testen? Muss die Funktion dazu immer in der Cloud deployt werden oder kann man das produktive System auch lokal emulieren? Diesen und vielen anderen Herausforderungen wollen wir uns in der Session stellen - Aha-Effekte garantiert!",
+    "about_speaker": "(no data)"
+  },
+  {
+    "title": "Building a Mobile Development Platform for Containers AKA the \"Cloudkoffer\"",
+    "time": "Donnerstag 20.06.2024 | 11:00 - 11:45 | Stage 3",
+    "speaker": "Andreas Kowasch",
+    "company": "QAware GmbH",
+    "keywords": [
+      "Bare-Metal",
+      "Open-Source",
+      "IaC",
+      "Terraform",
+      "Talos",
+      "Kubernetes",
+      "GitOps",
+      "Flux",
+      "Renovate"
+    ],
+    "abstract": "Die schnelle Bereitstellung eines lokalen Kubernetes-Clusters mag heutzutage ein Kinderspiel sein, doch wenn es um die Skalierung und den Aufbau einer umfassenden Open-Source Entwickler-Plattform geht, tauchen zahlreiche Herausforderungen auf.\nDieser Vortrag wirft einen detaillierten Blick auf die vielfältigen Aspekte, die bei der Konstruktion und kontinuierlichen Pflege einer mobilen, robusten und autarken Bare-Metal Plattform für containerisierte Anwendungen berücksichtigt werden müssen. Die Teilnehmer erfahren, welche Schritte, Technologien und bewährte Praktiken hierfür notwendig sind. Es werden verschiedene Wege zum Ziel erkundet und miteinander verglichen.",
+    "about_speaker": "(no data)"
+  },
+  {
+    "title": "Decarbonizing your Batch Jobs - Serverless edition",
+    "time": "Donnerstag 20.06.2024 | 12:00 - 12:45 | Stage 3",
+    "speaker": "Manuel Wessner",
+    "company": "codecentric AG",
+    "keywords": [
+      "Green IT",
+      "serverless",
+      "carbon-aware",
+      "AWS",
+      "sustainability"
+    ],
+    "abstract": "Green IT gewinnt zunehmend an Bedeutung, und als Industrie müssen wir aktiv zur Lösung des Klimawandels beitragen. Wir müssen sicherstellen, dass unsere Software keine zusätzliche unnötige Belastung darstellt.\nIn diesem Talk wird es eine Einführung in das Thema Green Software Development mit Fokus Time Shifting geben.\nDabei wird es nicht bei der Theorie belassen, sondern es wird gezeigt wie wir diese Konzepte in der Praxis nutzen können.\nDurch eine optimale Zeitplanung können wir so die CO2-Emissionen von (Batch)Jobs reduzieren.\nHierbei kommen AWS Serverless Technologien wie Step Functions und Lambda sowie das Open Source Tool 'carbon-aware-sdk’ zum Einsatz.\nEin wichtiges Learning aus diesem Talk ist, dass Nachhaltigkeit in der IT keine bloße Idee ist, sondern in unserem Alltag gut und ohne viel Aufwand integriert werden kann.\nAlle gezeigten Methoden sind dabei auch auf andere Cloud Provider (Azure, Google Cloud) und Umgebungen übertragbar.",
+    "about_speaker": "(no data)"
+  },
+  {
+    "title": "Accelerating Cloud Product Development with the STACKIT Maturity Model",
+    "time": "Donnerstag 20.06.2024 | 13:00 - 13:45 | Stage 3",
+    "speaker": "Dr. Lars Mautsch",
+    "company": "STACKIT - Schwarz IT KG",
+    "keywords": [
+      "Product Development",
+      "Cloud",
+      "Maturity Model",
+      "Accelerate",
+      "Golden Paths"
+    ],
+    "abstract": "I am not quite certain whether this fits to your tracks: In my talk I would like to adress how product teams (cloud-native / traditional) can be guided during their journey to productize their idea with the help of golden paths. They are as well leveraged by industry leaders like Netflix, Amazon, ...  We implemented this concept as well at STACKIT and called it STACKIT maturity model. Our golden paths included in this model provide the productions teams with solutions (based on our experience) to adress in particular non-functional challenges and become more certain to release their cloud product to a broader, anonymous audience. In my talk I would address,\n- whats the purpose of such kind of concept\n-  how the solution looks like\n- how we implemented it and what challenges we faced.",
+    "about_speaker": "(no data)"
+  },
+  {
+    "title": "Why we're *not* leaving the cloud",
+    "time": "Donnerstag 20.06.2024 | 14:00 - 14:45 | Stage 3",
+    "speaker": "Thomas Baus",
+    "keywords": [
+      "Microservices",
+      "Monoliths",
+      "Migration",
+      "Modernization"
+    ],
+    "abstract": "In unserer kleinen, beschaulichen Public Cloud Bubble werden zwei Dinge immer wieder wiederholt und kopfnickend bestätigt:\n- Public Cloud ist besser als On Premise\n- Microservices sind besser als Monolithen\nEs ist also nicht verwunderlich, dass die Blog Posts von Basecamp (2022, Why we're leaving the cloud) und Amazon Prime (2023, move from microservices architecture to monolith application) sehr intensiv diskutiert wurden.\nWie sieht's ein paar Monate nach diesen Posts aus? Welchen Einfluss hatten die Meldungen auf uns, unsere Kunden und auf euch?\nReferenzen:\n- https://world.hey.com/dhh/why-we-re-leaving-the-cloud-654b47e0\n- https://www.primevideotech.com/video-streaming/scaling-up-the-prime-video-audio-video-monitoring-service-and-reducing-costs-by-90",
+    "company": "(no data)",
+    "about_speaker": "(no data)"
+  },
+  {
+    "title": "Lass' den Saftladen hacken: ein AI-powered Bot als Herausforderer beim OWASP CTF",
+    "time": "Donnerstag 20.06.2024 | 15:00 - 15:45 | Stage 3",
+    "speaker": "Thomas Wolf",
+    "company": "MediaMarktSaturn Technology",
+    "keywords": [
+      "AI",
+      "genAI",
+      "Code Generation",
+      "Hacking"
+    ],
+    "abstract": "Beim Wettbewerb \"IT-Security Capture the Flag: Hack den OWASP JuiceShop\" habt ihr die Gelegenheit, eure Hacking Skills unter Beweis zu stellen. Unter das Teilnehmerfeld mischt sich auch (mindestens) ein Bot, der mit Hilfe von AI versucht, die JuiceShop Competition für sich zu entscheiden.\nIn diesem Vortrag beleuchten wir unser Experiment, zu Schulungszwecken einen Bot zu implementieren, der AI nutzt, um Code für den Angriff auf den JuiceShop zu implementieren. Dabei gehen wir auch darauf ein, welche Probleme mit diesem Ansatz einhergehen und welche Lösungsansätze dafür existieren. Nicht zuletzt sind wir natürlich neugierig, wie der Bot sich im Vergleich mit den menschlichen Teilnehmern des Wettbewerbs schlagen wird.\n\n",
+    "about_speaker": "(no data)"
+  },
+  {
+    "title": "Codespaces, Gitpod, Devpod ... was cloud-basierte IDEs schon können",
+    "time": "Mittwoch 19.06.2024 | 17:00 - 17:45 | Stage 2",
+    "speaker": "Matthias Haeussler",
+    "company": "Novatec Consulting GmbH",
+    "keywords": [
+      "IDE",
+      "cloud-native",
+      "Codespace",
+      "Gitpod",
+      "Devpod"
+    ],
+    "abstract": "In den letzten 2 Jahren haben cloud-basierte Entwicklungsumgebungen wie Gitpod oder GitHub Codespaces stark an Popularität gewonnen. Mit Devpod kam vor kurzem eine neue Open Source Technologie in diesem Feld dazu und es ist sehr wahrscheinlich, daß es in naher Zukunft noch weitere Neuerscheinungen geben wird.\nMit diesem Vortrag vergleiche ich den Ansatz dieser Technologien im Vergleich zu traditionellen IDEs und versuche die Rolle der Container Technologie - insbesonders der devcontainer Spezifikation - zu beleuchten.\nDer Fokus liegt hier auf der JVM-basierten Sprachen und den IDEs VisualStudio Code und IntelliJ.\nIch werde in einer Live Demo zeigen wie schnell es möglich ist ohne großes Setup polyglotte, container-basierte Anwendungen zu entwickeln. Das beinhaltet auch die Möglichkeit die Development und Test Ergebnisse sofort zu zeigen, sowie das Deployment in Umgebungen außerhalb der IDEs.\nIn der Demo zeige ich auch wie man das Standard Setup für die eigenen Bedürfnisse anpassen kann.\nIch werde auch darauf eingehen wie mir die Technologien bei den praktischen Beispielen in verschieden Szenarien vom beruflichen Alltag wie auch bei der Vorlesung an den Hochschulen geholfen hat.",
+    "about_speaker": "(no data)"
+  },
+  {
+    "title": "Serviceaufrufe navigieren: Die Rolle von Kausalität in Cloud-Native Anwendungen",
+    "time": "Donnerstag 20.06.2024 | 17:00 - 17:45 | Stage 3",
+    "speaker": "Nele Lea Uhlemann",
+    "company": "Fiberplane",
+    "keywords": [
+      "Observability",
+      "micro service orchestration",
+      "clould native tooling"
+    ],
+    "abstract": "Was vereint Workflows, Service Meshes und Traces? Kausalität! Obwohl dies nicht ihr primärer Zweck ist, ermöglichen diese drei Werkzeuge Einblicke in die kausalen Zusammenhänge innerhalb unserer Services. Sie visualisieren Abhängigkeiten zwischen verschiedenen Services, Ereignissen und Transaktionen. In der Präsentation analysieren wir, wie diese Tools Kausalität auf unterschiedlichen Ebenen repräsentieren. Hierbei betrachten wir beispielhaft Tools wie Dapr-Workflows, die Darstellung von Traces in Jaeger sowie Istios Aufrufgraphen mit Kiali. Wir gehen auf den Zweck der Kausalität in jedem Tool ein und diskutieren ihre Unterschiede und Ähnlichkeiten. Dabei liegt der Fokus nicht darauf, dass ein Tool besser ist als das andere, sondern vielmehr darauf aufzuzeigen, auf welchen Ebenen wir in Cloud-native Anwendungen die Möglichkeit haben, Kausalität zu designen und zu visualisieren.\nDie Visualisierung von Kausalität durch verschiedene Tools auf verschiedenen Ebenen unserer Systeme ist nicht nur aufschlussreich, sondern auch ein entscheidender Faktor, der zu einer verbesserten Zusammenarbeit und Kommunikation zwischen den Entwicklungsteams beiträgt. Dies wiederum führt zu effizienterem Systemdesign und Debugging.",
+    "about_speaker": "(no data)"
+  },
+  {
+    "title": "Optimierung von Serverless Workloads mit Observability",
+    "time": "Donnerstag 20.06.2024 | 18:00 - 18:45 | Stage 3",
+    "speaker": "Ben Freiberg",
+    "company": "Amazon Web Services (AWS)",
+    "keywords": [
+      "observability",
+      "cloud",
+      "serverless",
+      "monitoring",
+      "AWS",
+      "Amazon Web Services"
+    ],
+    "abstract": "Observability bedeutet mehr als nur Monitoring – Sie benötigen Logs, Metriken und Traces für eine vollständige Einblick in Ihre Anwendungen. Viele Serverless Workloads bestehen aus Komponenten, die über mehrere Accounts und Teams verteilt sind. Das heißt, Informationen müssen aus vielen Quellen zusammengeführt und korreliert werden, um ein Verständnis für das Gesamtsystem zu erlangen. Anschließend ist es entscheidend, dass Sie die Erkenntnisse aus den Daten gewinnen. Erfahren Sie in diesem Vortrag, was die Grundlagen von Observability sind, wie Sie damit wertvolle Insights gewinnen um dann Ihre Serverless Workloads zu optimieren.",
+    "about_speaker": "(no data)"
+  },
+  {
+    "title": "Wie setze ich mein eigenes LLM in Kubernetes auf und was kommt danach?",
+    "time": "Donnerstag 20.06.2024 | 11:00 - 11:45 | Stage 4",
+    "speaker": "Victor Getz",
+    "company": "iits-consulting",
+    "keywords": [
+      "llm",
+      "kubernetes",
+      "terraform",
+      "ai",
+      "Ollama",
+      "Airbyte",
+      "StackIT"
+    ],
+    "abstract": "ChatGPT benutzen wir heutzutage täglich, aber es gibt zwei große Probleme:\n1. Datenschutz & Datensicherheit: Die Daten gehen in die USA und wer weiß wo sonst noch hin\n2. Einen signifikanten Nutzen ensteht erst dann, wenn man das LLM mit den eigenen Daten leicht anbinden kann (PDFs, Word, Datenbanken ...\nIn dem Vortrag möchte wir euch zeigen, wie leicht ihr euch selber mit Kubernetes ein LLM aufsetzen und anschließend mit euren Daten chatten könnt.\nWir berichten auch von unseren Erfahrungen in Kundenprojekten und welche Anwendungsfälle wir bereits umgesetzt haben.\nDazu gehören Themen wie:\n- Wie verbinde ich das LLM mit meinem Wissen im Unternehmen\n- Wie verbinde ich meine IDE mit dem LLM\n- Mögliche Einsatzszenarien in der Medizin, Logistik und Telekommunikation\nSource Code:\n- https://github.com/iits-consulting/charts/blob/main/charts/ollama/README-IITS.MD\n- https://github.com/iits-consulting/charts/blob/main/charts/iits-ollama-fullstack/README-IITS.MD",
+    "about_speaker": "(no data)"
+  },
+  {
+    "title": "Mein Cloud Provider ist CO2-neutral! Was bedeutet das für mich?",
+    "time": "Donnerstag 20.06.2024 | 12:00 - 12:45 | Stage 4",
+    "speaker": "Tim Schade",
+    "company": "GFT Technologies SE",
+    "keywords": [
+      "Cloud",
+      "Sustainability"
+    ],
+    "abstract": "Azure, AWS und GCP dominieren inzwischen mit einem Marktanteil von zwei Dritteln. Die Tech-Giganten bewegen sich schnell in Richtung Klimaneutralität.\nDieser Talk taucht tief ein in die grünen Versprechen der Cloud-Anbieter und erklärt was hinter den Kulissen passiert. Wir stellen uns kritische Fragen:\n- Wie ermitteln Cloud Provider CO2-Emissionen?\n- Warum zeigt unser Dashboard oder unsere API immer noch Werte, obwohl unser Provider CO2-neutral sein soll?\n- Welche Cloud-Plattform kann heute als die \"grünste\" bezeichnet werden?\n- Und vor allem, wie können wir als Entwickler, DevOps-Engineers und Architekten unseren Teil zum ökologischen Fußabdruck beitragen?\nMit einer Mischung aus technischer Analyse und praktischen Alltagstipps zielt dieser Vortrag darauf ab, ein umfassendes Verständnis für Klimaneutralität in der Cloud zu schaffen. Wer den Fußabdruck seiner Cloud-Services versteht, kann die besten technologischen und ökologischen Entscheidungen treffen. Wir besprechen, wie die Bemühungen der Anbieter durch bewusste Entscheidungen in unserer täglichen Arbeit unterstützt und erweitert werden können.",
+    "about_speaker": "(no data)"
+  },
+  {
+    "title": "Moderne Cloud-Infrastruktur managen – Ansible und Terraform richtig nutzen!",
+    "time": "Donnerstag 20.06.2024 | 13:00 - 13:45 | Stage 4",
+    "speaker": "Janis Ax",
+    "company": "ORDIX AG",
+    "keywords": [
+      "Cloud Automation",
+      "Infrastructure As Code",
+      "IaC",
+      "Ansible",
+      "Terraform",
+      "Cloud Management",
+      "Cloud",
+      "DevOps",
+      "Infrastruktur",
+      "Infrastructure",
+      "Automation Tools",
+      "Cloud Strategy"
+    ],
+    "abstract": "In diesem Vortrag zeige ich, wie moderne Cloud-Infrastruktur gemanagt wird.\nDafür werde ich von unseren Erfahrungen berichten und wie uns die Kombination von Ansible in Terraform viel Zeit und Nerven erspart hat.\nIn der sich ständig weiterentwickelnden Welt des Cloud-Computings sind Infrastructure as Code (IaC) und Automatisierung nicht mehr wegzudenken.\nDiese Technologien sind entscheidend für die Effizienz, Skalierbarkeit und Sicherheit moderner IT-Systeme.\nIn meinem Vortrag werde ich detailliert aufzeigen, wie die Integration von Ansible und Terraform es ermöglicht, komplexe Cloud-Infrastrukturen effektiver zu verwalten.\nDabei werde ich auf konkrete Fallbeispiele aus unserer Praxis eingehen, die die Synergieeffekte und die Zeit- sowie Kosteneinsparungen durch die Kombination der beiden Tools aufzeigen.\nDer Fokus wird auf unseren Erfahrungen, Herausforderungen und Lösungsstrategien liegen, die sich bei der Implementierung dieser Technologien ergeben.\nZiel des Vortrags ist es, den Teilnehmern ein tiefgehendes Verständnis für die Möglichkeiten und Vorteile von Ansible und Terraform in der modernen Cloud-Infrastruktur zu vermitteln.",
+    "about_speaker": "(no data)"
+  },
+  {
+    "title": "Multicloud Cluster Deployment at scale - Gardener meets Kubernetes",
+    "time": "Donnerstag 20.06.2024 | 14:00 - 14:45 | Stage 4",
+    "speaker": "Verena Traub",
+    "keywords": [
+      "Platform Engineering",
+      "DevOps at scale",
+      "kubernetes"
+    ],
+    "abstract": "Have you ever struggled with deploying and orchestrating Kubernetes clusters across different cloud providers or within a hybrid setup? We feel you!\nFor us, integrating Gardener, an open-source Kubernetes management tool, made the trick. In our talk we will explore key features and benefits of Gardener, guiding you through the integration process while emphasizing key considerations, best practices, and potential pitfalls. To bring theory into practice, a live demonstration will showcase a real-world implementation of Gardener and Kubernetes working seamlessly together..\nJoin us to learn how Gardener streamlines cluster provisioning, management, and scaling, optimizing resource utilization and simplifying the operational landscape.",
+    "company": "(no data)",
+    "about_speaker": "(no data)"
+  },
+  {
+    "title": "The beauty of ephemeral - Short lived environments in praxis",
+    "time": "Donnerstag 20.06.2024 | 15:00 - 15:45 | Stage 4",
+    "speaker": "Fabian Desoye",
+    "company": "ProSiebenSat.1 Media SE; AWS User Group München",
+    "keywords": [
+      "DevX",
+      "CI",
+      "Testing",
+      "Serverless",
+      "Infrastructure as Code"
+    ],
+    "abstract": "Cloud providers empower us to deploy resources on-demand and dismantle them when they are no longer needed. This not only let's us scale systems as needed, but also let's us deploy and destroy complete environments in minutes.\nIn this presentation, I'll delve into the transformative potential of ephemeral environments and their capacity to enhance system development processes.\nWe'll explore use cases where short-lived environments excel, particularly in developer experience, manual and automatic testing capabilities. Moreover, I'll discuss the essential prerequisites and challenges we might experience on our journey to making them an essential part of our workflows.\nJoin me as we unravel the beauty of ephemeral environments and uncover how they can revolutionise our approach to building robust systems.",
+    "about_speaker": "(no data)"
+  },
+  {
+    "title": "Postman hebt ab – und nun?",
+    "time": "Donnerstag 20.06.2024 | 17:00 - 17:45 | Stage 4",
+    "speaker": "Andreas Siegel",
+    "company": "pentacor GmbH",
+    "keywords": [
+      "API Testing",
+      "API Clients",
+      "API Exploration",
+      "Tools",
+      "Postman",
+      "Insomnia",
+      "API"
+    ],
+    "abstract": "Postman gilt (oder galt?) als das unangefochtene Tool für die Arbeit mit APIs. Über die Jahre hat sich Postman zum äußerst beliebten, featurereichen und flexiblen Werkzeug für das Designen und die Dokumentation von APIs, das Testen, Explorieren, aber auch Monitoring und Mocking entwickelt. Und dann machten sie im vergagenen Jahr ihrem Logo, dem Astronauten, alle Ehre und hoben ab in die Cloud, zu einem buchstäblich nicht ganz günstigen Preis. Was bedeutet das jetzt? Was ändert sich für uns?\nGerade Enterprise-Kunden haben klare Richtlinien für die Nutzung von Cloud-Tools bzw. die Datenspeicherung. Da hat der von Postman eingeschlagene Weg nicht gerade für Begeisterung gesorgt. Gesteigert wurde das kurz darauf, als auch Kong für Insomnia eine ähnliche Richtung einschlug.\nIn diesem Vortrag wollen wir die Gelegenheit des Umbruchs nutzen, um nach möglichen Alternativen zu Postman Ausschau zu halten. Wir wollen ergründen, für wen das besonders relevant ist oder ob es vielleicht sogar etwas zu gewinnen gibt.\nWir starten mit einem Schritt zurück und geben einen Überblick über (bei uns) typische Anforderungen für einen API-Client und schauen, welche Tools vor diesem Hintergrund in Frage kommen und was sie darüber hinaus noch mitbringen und können. Freut euch auf eine Vielzahl bekannter und auch unbekannter Werkzeuge mit einer Reihe spannender Erkenntnisse entlang unserer suchenden Reise nach einer guten Alternative zu Postman!\nPostman in der Cloud? Das war uns zu abgehoben!",
+    "about_speaker": "(no data)"
+  },
+  {
+    "title": "Newbie McNoob und das Geheimnis des ersten Projekts",
+    "time": "Donnerstag 20.06.2024 | 18:00 - 18:45 | Stage 4",
+    "speaker": "Andreas Monschau",
+    "company": "Haeger Consulting",
+    "keywords": [
+      "Onboarding",
+      "Kultur",
+      "Projektmanagement"
+    ],
+    "abstract": "Es ist sein großer Tag: Newbie McNoob tritt seine Stelle als Junior-Entwickler an. Er hat vieles gelernt, fühlt sich bereit und will einfach nur loslegen. Doch wir können dafür sorgen, dass ihn Dinge erwarten, die er sich in seinen kühnsten Träumen nicht vorstellen konnte.\nHelft mit, die ersten Wochen in seiner neuen Wirkungsstätte möglichst unerfreulich zu gestalten! Entscheidet nach jeder Herausforderung, wie es es mit ihm weiter geht - oder seht, ob er seine Motivation endgültig gebrochen wurde.\nGanz im Stil eines „Choose your own adventure“-Buches haben die Teilnehmer dieses Vortrags die Möglichkeit, per Abstimmung selber zu wählen, wie es weiter geht - ganz demokratisch! Das wird ein spannendes Experiment!\nWährend Ihr Newbiews Reise mitbestimmt habt ihr die Möglichkeit zu reflektieren, wie es denn bei euch im Projekt, im Unternehmen oder in der Organisation so läuft, wenn jemand Neues bei euch einsteigt:\nWäre Newbie bei euch besser aufgehoben?\n",
+    "about_speaker": "(no data)"
+  },
+  {
+    "title": "Interaktiver Hebocon Workshop",
+    "time": "Donnerstag 20.06.2024 | 11:00 - 18:45 | Playground Floor",
+    "speaker": "Qi An",
+    "company": "InterFace AG",
+    "keywords": [
+      "Hebocon",
+      "CrappyRobot",
+      "Battles",
+      "ForEveryone",
+      "Robotic",
+      "Arduino",
+      "KI/AI",
+      "Fortgeschrittenen geeignet",
+      "Einsteigerfreundlich",
+      "Spaß"
+    ],
+    "abstract": "Wir veranstalten im Rahmen der CloudLand einen interaktiven Hebocon Workshop und jeder kann mitmachen.\nDabei geht es um kleine Roboter, die individuell aus verschiedenen Bauteilen wie u.a. Räder, Platine, Sensoren zusammengebaut werden und gegeneinander in kleinen Roboterkämpfen antreten.\nWir bieten euch dabei die Möglichkeit aus den von uns mitgebrachten Bestandteilen einen eigenen, kleinen Roboter zu bauen und auch durch eigene, weitere Bestandteile zu erweitern. Zusätzlich stellen wir per GitHub eine Codebasis zur Verfügung, mit der es bereits möglich ist, den eigenen Roboter zu bedienen. Der Roboter kann mit verschiedenen Steuerungsmöglichkeiten u.a. auch per Gestensteuerung über Künstlicher Intelligenz (KI) gesteuert werden.\nSobald zwei Roboter gebaut und die Software angepasst wurde, können die beiden gegeneinander antreten. Dabei ist die Challenge entweder den anderen Roboter aus dem definierten Spielfeld drängen oder bewegungsunfähig machen.\nGebastelt und ausprobiert wird am Mittwoch und Donnerstag. Am Donnerstagabend zur Gaming Night wird es dann das große Turnier mit Siegerehrung und Preisen geben.\nZiel des interaktiven Formats ist es, Spaß am Ausprobieren von Hardware und Code am eigenen Roboter zu bereiten. Darüber hinaus wird die Verzahnung und Interaktion zwischen Hardware und Software der Roboter dargestellt.\n",
+    "about_speaker": "(no data)"
+  },
+  {
+    "title": "Trivy - das OSS Multitool für Cloud Native Security",
+    "time": "Donnerstag 20.06.2024 | 11:00 - 11:45 | Blue Lounge",
+    "speaker": "Thomas Laubrock",
+    "company": "Aqua  Security",
+    "keywords": [
+      "Trivy",
+      "CVE",
+      "Schwachstellen",
+      "Vulnerabilities",
+      "DevSecOps",
+      "Container Security",
+      "Cloud Native",
+      "Security",
+      "shift left"
+    ],
+    "abstract": "Den Überblick über Schwachstellen, Fehlkonfigurationen und sensible Daten im kompletten Lebenszyklus einer Cloudanwendung zu behalten ist kompliziert. Viele Tools haben unterschiedliche Arten, die Probleme darzustellen.\nIn diesem Vortrag wird gezeigt, wie man mit dem Open-Source-Scanner Trivy von der ersten Zeile Code über Container Images und SBOM bis zur Cloud/Kubernetes-Umgebung alles mit einem Werkzeug überwachen kann, um eine einheitliche Übersicht zu erhalten.\nIn der Demo werden die einzelnen Schritte anhand einer&nbsp;kleinen Beispielanwendung live nachvollzogen, um&nbsp;Fallstricke und \"Blind&nbsp;Spots\" in der Überwachung aufzudecken und zu verhindern.\nSo können Developer, Operations und Security am gleichen Ziel arbeiten weil sie die gleiche \"Sprache\" sprechen. Keine unliebsamen seitenlangen Schwachstellenreports mehr, die von Büro zu Büro gereicht werden.",
+    "about_speaker": "(no data)"
+  },
+  {
+    "title": "ML-based Amazon DevOps Guru for the Serverless applications",
+    "time": "Donnerstag 20.06.2024 | 11:00 - 13:45 | Orange Lounge",
+    "speaker": "Vadym Kazulkin",
+    "company": "ip.labs GmbH",
+    "keywords": [
+      "aws",
+      "serverless",
+      "aiops",
+      "anomaly detection"
+    ],
+    "abstract": "In this workshop, we’ll use a standard serverless application that uses API Gateway, Lambda, DynamoDB and SQS. We'll explore how Amazon DevOps Guru recognizes operational issues and anomalies like increased latency and error rates (timeouts, throttling and increased latency). We will also explore DevOps Guru \"Proactive Insights\" which recognize configurational anti-patterns like missing failure destination on Kinesis Data Streams or DLQ on SQS or over-provisioning of AWS services like DynamoDB tables. We'll also integrate DevOps Guru with PagerDuty to provide even better incident management.\nAmazon DevOps Guru analyzes data like application metrics, logs, events, and traces to establish baseline operational behavior and then uses ML to detect anomalies. The service uses pre-trained ML models that are able to identify spikes in application requests, so it knows when to alert and when not to.",
+    "about_speaker": "(no data)"
+  },
+  {
+    "title": "Wie wir Veränderungen ins Leben rufen - Culture Hacks und 3D-Welten",
+    "time": "Donnerstag 20.06.2024 | 16:00 - 18:45 | Blue Lounge",
+    "speaker": "Christopher Wentzek",
+    "keywords": [
+      "DevOps",
+      "DevSecOps",
+      "Change Management",
+      "Prozess Management",
+      "Priorisierung",
+      "Führung",
+      "Werte",
+      "Methodenkompetenz",
+      "Gamification",
+      "Zusammenarbeit"
+    ],
+    "abstract": "In den jüngsten Erhebung zum Fachkräfte bedarf in den Unternehmen landeten die Menschen mit Qualifikationen für Veränderungsmanagement unter den TOP DREI. Demzufolge versuchen viele Unternehmen ihre Unternehmenskultur nachhaltig zu verändern und suchen dafür Mitarbeiter*innen mit entsprechenden Ausbildungen. Veränderungen in der Zusammenarbeit durch die Einführung von Rollen wie DevOps oder DevSecOps sowie ähnlich gelagerten Funktionen verändern die Zusammenarbeit und die Prozesse.  In diesem mehrteiligen Workshop möchten in einer Mischung aus Impulsvorträgen, Erfahrungsberichten und Workshops Techniken und Methoden vermitteln, um Veränderungen anzustoßen und zu etablieren. Culture Hacks als eine Möglichkeit eingefahrene Verhaltensweisen nach dem Motto \"Das haben wir immer schon so gemacht\" oder \"Das hat hier noch nie funktioniert\" sichtbar zu machen und alternative Vorgehensweise darzustellen bzw. zu vermitteln wie die Veränderungen wirken und erfolgreichen werden. 3D-Welten zur Gestaltung von Prozessen und Strategien. Spielerisch die Kernpunkte im Unternehmen, Projekt oder Infrastruktur herausarbeiten und transparent werden lassen, wo die Prioritäten der Beteiligten liegen.",
+    "company": "(no data)",
+    "about_speaker": "(no data)"
+  },
+  {
+    "title": "Hands-on with Foundation Models: Generative AI for Developers",
+    "time": "Donnerstag 20.06.2024 | 11:00 - 13:45 | Red Lounge",
+    "speaker": "Joachim Aumann",
+    "company": "Amazon Web Services (AWS)",
+    "keywords": [
+      "AI",
+      "AWS",
+      "Bedrock",
+      "Hands-on",
+      "LLM"
+    ],
+    "abstract": "The goal of this workshop is to give you hands-on experience leveraging foundation models (FMs) through Amazon Bedrock. Amazon Bedrock is a fully managed service that provides access to FMs from third-party providers and Amazon; available via an API. With Bedrock, you can choose from a variety of models to find the one that’s best suited for your use case.\nWithin this series of labs, you will be taken through some of the most common usage patterns we are seeing with our customers for Generative AI. We will explore techniques for generating text and images, creating value for organizations by improving productivity. This is achieved by leveraging foundation models to help in composing emails, summarizing text, answering questions, building chatbots, creating images and generating code. You will gain hands-on experience using Bedrock APIs, SDKs, and open-source software for example LangChain and FAISS to implement these usage patterns.\nThis workshop is intended for developers and solution builders.",
+    "about_speaker": "(no data)"
+  },
+  {
+    "title": "Cloud Architecture Kata",
+    "time": "Donnerstag 20.06.2024 | 15:00 - 16:45 | Red Lounge",
+    "speaker": "Tobias Voß",
+    "company": "viadee Unternehmensberatung AG",
+    "keywords": [
+      "Architektur",
+      "Kata",
+      "interaktiv"
+    ],
+    "abstract": "Wie lernt man eine gute Architektur zu entwerfen? Indem man viele Architekturentwürfe macht, diese diskutiert, vorstellt, sich Feedback einholt und dann verbessert. Genau das wollen wir in dieser Architektur-Kata praktizieren. Wenn ihr Code-Katas kennt, sind Architektur-Katas ein sehr ähnliches Format, nur dass wir keine Programme schreiben, sondern Architekturentwürfe zeichnen. Wir werden eine konkrete Problemstellung für ein zu entwerfendes System angehen und in kleinen Teams von 4-5 Personen jeweils einen Architekturentwurf für die Problemstellung entwickeln. Die fachlichen Anforderungen und Qualitätsanforderungen sind festgelegt und eure Aufgabe ist es, eine passgenaue Architektur zu entwerfen.\nNach der Entwurfsphase bekommt jedes Team Zeit, um seinen Architekturentwurf in der großen Gruppe vorzustellen und Feedback einzuholen. Anschließend bekommt jedes Team nochmal Zeit, den eigenen Architekturentwurf auf Basis des Feedbacks oder der Entwürfe der anderen Teams zu verbessern.",
+    "about_speaker": "(no data)"
+  },
+  {
+    "title": "What you don't know about containers (and why it matters)",
+    "time": "Donnerstag 20.06.2024 | 17:00 - 18:45 | Red Lounge",
+    "speaker": "Sean Scott",
+    "company": "Viscosity North America",
+    "keywords": [
+      "Containers",
+      "Cloud Native",
+      "Containers vs VMs",
+      "Layers",
+      "Container Images",
+      "Union Filesystems"
+    ],
+    "abstract": "What is a container? Search the web, and the answers typically fall under two categories.\nFirst, that containers are like virtual machines. This is a terrible analogy; containers are entirely unlike virtual machines. It doesn't further anyone's understanding of containers, and if I had one wish, it would be that people would stop saying this!\nSecond, a discussion of namespaces and control groups. This covers process isolation and is important for understanding container security and interaction with host resources. While this is relevant to the runtime engine responsible for running a container, it's often beyond the reach of the end user, nor does it impact most of their day-to-day interactions with containers, including building and running container images.\nA third, overlooked element really makes containers tick: Union Filesystems. These are the magic behind the speed, efficiency, and capacity containers deliver. Understanding how union filesystems work is critical to building optimized images and achieving efficient container deployments. In this session, we'll demonstrate what happens on the host filesystem when running a container and how to leverage that knowledge to plan and build more efficient container images. You'll also discover the purpose and benefit of volumes and how they're integral to maximizing capacity and maintaining performance in container environments. Finally, you'll learn a better answer to the question, \"What is a container?\"",
+    "about_speaker": "(no data)"
+  },
+  {
+    "title": "Fully automated document analysis on AWS with Gen AI and LangChain",
+    "time": "Donnerstag 20.06.2024 | 11:00 - 12:45 | Green Lounge",
+    "speaker": "Max Tharr",
+    "company": "Slalom GmbH",
+    "keywords": [
+      "GenAI",
+      "AI",
+      "AWS",
+      "RAG",
+      "LangChain",
+      "Generative AI",
+      "LLM"
+    ],
+    "abstract": "In this workshop we will demonstrate how to use Generative AI to automate the process of analysis and interpretation of documents in order to use them for Retrieval Augmented Generation (RAG), for example for a chatbot.\nWe will walk through a showcase where scabbed documents can be uploaded over a web frontend to an S3 bucket. The text information will be automatically extracted with AWS textract. Then we will use LangChain on a Lambda function with AWS Bedrock to interpret and categorize the content of the document before pushing it into a vector store.\nThe vector store will be used as a knowledge base by a chatbot to answer questions regarding the specific data.\nDuring the demo, the audience will be able to upload their own documents and ask the chatbot about it.",
+    "about_speaker": "(no data)"
+  },
+  {
+    "title": "Code ➡️ Cluster: Entwicklung mit lokaler K8s-Betriebsplattform beschleunigen",
+    "time": "Donnerstag 20.06.2024 | 13:00 - 14:45 | Green Lounge",
+    "speaker": "Johannes Schnatterer",
+    "keywords": [
+      "Kubernetes",
+      "GitOps",
+      "Argo CD",
+      "Prometheus",
+      "Grafana",
+      "Vault",
+      "Jenkins",
+      "SCM-Manager",
+      "GitOps-Playground"
+    ],
+    "abstract": "Sowohl für die Entwicklung von Anwendungen selbst, als auch für deren Infrastruktur und Betriebsprozesse ist es vorteilhaft, eine produktionsnahe Betriebsplattform lokal starten zu können.\nNeben dem Lernen und Ausprobieren ermöglicht diese beispielsweise Entwicklungs- und Plattformteams schneller die Config (YAML, Helm, Kustomize, etc.) zu entwickeln, Abhängigkeiten zwischen verschiedenen Services zu testen, Monitoring, Dashboards und Alerting umzusetzen oder GitOps-Prozesse und Repo-Strukturen zu erproben.\nFür Kubernetes gibt es eine ganze Reihe von Tools, die  das Starten lokaler Cluster vereinfachen. Mit Kubernetes allein ist es allerdings nicht getan: Es ist eine Plattform um Plattformen zu bauen. Es fehlen einige Tools, die wir in der Produktion verwenden: SCM, CI-Server, GitOps-Operator, Monitoring, Secrets Management, Ingress Controller, CertManager etc.\nWie kriegen wir das alles einfach lokal aufgebaut?\nIn diesem Workshop  betrachten wir, wie uns das Open Source Projekt GitOps Playground (https://github.com/cloudogu/gitops-playground) hier helfen kann.\nGemeinsam werden wir damit in kürzester Zeit auf unseren Rechnern eine produktionsreife Betriebsplattform starten.\nAuf dieser betrachten wir dann verschiedene Anwendungsfälle mit Tools wie Argo CD, Prometheus, Grafana, Hashicorp Vault und Jenkins.\nJe nach verfügbarer Zeit und Publikumsinteresse schauen wir uns Beispiele für GitOps-Workflows oder Secrets Management an oder bauen Monitoring in eine Anwendung ein.",
+    "company": "(no data)",
+    "about_speaker": "(no data)"
+  },
+  {
+    "title": "Managing Bot Traffic with AWS WAF",
+    "time": "Donnerstag 20.06.2024 | 16:00 - 18:45 | Green Lounge",
+    "speaker": "Joachim Aumann",
+    "company": "Amazon Web Services (AWS)",
+    "keywords": [
+      "Bot",
+      "AWS",
+      "CDN",
+      "WAF"
+    ],
+    "abstract": "This workshop will take you through the tools and methodologies available for managing bot traffic hitting your web application or service.\nThe content in this workshop is relevant for people running web applications or services, managing CDN(Content Delivery Network) configurations, WAF(web application firewalls) or fraud controls. It does require a baseline level of technical capability and familiarity with AWS services, such as described below.\nBots (both wanted and unwanted) are unavoidable if you have internet-facing applications, they can account for about 40% of traffic, which in turn can incur costs: you need to run more servers, workers, containers or functions, you have more data-transfers, noisier logs, not to mention the security risks associated with them such as: fraud, abuse, vulnerability scanning, and denial-of-service attacks.\nOn the other hand, security that might limit automated client traffic might impact your wanted bot traffic, such as health monitors, SEO and search engines, aggregation services, etc. Using security effectively while keeping your business running is always a challenge.",
+    "about_speaker": "(no data)"
+  },
+  {
+    "title": "Aufruf, Wegbereiter in eine bessere Zukunft zu sein",
+    "time": "Donnerstag 20.06.2024 | 11:00 - 12:45 | QAware Lounge",
+    "speaker": "Dr. Christian Betz",
+    "company": "Randstad Digital Germany AG",
+    "keywords": [
+      "Architektur",
+      "Problem-space analysis",
+      "Strategie",
+      "Advisory"
+    ],
+    "abstract": "Wir gestalten Veränderung - jeder CloudLand-Teilnehmer, und zwar durch Technologie, die neues Zusammenarbeiten ermöglicht. Veränderung bedeutet aber immer auch Unsicherheit: Wo geht die Reise hin? Wie kommen wir ans Ziel?\nIn diesem Workshop beleuchtet Dr. Christian Betz, wie wir die Zukunft erfinden. Mit welchen Strategien man als Architekt in einem crossfunktionalen Team die obigen Fragen beantworten kann. Wo man sich blutige Nasen holt und wie man Erfolge erzielen kann.\nDer Workshop ist ein Aufruf, als Wegbereiter in eine bessere Zukunft zu agieren. Und er ist Papier und Stift, um eine Karte dieses Wegs anzufertigen.",
+    "about_speaker": "(no data)"
+  },
+  {
+    "title": "Migrate your legacy to the cloud",
+    "time": "Donnerstag 20.06.2024 | 13:00 - 15:45 | QAware Lounge",
+    "speaker": "Gerd Aschemann",
+    "company": "Freelancer",
+    "keywords": [
+      "Migration",
+      "Cloud",
+      "OpenRewrite",
+      "Konveyor"
+    ],
+    "abstract": "Hast du eine gereifte Anwendung, die aktualisiert oder gar in die Cloud migriert werden soll? Willst du einfach nur prüfen, welche Aufwände damit verbunden sind? Oder willst du nach der Analyse die Migration sogar weitgehend automatisiert durchführen?\nWar die Aktualisierung von Anwendungen früher ein aufwendiger Prozess mit vielen Unwägbarkeiten, gibt es in den letzten Jahren mehr und mehr Tools, die zahlreiche Schritte einer Modernisierung automatisieren. Die Cloud Native Computing Foundation (CNCF) entwickelt seit einiger Zeit das Tool Konveyor, daneben gibt es auch andere Werkzeuge wie den Cloud Suitability Analyzer von VMware.\nBei der Analyse prüfen diese Werkzeuge zahlreiche Muster, die eine erfolgreiche Weiterentwicklung und einen Betrieb in der Cloud behindern. Ein umfangreicher Bericht zeigt nicht nur die Baustellen, sondern gibt neben Lösungsvorschlägen auch erste Anhaltspunkte über den zu erwartenden Aufwand.\nBasierend auf der Analyse integriert Konveyor mit OpenRewrite ein Automatisierungstool für die Migration. Für viele Befunde gibt es sog. Rezepte (kleine Scripts), die den Code, Dependencies oder Build-Schritte anpassen.\nDer Workshop wird von erfahrenen Praktikern gehalten. Wir stellen die Tools und ihre Optionen vor und führen gemeinsam mit den Teilnehmenden eine beispielhafte Analyse und Migration durch.",
+    "about_speaker": "(no data)"
+  },
+  {
+    "title": "(T)Es(t)caperoom - Ich nutze Playwright, lasst mich hier raus",
+    "time": "Donnerstag 20.06.2024 | 17:00 - 18:45 | QAware Lounge",
+    "speaker": "Frank Löffladt",
+    "company": "InterFace AG",
+    "keywords": [
+      "Testautomatisierung",
+      "Playwright",
+      "E2E-Testing"
+    ],
+    "abstract": "Es ist für Kunden und Anwender von hoher Relevanz, dass Software - ob als Cloudanwendung,  in Webbrowsern, oder lokal auf dem Endgerät - zuverlässig, fehlerfrei und wie spezifiziert ausgeführt wird.\nDaher ist es unabdingbar während des kompletten Application Lifecycle durch einen hohen Grad der Automatisierung Anwendungen zu testen.\nAus der Vielzahl der zur Verfügung stehenden Testing Frameworks stellen wir das von Microsoft entwickelte Open-Source Framework Playwright vor.\nIn unserem interaktivem Vortrag werden wir nach einer kurzen Einführung in Playwright gemeinsam mit der Community unseren Escaperoom automatisiert lösen.\nFür jeden Teilnehmer besteht die Möglichkeit Playwright, unter unserer Anleitung auf seinem eigenen Rechner, auszuprobieren und an der Lösung mitzuarbeiten.",
+    "about_speaker": "(no data)"
+  },
+  {
+    "title": "Hands on: Workload Identity - Wie wird man statische Zugangsdaten los?",
+    "time": "Donnerstag 20.06.2024 | 13:00 - 15:45 | Blue Lounge",
+    "speaker": "Christian Fritz",
+    "company": "QAware",
+    "keywords": [
+      "Security",
+      "Authentifizierung"
+    ],
+    "abstract": "Der Workshop baut auf dem Talk “Workload Identity - Authentifizierung komplett ohne statische Zugangsdaten” auf und bietet die Möglichkeit, selbst erste Erfahrungen mit den Konzepten der Workload Identity zu machen. Wir versuchen gemeinsam zwei Anwendungen zu entwickeln und deployen, wobei die einzigen “statischen” Zugangsdaten unsere GitHub-Accounts und initialen Cloud Provider Zugangsdaten sind. An allen anderen Stellen versuchen wir, die statischen Zugangsdaten durch die Workload Identity zu ersetzen.",
+    "about_speaker": "(no data)"
+  },
+  {
+    "title": "How to run your Java application in the cloud?",
+    "time": "Donnerstag 20.06.2024 | 14:00 - 16:45 | Orange Lounge",
+    "speaker": "Maximilian Schellhorn",
+    "company": "AWS",
+    "keywords": [
+      "Cloud",
+      "Serverless",
+      "Java",
+      "AWS",
+      "Lambda"
+    ],
+    "abstract": "When running Java workloads in the cloud you have a variety of deployment options. Should I run my Java workload on a virtual machine or run it as a container? What about the different container orchestration services? Is my application suitable for running on Serverless? And what kind of scaling and performance implications does that involve?\nIn this workshop, we will help you answering those questions and you will learn how to arrive at the right modernization pathway for your application. You will learn about migration and performance best practices and understand their tradeoffs to be able to make well-informed decisions when bringing your Java workload to the cloud.\nAWS accounts will be provided. Bring your laptop.",
+    "about_speaker": "(no data)"
+  },
+  {
+    "title": "FaaSt ohne Server - Serverless 101",
+    "time": "Donnerstag 20.06.2024 | 18:00 - 18:45 | Orange Lounge",
+    "speaker": "Tanja Gallmann",
+    "company": "Sopra Steria SE",
+    "keywords": [
+      "Serverless",
+      "OpenFaaS",
+      "FaaS"
+    ],
+    "abstract": "Die traurige Nachricht zuerst: Serverless Computing funktioniert genauso wenig ohne Server, wie Cloud Computing in den Wolken stattfindet. D'oh :(\nDie gute Nachricht: man braucht aber auch keine Unmengen an Servern in einem Rechenzentrum, um das Ganze auszuprobieren.\nTatsächlich reicht dafür ein normaler Laptop. Mit OpenFaaS und k3d richten wir unsere eigene kleine FaaS-Plattform ein, um an einem Hands-On Beispiel zu sehen, was sich hinter Serverless (und konkret Function as a Service) denn eigentlich verbirgt.\nZusätzlich gehen wir noch ein bisschen auf die Grundlagen des Serverless Computing ein.\nWenn ihr das Beispiel mitmachen wollt, installiert bitte im Vorfeld Docker, k3d, kubectl, faas-cli und helm.",
+    "about_speaker": "(no data)"
+  },
+  {
+    "title": "GAMING NIGHT - Hebocon Tunier",
+    "time": "Donnerstag 20.06.2024 | 20:00 - 21:30 | Community Hall",
+    "speaker": "Qi An",
+    "company": "InterFace AG",
+    "abstract": "Das große Showdown des interaktiven Hebocon Workshops!\nNun zeigt sich, welcher Roboter als Sieger die CloudLand verlässt - Spannend, hautnah und immer für eine Überraschung gut.\nWir treffen uns an der Bühne in der Community Hall.",
+    "keywords": "(no data)",
+    "about_speaker": "(no data)"
+  },
+  {
+    "title": "Cloudland Plays!",
+    "time": "Donnerstag 20.06.2024 | 11:00 - 23:00 | Cloud Universe 1 (virtuell)",
+    "speaker": "Igor Gutmann",
+    "company": "InterFace AG",
+    "keywords": [
+      "Spiel",
+      "Spaß",
+      "Zeitvertreib",
+      "MQTT",
+      "JavaScript",
+      "Retro",
+      "Game",
+      "Gemeinsam"
+    ],
+    "abstract": "Nachdem \"Cloudland Plays!\" letztes Jahr schon super beim Konferenzpublikum ankam, wurden keine Kosten und Mühen gescheut, um das Spiel weiterzuentwickeln und es mit einem neuen Twist wieder zur CloudLand mitzubringen.\nAuf einem Fernseher auf dem Konferenzgelände wird eine Anwendung laufen, die inspiriert von \"Twitch plays Pokémon\" geschrieben wurde.\nDas Prinzip von \"Twitch plays\" basiert darauf, dass jede(r) Befehle an das Spiel (voraussichtlich ein Retro-Game wie Pokémon Rote Edition) senden kann und diese dann nacheinander abgearbeitet werden. Dadurch können alle Teilnehmenden der Cloudland über die gesamte Konferenz verteilt gemeinsam spielen.\nWer mitmachen möchte, scannt einen QR-Code und gelangt auf eine Website, über die er Befehle an das Spiel schicken kann. Dies können beliebig viele Leute gleichzeitig machen und immer mal wieder, es bietet sich deswegen also zum Beispiel für Pausenzeiten an.\nDieses Jahr wird es zusätzlich einen Bot geben der versucht, das Spiel durchzuspielen, falls gerade keine Menschen am Spielen sind!",
+    "about_speaker": "(no data)"
+  },
+  {
+    "title": "Retro chic mit Pixel-art Teil 2: IT trifft Lyrik",
+    "time": "Donnerstag 20.06.2024 | 11:00 - 23:00 | Cloud Universe 2 (virtuell)",
+    "speaker": "Nina Körner",
+    "company": "Interface AG / JUG Oberland",
+    "keywords": [
+      "Kunst",
+      "Gamification",
+      "Pixel-art",
+      "Phaser",
+      "Design",
+      "Installation"
+    ],
+    "abstract": "„Bis jetzt wurde jeder Gegner von mir eliminiert!“\n„Das war ja auch leicht, dein Atem hat sie paralysiert.“\n„Ganze Inselreiche haben vor mir kapituliert.“\nWas hat Pixel-art eigentlich mit Lyrik zu tun? Bisher nichts, außer vielleicht lustigen Wortgefechten in so manchem Adventure. Ein guter Grund das zu ändern:\nIn einem Selbstversuch mit Phaser und dem Lyrikband „Jump & Run“ von Christian Schloyer wurde eine spielerische Art Gedichte zu erleben und selbst zusammenzufügen erschaffen. Hierbei soll Lyrik auf eine neue Art erlebbar gemacht werden und damit den Ruf der altbackenen, verstaubten Gedichte aus der Schulzeit hinter sich lassen.\nEs ist nicht nur ein textuelles, sondern auch Audiovisuelles Abenteuer entstanden, das allein, oder auch zu mehrt erlebt werden kann.",
+    "about_speaker": "(no data)"
+  },
+  {
+    "title": "IT-Security Capture the Flag: Hack den OWASP JuiceShop",
+    "time": "Donnerstag 20.06.2024 | 11:00 - 23:00 | Cloud Universe 3 (virtuell)",
+    "speaker": "Bernd Stübinger",
+    "company": "MediaMarktSaturn Technology",
+    "keywords": [
+      "IT-Security",
+      "OWASP"
+    ],
+    "abstract": "Der Saftladen ist zurück!\nWie letztes Jahr hacken wir wieder den OWASP JuiceShop - eine moderne eCommerce Angular WebApp mit einem node.js Backend und einem bunten Strauß an bewusst implementierten Schwachstellen aus dem Fundus der OWASP-Hitlisten. Nehmt entweder als Team oder einzeln an unserer Capture the Flag-Challenge teil und sammelt Punkte durch das Ausnutzen von Sicherheitslücken in der Anwendung.\nNach einer kurzen Einführungs-Session, in der wir die notwendigen Grundlagen vermitteln und die erste Lücke gemeinsam erkunden, läuft die Challenge während des gesamten Festivals und lädt zu gemeinsamen Brainstorming-Sessions und Diskussionen ein. Und wer weiß, vielleicht gibt es ja sogar noch Überraschungsteilnehmer?\nKein Vorwissen erforderlich!",
+    "about_speaker": "(no data)"
+  },
+  {
+    "title": "Data Contracts: Eine sozio-technische Beziehung",
+    "time": "Mittwoch 19.06.2024 | 11:00 - 11:45 | Stage 1",
+    "speaker": "Jochen Christ",
+    "company": "innoQ Deutschland GmbH",
+    "keywords": [
+      "data",
+      "datacontract"
+    ],
+    "abstract": "In modernen verteilten Datenarchitekturen, wie z. B. Data Mesh, werden Daten zunehmend zwischen verschiedenen Teams ausgetauscht. Wir brauchen eine Möglichkeit, uns auf die Qualität und Stabilität der von uns verwendeten Daten zu verlassen.\nData Contracts sind so ähnlich wie OpenAPI- oder AsyncAPI-Spezifikationen, aber die Datenwelt funktioniert etwas anders. Ein Data Contract definiert das Schema der bereitgestellten Daten und deren Qualitätsattribute in einem YAML-Format. Datenverträge können auch Beispieldaten und eine semantische Beschreibung enthalten. Data Contracts legen zudem die Nutzungsbedingungen für die Verwendung von Daten fest.\nData Contracts sind in erster Linie auch ein Kommunikationsinstrument, um ein gemeinsames Verständnis darüber auszudrücken, wie Daten strukturiert und interpretiert werden sollten. Sie machen implizite semantische und qualitative Erwartungen explizit. Später in der Entwicklung und Produktion dienen sie auch als Grundlage für die Codegenerierung, das Testen, die Schemavalidierung, die Qualitätskontrolle, die Überwachung, die Zugriffskontrolle und die Richtlinien für die Verwaltung der Datenverarbeitung.\nIn diesem Vortrag möchte ich die Data Contract Specification (datacontract.com) und das Data Contract CLI zur Validierung von Data Contracts in CI/CD-Pipelines vorstellen.",
+    "about_speaker": "(no data)"
+  },
+  {
+    "title": "Auf gute Zusammenarbeit - effiziente APIs dank Consumer Driven Contracts",
+    "time": "Donnerstag 20.06.2024 | 16:00 - 16:45 | Stage 3",
+    "speaker": "Falk Sippach",
+    "company": "embarc Software Consulting GmbH",
+    "keywords": [
+      "Consumer-Driven Contract Testing",
+      "API Testing",
+      "PACT"
+    ],
+    "abstract": "Verteilte Anwendungen sind heute weit verbreitet. Die Schnittstellen zwischen den Services können fehleranfällig sein und führen außerdem zu einer hohen Kopplung. Durch Consumer-Driven Contract Testing werden Verträge zwischen Konsumenten und Anbietern definiert. Das stärkt die Zusammenarbeit und verhindert unerwünschte Nebenwirkungen durch Schnittstellenänderungen. Durch den Einsatz von Werkzeugen wie Pact oder Spring Cloud Contract werden die Verträge letztlich automatisiert getestet. Das erhöht die Entwicklungsgeschwindigkeit und verbessert die Qualität der verteilten Anwendungen. Entdeckt in diesem Vortrag, wie ihr mit CDC und den entsprechenden Tools die Effizienz Eurer API-Entwicklung revolutionieren könnt.",
+    "about_speaker": "(no data)"
+  },
+  {
+    "title": "Wie baue ich ein Serverless Big-Data Systems mit dem Kubernetes SparkOperator",
+    "time": "Mittwoch 19.06.2024 | 13:00 - 13:45 | Stage 1",
+    "speaker": "Sascha Dittmann",
+    "company": "Google",
+    "keywords": [
+      "Big Data",
+      "Spark",
+      "Kubernetes",
+      "Serverless"
+    ],
+    "abstract": "Begeben wir uns auf eine Reise in die Welt der modernen Big Data-Orchestrierung.\nIn dieser Session zeigt Sascha Dittmann, wie mit dem SparkOperator ein serverloses Big-Data-Ökosystem aufgesetzt werden kann.\nSo können auch datenintensiver Anwendungen mit Apache Spark in Kubernetes umgesetzt werden.\nAnhand verschiedener Demos werden die Feinheiten dieses Operators beleuchtet. Es wird gezeigt, wie sich Big Data Lösungen, sowohl on-prem, wie auch bei den gängigen Cloud Providern, umsetzen lassen. Auch die ersten Spark Workloads dürfen natürlich nicht fehlen.",
+    "about_speaker": "(no data)"
+  },
+  {
+    "title": "wasmCloud - das Ende aller Cloudprobleme?",
+    "time": "Mittwoch 19.06.2024 | 14:00 - 14:45 | Stage 1",
+    "speaker": "Johann-Peter Hartmann",
+    "company": "Mayflower GmbH",
+    "keywords": [
+      "Wasm",
+      "Kubernetes",
+      "Edge",
+      "ZeroTrust"
+    ],
+    "abstract": "Mit der Version 1.0 ist wasmCloud für den allgemeinen Einsatz vorgesehen und behauptet von sich, die Versprechen der Cloud ein für allemal zu halten. Applikationen laufen direkt aus der Programmierung heraus ohne weiteren Aufwand auf allen Devices, von Cloud bis Edge, dank WASM universell portabel. Skalierbarkeit, hybdride Cloud und Self-Healing, Security mit Zero Trust, Effizienz in Ressourcen- und Netzwerknutzung liegen in der Architektur begründet und sind selbstverständlich. Wir stellen Konzepte und Praxis in der Anwendung da, und für welche Applikationen wasmCloud bereits eine gute Wahl darstelllt.",
+    "about_speaker": "(no data)"
+  },
+  {
+    "title": "Crossplane: Build your own Multi-Cloud (Developer) Platform",
+    "time": "Mittwoch 19.06.2024 | 15:00 - 15:45 | Stage 1",
+    "speaker": "Simon Wakenhut",
+    "company": "CGI",
+    "keywords": [
+      "Multi-Cloud",
+      "Developer",
+      "Platforn",
+      "Crossplane"
+    ],
+    "abstract": "Eine Multi-Cloud-Strategie erhöht nicht nur die Systemstabilität, sondern eröffnet auch neue Möglichkeiten und kann zu Kosteneinsparungen führen. Wir zeigen euch live, wie ihr mit Crossplane eure eigene Open-Source Multi-Cloud-Lösung aufbauen könnt - eine Lösung, die Entwicklern eine harmonisierte und konforme Plattform für den Zugriff auf eine Vielzahl von Cloud-Provider-Services bietet. Die Session eignet sich sowohl für wachsende Plattform-Teams als auch für Teams mit etablierten IT-Umgebungen und zielt darauf ab, die komplexe Welt der Multi-Cloud-Lösungen zu vereinfachen.\nEinführung in Crossplane: Erfahrt, welche zentrale Rolle Crossplane bei Multi-Cloud-Lösungen spielt, um einen universellen und konformen Zugriff auf Services über mehrere Cloud-Anbieter hinweg zu ermöglichen.\nVorlage für den Einstieg: Ganz gleich, ob ihr ein Unternehmen seid, das mit der Komplexität von Multi-Cloud konfrontiert ist oder ein kleines Plattform-Team, das schrittweise zu einem harmonisierten Multi-Cloud-Ansatz übergehen möchte. Erfahrt hier, wie einfach es ist, Ressourcen über verschiedene Cloud-Anbieter hinweg zu verwalten.\nIntegrierte Compliance: Euer Unternehmen muss sich mit einer langen Liste von Compliance-Anforderungen auseinandersetzen, die von allen Teams umgesetzt werden muss? Crossplane bietet die Möglichkeit, diese Anforderungen einmalig zu implementieren und anderen Teams zur Verfügung zu stellen.",
+    "about_speaker": "(no data)"
+  },
+  {
+    "title": "Don't be afraid of Change(s)! PostgreSQL-Änderungen über NiFi in die Cloud(s)!",
+    "time": "Mittwoch 19.06.2024 | 16:00 - 16:45 | Stage 1",
+    "speaker": "Hatice Sen",
+    "company": "ORDIX AG",
+    "keywords": [
+      "Apache NiFi",
+      "Azure",
+      "Oracle Cloud",
+      "PostgreSQL",
+      "GoogleCloud",
+      "CDC",
+      "Data Management",
+      "Dataflow"
+    ],
+    "abstract": "Mit Apache NiFi lassen sich schnell und einfach Dataflows erstellen, die Informationen von den verschiedensten Quell- und Zielsystemen laden und speichern können. Das Open-Source-Tool erfreut sich stetig steigender Beliebtheit. Ein Grund dafür sind neben der intuitiven Bedienung und den vielfältigen Funktionen auch die aktive Community. In diesem Vortrag möchte ich den von der Community entwickelten Prozessor “CaptureChangePostgreSQL” vorstellen.\nDieser erfasst über die PostgreSQL Logical Replication Connection alle Insert-, Update- oder Delete-Statements einer Datenbank und stellt diese als FlowFiles NiFi zur Verfügung. Diese Dateien beinhalten die jeweiligen Änderungen im JSON-Format und können mithilfe von NiFi vielfältig verarbeitet werden. In diesem Vortrag werden wir die Änderungen in mehreren Zielsystemen in der Cloud speichern.\nWir werden sehen, welche Konfiguration wir an der PostgreSQL-Datenbank vornehmen müssen, wie in NiFi ein Dataflow entsteht, speziell wie der “CaptureChangePostgreSQL”-Prozessor konfiguriert, und Daten transformiert werden. Dazu werden wir demonstrieren, wie Daten in S3-kompatible Object Storages gelegt und parallel an verschiedene Cloud-Anbieter gleichzeitig gestreamt werden können",
+    "about_speaker": "(no data)"
+  },
+  {
+    "title": "Cloud Native und doch souverän mit Apache NiFi und Apache Superset",
+    "time": "Mittwoch 19.06.2024 | 17:00 - 17:45 | Stage 1",
+    "speaker": "Lars Francke",
+    "company": "Stackable GmbH",
+    "keywords": [
+      "nifi",
+      "superset",
+      "open source",
+      "cloud native",
+      "kubernetes"
+    ],
+    "abstract": "Cloud und trotzdem ein bisschen souverän? Geht das? Klar, und wir zeigen euch wie!\nSchon mal von Apache NiFi und Apache Superset gehört? Nein? Lasst uns das ändern.\nWir zeigen euch, wie man diese beiden Tools auf Kubernetes deployen und sie verbinden kann.\nNiFi ist ein grafisches ETL-Tool, welches inzwischen fast 20 Jahre auf dem Buckel hat, aber immer noch genauso erfrischend ist wie am ersten Tag. Ursprünglich bei der NSA entwickelt, hat es einen starken Fokus auf Sicherheit und Governance. Es verfügt über 200 verschiedene Konnektoren und lässt sich leicht selbst erweitern.\nSuperset wurde ursprünglich bei Airbnb entwickelt und ist ein erweiterbares Tool zur Visualisierung und zum Erkunden von Daten.\nDashboards, Charts, SQL Abfragen und mehr sind mit Superset möglich.\nIn diesem Talk und unserer Demo zeigen wir euch, wie man eine Datenplattform mit NiFi und Superset sowie anderen Tools auf Kubernetes aufbauen kann, um Daten laden, verarbeiten, speichern und visualisieren zu können. Alles ohne Lock-in Effekt mit Open Source Tools. Und trotzdem Cloud Native durch die Einbindung von Kubernetes als Unterbau und der Nutzung von Dingen wie S3-kompatiblem Storage.\nIn diesem Talk demonstrieren wir wie einfach es sein kann einen solchen Stack mit heutigen Möglichkeiten wie Kubernetes Operatoren und Infrastructure-as-Code aufzubauen und zu nutzen.",
+    "about_speaker": "(no data)"
+  },
+  {
+    "title": "EXPLAIN Datenbanken,OpenSource und Cloud - Ein Abenteuer im digitalen Königreich",
+    "time": "Mittwoch 19.06.2024 | 18:00 - 18:45 | Stage 1",
+    "speaker": "Dirk Krautschick",
+    "company": "Aiven",
+    "keywords": [
+      "Database",
+      "Open Source",
+      "Cloud",
+      "Fairytale",
+      "Fun"
+    ],
+    "abstract": "Als ich zuletzt meinen Kindern erklären musste, was ich eigentlich so mache, fragte mich meine Frau, ob genau dies\nnicht ein netter und unterhaltsamer Vortrag auch auf Konferenzen sei. Vielleicht bietet die Session auch Anderen\nInspiration, falls die eigenen Kinder mal fragen...Dies ist also die Motivation :-)\nBegeben wir uns doch auf eine skurrile Reise und entdecken die bezaubernde Welt von PostgreSQL, Open-Source-Software und Cloud-Wundern in einer Session, die speziell für unsere neugierigen kleinen Freunde konzipiert wurde. In diesem magischen Abenteuer versuche ich, die komplexen Konzepte in humorvolle, märchenhafte Geschichten umzuwandeln.\nDurch fesselnde Geschichten, farbenfrohe Bilder und interaktive Aktivitäten werden unsere kleinen Abenteurer mit strahlenden Augen nach Hause gehen und die Magie hinter PostgreSQL, die Wunder von Open Source und den märchenhaften Charme der Cloud verstehen. Lassen Sie sich faszinieren, während wir das digitale Reich für unsere jungen Lernenden erlebbar machen!",
+    "about_speaker": "(no data)"
+  },
+  {
+    "title": "Cloud Native and AI using Spring AI and GCP",
+    "time": "Mittwoch 19.06.2024 | 11:00 - 11:45 | Stage 2",
+    "speaker": "Mahdi Tilab",
+    "company": "SignTek",
+    "keywords": [
+      "AI",
+      "Spring boot",
+      "cloud native"
+    ],
+    "abstract": "Abstract:\nThe convergence of Cloud Native and AI has revolutionized software development, enabling the creation of intelligent and scalable applications that harness the power of machine learning and artificial intelligence. This presentation will explore the synergies between Spring AI and GCP, demonstrating how to build efficient and scalable AI applications that leverage the benefits of both technologies.\nProblem:\nDeveloping and deploying AI applications can be a complex and time-consuming process, often requiring expertise in both AI and cloud computing. Traditional approaches often involve integrating AI models with separate cloud services, leading to fragmented architectures and increased development overhead.\nApproach:\nThe presentation will showcase a step-by-step approach to building AI applications with Spring AI and GCP. I will start by introducing the key features of Spring AI and GCP, highlighting their strengths in AI development and cloud-based infrastructure.\nDemo:\nTo illustrate the practical application of Spring AI and GCP, I will conduct a live demo of building an AI-powered chatbot. I will showcase how to use Spring AI to train a conversational model, deploy it to GCP, and integrate it into a web application.\nConclusion:\nThis presentation will provide a comprehensive overview of the capabilities of Spring AI and GCP, along with practical examples for building AI applications in a cloud-native environment.",
+    "about_speaker": "(no data)"
+  },
+  {
+    "title": "LLMs im Selbstbetrieb",
+    "time": "Mittwoch 19.06.2024 | 12:00 - 12:45 | Stage 2",
+    "speaker": "Johann-Peter Hartmann",
+    "company": "Mayflower GmbH",
+    "keywords": [
+      "AI",
+      "LLama",
+      "Mistral",
+      "Kubernetes",
+      "Cloud",
+      "LLMops",
+      "MLOps"
+    ],
+    "abstract": "Wenn man über AI nicht nur redet, sondern es macht, dann merkt man schnell, dass es eine ganz normale Technologie ist, mit den ganz normalen Aufgaben, die mit dem Betrieb einhergehen. Auf welche technische Plattform setzt man? On Premises, in der eigenen, in der fremden Cloud oder as a Service?  Wie skaliert man LLms elastisch, wie baut man Pipelines zu Training und Finetuning auf? Wir geben einen Überblick über die sich rasant entwickelnde Welt der Werkzeuge für offene LLMs, und mit welchen Hürden man heute noch rechnen muss.",
+    "about_speaker": "(no data)"
+  },
+  {
+    "title": "RAG in Practice: Building Production-Ready Conversational Agents",
+    "time": "Mittwoch 19.06.2024 | 13:00 - 13:45 | Stage 2",
+    "speaker": "David Boldt",
+    "company": "AWS",
+    "keywords": [
+      "RAG",
+      "LLM",
+      "GenAI"
+    ],
+    "abstract": "Creating a simple chatbot demo on your laptop with Retrieval Augmented Generation (RAG) can be done with just a few lines of code. But how do you take a demo into large-scale production? How do you evaluate performance? Scale the architecture? Minimize hallucinations? Avoid toxic responses?\nThis talk guides you through building robust, production-ready conversational agents. We’ll start with RAG basics then dive into practical techniques for evaluating and optimizing each component from retrieval to generation and UX. You’ll leave armed with strategies how to approach and build your next production-ready chatbot.",
+    "about_speaker": "(no data)"
+  },
+  {
+    "title": "Containers & AI  - Beauty and the Beast!?!",
+    "time": "Mittwoch 19.06.2024 | 14:00 - 14:45 | Stage 2",
+    "speaker": "Tobias Schneck",
+    "company": "Kubermatic GmbH",
+    "keywords": [
+      "AI",
+      "Containeres",
+      "Kubernetes",
+      "Cloud Native"
+    ],
+    "abstract": "As AI technology is pushing into IT I was wondering myself, as an “infrastructure container kubernetes guy”, how get this fancy AI technology get managed from an infrastructure operational view? Is it possible to apply our lovely cloud native principals as well? What benefit’s both technologies could bring to each other?\nLet me take this questions and provide you a short journey through existing deployment models and use cases for AI software. On practical examples, we discuss what cloud/on-premise strategy we may need for applying it to our own infrastructure to get it to work from an enterprise perspective. I want to give an overview about infrastructure requirements and technologies, what could be beneficial or limiting your AI use cases in an enterprise environment. An interactive Demo will give you some insides, what approaches I got already working for real.",
+    "about_speaker": "(no data)"
+  },
+  {
+    "title": "Build a Secure Developer Platform Using Argo, Istio and Vault.",
+    "time": "Mittwoch 19.06.2024 | 15:00 - 15:45 | Stage 2",
+    "speaker": "Alessandro Vozza",
+    "company": "Cloud Native Computing Foundation",
+    "keywords": [
+      "ArgoCD",
+      "Kubernetes",
+      "Istio"
+    ],
+    "abstract": "Today we have all the right tools to successfully bring applications into production. We have learned how to build CI/CD pipelines. However this brings some challenges as well:\n- How do you make sure applications get connected properly (to their backend, api's, database, etc.)?\nThis can take days, weeks or even months. CD(continuous deployment) becomes Continuous Disappointment\n- The problem is even more complex if you consider multi platform and multi cloud. You don't choose multi cloud, multi cloud chooses you.\n- Once the 2 above problems have been solved, how do you solve:\n  - Multi tenancy: How do you give every team complete autonomy to test their applications and bring them into - production\n- Secure connectivity\n- Secure code\nIn this presentation i will show you how you can solve this challenge by building a platform that will accomplis:\n- Automatically build code\n- Automated and secure application connectivity thanks to Multi - Cluster Istio and ArgoCD\n- Achieve multi tenancy with Istio\n- Manage Secrets, certificates and any sensitive information by using Vault and inject secrets into your deployment",
+    "about_speaker": "(no data)"
+  },
+  {
+    "title": "Istio Ambient Mesh: Sidecar vs Sidecar-less like if I am 10 years old",
+    "time": "Mittwoch 19.06.2024 | 16:00 - 16:45 | Stage 2",
+    "speaker": "Antonio Berben",
+    "keywords": [
+      "Istio",
+      "Kubernetes"
+    ],
+    "abstract": "In this talk, we will explain in plain English with no buzzwords the difference between the Sidecar model and the Sidecar-less model.\nFor Service Meshes, the sidecar model was the only viable way to ensure that the mesh could take control of the application network.\nWith the evolution of Kubernetes, that assertion has become outdated.\nToday, Istio Service Mesh has brought the alternative. A model which reduces the number of resources needed to make the mesh possible as well as removes the feeling that Istio is in there.\nWith Istio Ambient Mesh, the user who deploys a workload in Kubernetes does not notice that the application is part of a mesh. It is totally transparent.\nKey Takeaways:\n- Concept of service mesh\n- Concept of Sidecar\n- Concept of Sidecar-less\n- Challenges solved by Sidecar-less mode compared to Sidecar mode\n- Istio Ambient Mesh and its components",
+    "company": "(no data)",
+    "about_speaker": "(no data)"
+  },
+  {
+    "title": "Efficient Cloud Application Monitoring with Grafana API Integration",
+    "time": "Donnerstag 20.06.2024 | 17:00 - 17:45 | Stage 2",
+    "speaker": "Syed Usman Ahmad",
+    "company": "Grafana Labs",
+    "keywords": [
+      "Grafana",
+      "Cloud",
+      "SQL",
+      "API",
+      "Plugin",
+      "JSON",
+      "Monitoring",
+      "Visualization",
+      "Integration"
+    ],
+    "abstract": "Grafana is a popular open-source monitoring tool, but users often cannot utilize its full potential to monitor or visualize data efficiently.\nIn this talk, we will demonstrate an example of how to monitor your application running in the cloud using the Grafana API integration plugin. Later, we see more advanced features to get the key metrics to better observability.\nIt will be an introduction to the Dashboards, and also an excellent opportunity to learn more about the advanced features, including troubleshooting & debugging.\njoin us to learn more about Grafana dashboards, community contributions and share your feedback and suggestions!",
+    "about_speaker": "(no data)"
+  },
+  {
+    "title": "Was kostet die Cloud? - FinDevOps in der Cloud",
+    "time": "Mittwoch 19.06.2024 | 18:00 - 18:45 | Stage 2",
+    "speaker": "Ralph Löwe",
+    "company": "BettercallPaul GmbH",
+    "keywords": [
+      "DevOps",
+      "Methodik",
+      "FinDevOps",
+      "Stakeholder Management"
+    ],
+    "abstract": "Oft wird \"Die Cloud ist einfach zu teuer\" als grundsätzliches Argument angeführt,\num den Einsatz von einfacher kalkulierbaren On-Premise Lösungen zu rechtfertigen.\nWie immer liegt die Wahrheit dazwischen. Denn mit dem Einsatz der Cloud erlangen\nCloud-Architekten die zusätzliche Verantwortung über die Kosten. Aus DevOps wird FinDevOps.\nIm Vortag werden die Kosten der Cloud in Bezug auf Instanziierung und Betrieb bewusst gemacht.\nEin besonderes Augenmerk wird darauf geworfen, sog. Cost Incidents zu verhinden.\nAnhand von Beispielen aus der Praxis werden Tools und Vorgehen gezeigt, welche die\naktuellen Kosten greifbar sowie kontrollierbar machen. Ergänzend werden proaktive Vorgehen gezeigt,\nwie man ein Cloud-Projekt mit den Kosten im Hinterkopf aufsetzt und weiterentwickeln kann.\nIn einer abschließenden Diskussion werden Erfahrungen und Anekdoten ausgetauscht.",
+    "about_speaker": "(no data)"
+  },
+  {
+    "title": "Cloud-LLMs & Chat with your Data: über RAGs, Fine-Tuning & k8s-Deployments",
+    "time": "Mittwoch 19.06.2024 | 11:00 - 11:45 | Stage 3",
+    "speaker": "Tobias Goerke",
+    "company": "viadee Unternehmensberatung AG",
+    "keywords": [
+      "LLM",
+      "RAG",
+      "Kubernetes"
+    ],
+    "abstract": "Unternehmenseigene Dokumente mittels KI und einfachen Chat-Interfaces und der Cloud zugänglich zu machen, ist 2024 kein Traum mehr, sondern eine greifbare Realität. Doch wie lassen sich solche Anwendungen in der eigenen Cloud-Landschaft (inklusive VektorDB, LLM usw.) betreiben?\nIn diesem Vortrag erfahren Sie, wie Sie mit Retrieval Augmented Generation (RAG) nahtlos auf Unternehmensdaten zugreifen können. Wir beleuchten die Grenzen dieser Methodik und zeigen mögliche Alternativen auf. Zudem bieten wir Projekterfahrungen und praktische Ansätze zum Deployment der KI-Anwendungen in Kubernetes-Umgebungen, um Einblicke in die moderne LLM-Nutzung in Cloud-Umgebungen zu geben.",
+    "about_speaker": "(no data)"
+  },
+  {
+    "title": "OpenTofu, the more healthy & responsible alternative to Terraform",
+    "time": "Mittwoch 19.06.2024 | 13:00 - 13:45 | Stage 3",
+    "speaker": "Johannes Amorosa",
+    "company": "Zoi Tech Stuttgart",
+    "keywords": [
+      "Infrastructure as Code",
+      "IaC",
+      "Cloud",
+      "Open SOurce"
+    ],
+    "abstract": "Hashicorp changed Terraform to a non open source license. This is disruptive and created a lot of heat in the community.  As you might now Terraform is the defacto standard in infrastructure coding and is used by everyone. So what happens if the open source  community feels not recognized? The community creates a fork, to keep terraform open source and called it OpenTofu. And it even gets better: OpenTofu is now an official project by the Linux Foundation!\nIn this talk Johannes will explain the drama and outlines ways for big enterprises to be compliant and invest their resources into the new kid on the block of infrastructure coding.\nWe will see the legal pitfalls Hashicorp created for companies and a demo how to migrate your codebase to OpenTofu!",
+    "about_speaker": "(no data)"
+  },
+  {
+    "title": "Green Software Development – Let's take responsibiltiy!",
+    "time": "Mittwoch 19.06.2024 | 14:00 - 14:45 | Stage 3",
+    "speaker": "Johanna Mergler",
+    "company": "diva-e Platforms GmbH",
+    "keywords": [
+      "Green Software Development",
+      "Sustainability",
+      "Full Stack",
+      "Carbon Measuerment"
+    ],
+    "abstract": "Nachhaltigkeit ist wichtig, das wird uns immer deutlicher aufgezeigt. Dies gilt in einer immer digitaleren Welt auch für die IT. Das Internet trägt jetzt schon 4 % zu den globalen Treibhausgasemissionen bei, bis 2040 werden 14 % erwartet.\nDoch häufig wissen wir als Developer gar nicht, welchen Einfluss wir auf die Umwelt haben.\nDie gute Nachricht ist: wir haben es selbst in der Hand, etwas daran zu ändern. Wir alle können in unseren Projekten viel umsetzen. Mit wenig Mehraufwand können wir häufig Ressourcen und damit auch Kosten beim Kunden einsparen.\nIn diesem Vortrag geben wir euch einen Überblick über die Prinzipien von Green Software Development. Zusätzlich bekommt ihr Tools und Tipps zur konkreten Umsetzung gezeigt. Wir stellen euch dafür im Cloud- Bereich zum Beispiel Measurement-Tools wie Kepler und Cloud Carbon Footprint vor.\nAußerdem schneiden wir verschiedene Bereiche an, von Ops über Backend, Frontend bis zum Design, und zeigen euch, was es in jedem Bereich der Softwareentwicklung anzupacken gibt und wie groß unser Einfluss dabei ist.\nNach dem Vortrag habt ihr Ideen, wie ihr nachhaltiger Software entwickeln könnt, um zusammen Verantwortung zu übernehmen.\n",
+    "about_speaker": "(no data)"
+  },
+  {
+    "title": "Data-centric Architecture",
+    "time": "Mittwoch 19.06.2024 | 15:00 - 15:45 | Stage 3",
+    "speaker": "Azmir Abdi",
+    "company": "sidion GmbH",
+    "keywords": [
+      "Data-centric Architecture"
+    ],
+    "abstract": "Willkommen in der Zukunft der Cloud-Architektur! Event-driven Architecture war gestern, jetzt steht Data-centric Architecture im Mittelpunkt eurer Cloud-Zukunft.\nNach der Ära der Service-Orientierten Architektur (SOA) haben wir gelernt, wie ein agiles IT-Unternehmen gestaltet sein sollte: fachlicher Schnitt, Entkoppelung, Cloud-Technologien, Microservices – dieser Weg der Digitalisierung ist klar. Doch was kommt als Nächstes? Und machen wir bereits heute alles richtig für die Zukunft?\nWährend wir in Deutschland noch zögerlich auf Event-driven Architekturen umsteigen, geht die Cloud-Welt unaufhaltsam voran. Künstliche Intelligenz (KI) mag uns immer noch als magisch erscheinen, aber bedenkt: Die Basis für KI ist der moderne Rohstoff schlechthin – die DATEN.\nBusiness Intelligence, Data Warehouses, Data Lakes, Big Data – ja, das können wir vielleicht schon. Aber wie steht es um Data Mesh? Wie sollte eine IT-Architektur aussehen, wenn Data-as-a-Service im Zentrum steht, um aus einem Unternehmen ein datengetriebenes Unternehmen zu machen?\nIn dieser Session präsentiere ich die Data-centric Architecture als einen Ansatz, wie der neue Rohstoff der IT so bereitgestellt werden kann, dass er das Unternehmen beflügelt und es fit für die datengetriebene Zukunft macht.",
+    "about_speaker": "(no data)"
+  },
+  {
+    "title": "Azure Container Apps and Dapr - build Microservices state of the art",
+    "time": "Mittwoch 19.06.2024 | 16:00 - 16:45 | Stage 3",
+    "speaker": "Ralf Richter",
+    "company": "shiftavenue GmbH",
+    "keywords": [
+      "Azure",
+      "Container Apps",
+      "dapr"
+    ],
+    "abstract": "Modern software development today often takes place with microservices, which poses different challenges. Using multilingualism in an application can become very useful. But this adds more challenges to the project on the first look. But, there is something to assist you with that!\nIn this session we will talk about multilingual software development with microservices and how Dapr can support us.\nAlready in the more theoretical part we will go into different aspects and then show the implementation in a demo.\nThis is what you can expect in our session:\n- Challenges of polyglot microservices\n- Azure Container App (ACA)\n- Distributed Application Runtime (Dapr)\n- demo\n- Best practices\n- deployment\n- Error handling",
+    "about_speaker": "(no data)"
+  },
+  {
+    "title": "Wie uns Plattform-Engineering produktiver macht",
+    "time": "Mittwoch 19.06.2024 | 17:00 - 17:45 | Stage 3",
+    "speaker": "Alexander Kaserbacher",
+    "company": "embarc Software Consulting GmbH",
+    "keywords": [
+      "Internal Developer Platform",
+      "Plattform-Engineering",
+      "Cloud",
+      "DevOps"
+    ],
+    "abstract": "Eigentlich wollen wir Features und Bugfixes so effizient wie möglich umsetzen und in die Hände von Nutzer*innen bringen. Immerhin wollen wir schneller sein als unsere Konkurrenz. Nun unterstützen uns technologische Trends nicht immer bei diesem zentralen Ziel - ganz im Gegenteil: technische Komplexität und undifferenzierte Verantwortungszuweisungen (“You Build It, You Run It”) erhöhen die Last auf Teams und machen uns langsamer.\nPlattform-Engineering reduziert dieses Risiko, indem es technische Komplexität in einer Internal Developer Plattform (IDP) bündelt und als Angebot für Entwicklungsteams zur Verfügung stellt. Üblicherweise fällt diese Aufgabe in die Hand von dedizierten Plattform-Teams.\nNach diesem Vortrag werdet ihr konkret festmachen können, was erfolgreiche IDPs ausmacht und wie ihr solche entwickelt. Zudem werden wir diskutieren, wie gut umgesetzte IDPs zu erhöhter Produktivität, Zufriedenheit und Liefergeschwindigkeit führen.\nLernziele dieses Vortrags:\n- Ihr könnt den überladenen Begriff “Plattform” einordnen\n- Ihr versteht, warum erfolgreiche IDPs zu höherer Produktivität, Zufriedenheit und Liefergeschwindigkeit führen\n- Ihr wisst, was erfolgreiche IDPs ausmacht und wie sie eine erfolgreiche Plattform entwickeln",
+    "about_speaker": "(no data)"
+  },
+  {
+    "title": "Accelerating Machine Learning with AutoML and AI Services",
+    "time": "Mittwoch 19.06.2024 | 18:00 - 18:45 | Stage 3",
+    "speaker": "Heli Helskyaho",
+    "company": "Miracle Finland Oy",
+    "keywords": [
+      "machine learning",
+      "artificial intelligence",
+      "cloud",
+      "oci"
+    ],
+    "abstract": "The demand for AI-powered solutions and services has increased dramatically. However, developing and deploying AI systems can be a challenging and time-consuming process, requiring significant expertise in machine learning, data analysis, and software development. AutoML and AI Services are powerful tools making AI accessible to a wider range of users. In this presentation, a mother-son duo will provide a comprehensive overview of AutoML and AI Services. By the end of this presentation, attendees will have an understanding of how AutoML and AI Services can help them leverage the power of AI to solve real-world problems, and gain insights from the unique perspectives of both an experienced professional and an emerging talent in the field.",
+    "about_speaker": "(no data)"
+  },
+  {
+    "title": "Einstieg in Azure leicht gemacht",
+    "time": "Mittwoch 19.06.2024 | 11:00 - 11:45 | Stage 4",
+    "speaker": "Gregor Reimling",
+    "company": "Azure Bonn Community",
+    "keywords": [
+      "Azure"
+    ],
+    "abstract": "Damit der Einstieg in Azure leicht gelingen kann, ist ein wenig Begleitung wichtig. In dieser Session werden wir uns mit dem 1x1 der Azure Grundlagen beschäftigen und der Frage nachgehen, welche Punkte und Themen zu berücksichtigen sind, um einen erfolgreichen Start mit Azure zu gewährleisten.\nWir gehen auf die Einstiegsmöglichkeiten ein, welche grundlegenden Themen adressiert werden sollten und welche Azure Services sich perfekt für den Anfang eignen, um mit den vielfältigen Facetten vertraut zu werden.\nAbschließen werden wir die Session mit hilfreichen Tools, um den Einstieg so leicht wie möglich zu machen.",
+    "about_speaker": "(no data)"
+  },
+  {
+    "title": "Private Cloud on a Raspberry PI Cluster",
+    "time": "Mittwoch 19.06.2024 | 12:00 - 12:45 | Stage 4",
+    "speaker": "Muthiah Chidambaram",
+    "keywords": [
+      "Kubernetes",
+      "k3s",
+      "private cloud",
+      "Ansible",
+      "Helm",
+      "Monitoring",
+      "Prometheus",
+      "Grafana",
+      "ML"
+    ],
+    "abstract": "There are a thousand ways to operate Kubernetes clusters on your own or as a managed service in the cloud.\nBut sometimes it just has to be your own local cluster of devices ( maybe a Raspberry Pi or a NUC cluster )…\nFor example…\n - private cluster ( development CI/CD dev / use cases etc - where you don’t want big brother / “AI” snooping.... )\n - IoT use cases ( connected distributed off network devices )\n - Edge use cases ( edge of the network )\n - Local Experimentation of things where you can literally pull the plug [ and put it back in again ! ]…\n - where you can “touch” the hardware until you want to scale up in the cloud ( local version of IoT use case )\n In this presentation, we will look at a small but scalable cluster concept that can demonstrate a local private cloud and a running app to show how easy it could be to set this up at home.\nWe will attempt to demonstrate some use cases for the private cloud cluster, such as :\n - ML powered app stripped down to meet the restrictions of the hardware in question\n - some visualisation metrics and monitoring of the AI application and cluster usage as it is running\nOur goal is to primarily present the setup of the cluster and some use cases after that, and we can have the cluster running after the session to allow audience interaction with the cluster.",
+    "company": "(no data)",
+    "about_speaker": "(no data)"
+  },
+  {
+    "title": "Cloud Reporting im regulierten Umfeld",
+    "time": "Mittwoch 19.06.2024 | 13:00 - 13:45 | Stage 4",
+    "speaker": "Dr. Ina Humpert",
+    "company": "viadee IT-Unternehmensberatung AG",
+    "keywords": [
+      "power bi",
+      "snowflake",
+      "cloud-reporting",
+      "compliance"
+    ],
+    "abstract": "Cloudtechnologien sind in vielen Branchen auf dem Vormarsch. Die Finanzindustrie als stark reguliertes Gebiet hingegen hat es bei der Einführung von Cloudlösungen deutlich schwerer als andere Branchen. In vielen Fällen dominieren Sorgen mit der Einführung von Cloudtechnologien gegen bankrechtliche Vorgaben wie das Kreditwesengesetz oder gesetzliche Vorgaben der Bundesanstalt für Finanzdienstleistungen (BaFin) zu verstoßen. Dieser Sorgen sind sich Cloudanbieter bewusst und Lösungen wie Power BI oder Snowflake implementieren von Haus aus Features, um die Einführung von Cloudtechnologen im Einklang mit bankrechtlichen Vorgaben zu ermöglichen. Im Vortrag stellen wir Features von Power BI und Snowflake und BaFin-Vorgaben gegenüber, die das Wechseln in die Cloud erleichtern. Des Weiteren zeigen wir die Anbindung von Snowflake als Datenquelle für Power BI.\n",
+    "about_speaker": "(no data)"
+  },
+  {
+    "title": "Make standardization fun again - how we create SCS standards",
+    "time": "Mittwoch 19.06.2024 | 14:00 - 14:45 | Stage 4",
+    "speaker": "Kurt Garloff",
+    "company": "OSB Alliance e.V.",
+    "keywords": [
+      "Sovereignity",
+      "Cloud",
+      "Standards",
+      "Certification"
+    ],
+    "abstract": "When technical people think about standardization they think about standards committees with endless discussions that are driven more by political agendas than by solid technical experience. So it's the last place where anyone would want to be and participate in voluntarily.\nBut it does not have to be this way.\nYes, we try to make it fun. A few things we do differently in the Sovereign Cloud Stack community ...\n1. We know why we do it. What do the users need to create portable workloads?\n2. We use standard software development approaches to develop standards. Pull requests are being reviewed.\n3. We develop automated conformance tests which are integrated into CI workflows.\nThe presenter will explain how the process is designed, how it works in practice and where things work well and maybe less well.\nHe will use real-life examples from the Sovereign Cloud Stack project that he technically leads and share some outcomes, standards, tests.",
+    "about_speaker": "(no data)"
+  },
+  {
+    "title": "Nachhaltige Software Deployments in Kubernetes mit Knative Serving",
+    "time": "Mittwoch 19.06.2024 | 15:00 - 15:45 | Stage 4",
+    "speaker": "Marius Stein",
+    "company": "viadee Unternehmensberatung AG / Cloud Native Computing Rheinland",
+    "keywords": [
+      "cloud",
+      "Serverless",
+      "Kubernetes",
+      "DevOps",
+      "Knative",
+      "Nachhaltigkeit"
+    ],
+    "abstract": "In dieser Session zeige ich wie eine Beispiel Java-Anwendung von einem Kubernetes Deployment hin zu einem Serverless Knative Service migriert werden kann. Ich zeige, welche Herausforderungen bei einer solchen Migration auftreten können, wie diese zu lösen sind und welche Vorteile ein Serverloser Knative Service bieten kann. Auch gehe ich auf die Grenzen ein, die dieser Ansatz birgt.\nDiese Session richtet sich an IT-Architekten und Entwickler, die etwas über serverlose Bereitstellungsmodelle in Kubernetes lernen möchten und wie diese dazu beitragen können die Anwendungslandschaft nachhaltiger zu gestalten.\nLernziele:\n•\tVerstehen, wie Knative Serving funktioniert (Routing, Skalierung, etc.)\n•\tLernen, was bei einer Migration beachtet werden muss\n•\tWann lohnt sich eine Migration zu Knative und wann nicht",
+    "about_speaker": "(no data)"
+  },
+  {
+    "title": "Vertrauenswürdige Clouds - Was ist das genau",
+    "time": "Mittwoch 19.06.2024 | 16:00 - 16:45 | Stage 4",
+    "speaker": "Clemens Wunder",
+    "company": "Bundesagentur für Arbeit",
+    "keywords": [
+      "Souveräne Clouds",
+      "Multi-Cloud",
+      "Datenschutz",
+      "Digitale Souveränität"
+    ],
+    "abstract": "Die öffentliche Verwaltung ist beim Einsatz von Cloud Diensten sehr zögerlich. Die Begriff von \"Vertrauenswürdigen Clouds\" soll hier den ein oder anderen Stolperstein aus dem Weg räumen. Ausgehend von einer Begriffsdefinition werden unterschiedliche Rahmenbedingungen zur Cloud Nutzung, Definitionen von Souveränität und Vertrauenswürdigkeit vorgestellt und diskutiert. Dabei werden die Umsetzungsansätze der großen Hyperscaler mit ihren Partner  vorgestellt und mit den Lösungen aus dem deutschen und europäischen Lösungen in Relation gesetzt.",
+    "about_speaker": "(no data)"
+  },
+  {
+    "title": "Was bedeutet digitale Souveränität und wie kann ich diese in einer public Cloud",
+    "time": "Mittwoch 19.06.2024 | 17:00 - 17:45 | Stage 4",
+    "speaker": "Frank Pientka",
+    "keywords": [
+      "DSGVO",
+      "Privacy Shield"
+    ],
+    "abstract": "Bisher waren viele public Cloud Angebote nicht im Einklang mit den europäischen Datenschutzgesetzen oder ließen sich für kritische Anwendungsfälle nutzen.\nWir zeigen welche souveräne Cloud Angebote es gibt und welche Möglichkeiten es  gibt, um dabei seine Souveränität in der Cloud zu behalten.\nWir wollen folgende Fragen beantworten und Lösungen aufzeigen:\nWelches sind die drei Ebenen einer digitalen Souveränität? Wie lassen sich diese DSGVO umsetzen?\nWelche Bedeutung hat die EU-US-Datenschutzvereinbarung \"Privacy Shield\"?\nWie lassen sich Abhängigkeiten zu Anbietern minimieren, um einen späteren Wechsel zu erleichtern?\nWie behalte ich die Kontrolle?\nWas ist Confidential Computing und wie kann ich das nutzen?\nWelche Anwendungsfälle kann ich mit souveränen Cloud Angeboten umsetzen?",
+    "company": "(no data)",
+    "about_speaker": "(no data)"
+  },
+  {
+    "title": "Cloudland Plays!",
+    "time": "Donnerstag 20.06.2024 | 11:00 - 23:00 | Cloud Universe 1 (virtuell)",
+    "speaker": "Igor Gutmann",
+    "company": "InterFace AG",
+    "keywords": [
+      "Spiel",
+      "Spaß",
+      "Zeitvertreib",
+      "MQTT",
+      "JavaScript",
+      "Retro",
+      "Game",
+      "Gemeinsam"
+    ],
+    "abstract": "Nachdem \"Cloudland Plays!\" letztes Jahr schon super beim Konferenzpublikum ankam, wurden keine Kosten und Mühen gescheut, um das Spiel weiterzuentwickeln und es mit einem neuen Twist wieder zur CloudLand mitzubringen.\nAuf einem Fernseher auf dem Konferenzgelände wird eine Anwendung laufen, die inspiriert von \"Twitch plays Pokémon\" geschrieben wurde.\nDas Prinzip von \"Twitch plays\" basiert darauf, dass jede(r) Befehle an das Spiel (voraussichtlich ein Retro-Game wie Pokémon Rote Edition) senden kann und diese dann nacheinander abgearbeitet werden. Dadurch können alle Teilnehmenden der Cloudland über die gesamte Konferenz verteilt gemeinsam spielen.\nWer mitmachen möchte, scannt einen QR-Code und gelangt auf eine Website, über die er Befehle an das Spiel schicken kann. Dies können beliebig viele Leute gleichzeitig machen und immer mal wieder, es bietet sich deswegen also zum Beispiel für Pausenzeiten an.\nDieses Jahr wird es zusätzlich einen Bot geben der versucht, das Spiel durchzuspielen, falls gerade keine Menschen am Spielen sind!",
+    "about_speaker": "(no data)"
+  },
+  {
+    "title": "Retro chic mit Pixel-art Teil 2: IT trifft Lyrik",
+    "time": "Donnerstag 20.06.2024 | 11:00 - 23:00 | Cloud Universe 2 (virtuell)",
+    "speaker": "Nina Körner",
+    "company": "Interface AG / JUG Oberland",
+    "keywords": [
+      "Kunst",
+      "Gamification",
+      "Pixel-art",
+      "Phaser",
+      "Design",
+      "Installation"
+    ],
+    "abstract": "„Bis jetzt wurde jeder Gegner von mir eliminiert!“\n„Das war ja auch leicht, dein Atem hat sie paralysiert.“\n„Ganze Inselreiche haben vor mir kapituliert.“\nWas hat Pixel-art eigentlich mit Lyrik zu tun? Bisher nichts, außer vielleicht lustigen Wortgefechten in so manchem Adventure. Ein guter Grund das zu ändern:\nIn einem Selbstversuch mit Phaser und dem Lyrikband „Jump & Run“ von Christian Schloyer wurde eine spielerische Art Gedichte zu erleben und selbst zusammenzufügen erschaffen. Hierbei soll Lyrik auf eine neue Art erlebbar gemacht werden und damit den Ruf der altbackenen, verstaubten Gedichte aus der Schulzeit hinter sich lassen.\nEs ist nicht nur ein textuelles, sondern auch Audiovisuelles Abenteuer entstanden, das allein, oder auch zu mehrt erlebt werden kann.",
+    "about_speaker": "(no data)"
+  },
+  {
+    "title": "IT-Security Capture the Flag: Hack den OWASP JuiceShop",
+    "time": "Donnerstag 20.06.2024 | 11:00 - 23:00 | Cloud Universe 3 (virtuell)",
+    "speaker": "Bernd Stübinger",
+    "company": "MediaMarktSaturn Technology",
+    "keywords": [
+      "IT-Security",
+      "OWASP"
+    ],
+    "abstract": "Der Saftladen ist zurück!\nWie letztes Jahr hacken wir wieder den OWASP JuiceShop - eine moderne eCommerce Angular WebApp mit einem node.js Backend und einem bunten Strauß an bewusst implementierten Schwachstellen aus dem Fundus der OWASP-Hitlisten. Nehmt entweder als Team oder einzeln an unserer Capture the Flag-Challenge teil und sammelt Punkte durch das Ausnutzen von Sicherheitslücken in der Anwendung.\nNach einer kurzen Einführungs-Session, in der wir die notwendigen Grundlagen vermitteln und die erste Lücke gemeinsam erkunden, läuft die Challenge während des gesamten Festivals und lädt zu gemeinsamen Brainstorming-Sessions und Diskussionen ein. Und wer weiß, vielleicht gibt es ja sogar noch Überraschungsteilnehmer?\nKein Vorwissen erforderlich!",
+    "about_speaker": "(no data)"
+  },
+  {
+    "title": "Interaktiver Hebocon Workshop",
+    "time": "Donnerstag 20.06.2024 | 11:00 - 18:45 | Playground Floor",
+    "speaker": "Qi An",
+    "company": "InterFace AG",
+    "keywords": [
+      "Hebocon",
+      "CrappyRobot",
+      "Battles",
+      "ForEveryone",
+      "Robotic",
+      "Arduino",
+      "KI/AI",
+      "Fortgeschrittenen geeignet",
+      "Einsteigerfreundlich",
+      "Spaß"
+    ],
+    "abstract": "Wir veranstalten im Rahmen der CloudLand einen interaktiven Hebocon Workshop und jeder kann mitmachen.\nDabei geht es um kleine Roboter, die individuell aus verschiedenen Bauteilen wie u.a. Räder, Platine, Sensoren zusammengebaut werden und gegeneinander in kleinen Roboterkämpfen antreten.\nWir bieten euch dabei die Möglichkeit aus den von uns mitgebrachten Bestandteilen einen eigenen, kleinen Roboter zu bauen und auch durch eigene, weitere Bestandteile zu erweitern. Zusätzlich stellen wir per GitHub eine Codebasis zur Verfügung, mit der es bereits möglich ist, den eigenen Roboter zu bedienen. Der Roboter kann mit verschiedenen Steuerungsmöglichkeiten u.a. auch per Gestensteuerung über Künstlicher Intelligenz (KI) gesteuert werden.\nSobald zwei Roboter gebaut und die Software angepasst wurde, können die beiden gegeneinander antreten. Dabei ist die Challenge entweder den anderen Roboter aus dem definierten Spielfeld drängen oder bewegungsunfähig machen.\nGebastelt und ausprobiert wird am Mittwoch und Donnerstag. Am Donnerstagabend zur Gaming Night wird es dann das große Turnier mit Siegerehrung und Preisen geben.\nZiel des interaktiven Formats ist es, Spaß am Ausprobieren von Hardware und Code am eigenen Roboter zu bereiten. Darüber hinaus wird die Verzahnung und Interaktion zwischen Hardware und Software der Roboter dargestellt.\n",
+    "about_speaker": "(no data)"
+  },
+  {
+    "title": "WELCOME TO CLOUDLAND 2024",
+    "time": "Mittwoch 19.06.2024 | 10:30 - 11:00 | Community Hall",
+    "speaker": "Fried Saacke",
+    "company": "DOAG Dienstleistungen GmbH",
+    "abstract": "Fried Saacke, Geschäftsführer der DOAG Dienstleistungen GmbH und André Sept, Vorstand der DOAG und Leiter der Deutschsprachigen Cloud Native Community, begrüßen euch herzlich zur diesjährigen Ausgabe der CloudLand und werden mit ein paar einleitenden Worten das Cloud Native Festival eröffnen.",
+    "keywords": "(no data)",
+    "about_speaker": "(no data)"
+  },
+  {
+    "title": "IT-Security Capture the Flag: Hack den OWASP JuiceShop",
+    "time": "Donnerstag 20.06.2024 | 11:00 - 23:00 | Cloud Universe 3 (virtuell)",
+    "speaker": "Bernd Stübinger",
+    "company": "MediaMarktSaturn Technology",
+    "keywords": [
+      "IT-Security",
+      "OWASP"
+    ],
+    "abstract": "Der Saftladen ist zurück!\nWie letztes Jahr hacken wir wieder den OWASP JuiceShop - eine moderne eCommerce Angular WebApp mit einem node.js Backend und einem bunten Strauß an bewusst implementierten Schwachstellen aus dem Fundus der OWASP-Hitlisten. Nehmt entweder als Team oder einzeln an unserer Capture the Flag-Challenge teil und sammelt Punkte durch das Ausnutzen von Sicherheitslücken in der Anwendung.\nNach einer kurzen Einführungs-Session, in der wir die notwendigen Grundlagen vermitteln und die erste Lücke gemeinsam erkunden, läuft die Challenge während des gesamten Festivals und lädt zu gemeinsamen Brainstorming-Sessions und Diskussionen ein. Und wer weiß, vielleicht gibt es ja sogar noch Überraschungsteilnehmer?\nKein Vorwissen erforderlich!",
+    "about_speaker": "(no data)"
+  },
+  {
+    "title": "CDK challenge - Klickst Du noch oder automatisierst Du schon?",
+    "time": "Mittwoch 19.06.2024 | 13:00 - 14:45 | Blue Lounge",
+    "speaker": "Jan Weyrich",
+    "company": "viadee Unternehmensberatung AG/ Cloud Native Computing Rheinland",
+    "keywords": [
+      "AWS",
+      "CDK",
+      "IaC",
+      "challenge",
+      "interactive"
+    ],
+    "abstract": "Wagt euch an die CDK Challenge und findet heraus, welches Level ihr innerhalb von 2 Stunden erreichen könnt. Nach einem gemeinsamen Onboarding löst ihr in kleinen Teams verschiedene Infrastructure-as-Code-Aufgaben und lernt spielend CDK kennen. Jede Aufgabe bringt euch auf ein neues Level und zu den nächsten Herausforderungen. Den Siegern der Challenge winken Ruhm, Ehre, Know-How und ausgefallene Preise.   \nAWS Cloud Development Kit (CDK) bietet - als Infrastructure-as-Code - automatisierte und reproduzierbare Infrastruktur-Setups mit gewohnten Programmiersprachen. Vom Container-Deployment über Service Accounts bis hin zu ganzen Cluster-Setups.",
+    "about_speaker": "(no data)"
+  },
+  {
+    "title": "Alexa kann einpacken! Wir bauen unseren eigenen GenAI Sprachassistent mit AWS und Homeassistant",
+    "time": "Mittwoch 19.06.2024 | 15:00 - 16:45 | Blue Lounge",
+    "speaker": "Paul Enno Schulte",
+    "company": "Amazon Web Services (AWS)",
+    "keywords": [
+      "AWS",
+      "Innovation",
+      "IoT",
+      "EKS",
+      "Container",
+      "Fun",
+      "HomeAssistant",
+      "Automation",
+      "GenAI",
+      "LLM",
+      "AI"
+    ],
+    "abstract": "Wir konfigurieren gemeinsam einen Conversation Agent in HomeAssistant und verbinden diesen nahtlos mit einem leistungsstarken Large Language Model (LLM) aus Amazon Bedrock. Indem du dann ein AtomEcho Device integrierst, ensteht dein KI-Assistent mit beeindruckendem Sprachinterface zum Leben – vergleichbar mit einer selbst gebauten Alexa, aber viel cooler!\nDas Besondere: Mit Amazon Bedrock hast du die Möglichkeit, flexibel zwischen verschiedenen LLM-Modellen wie Claude, Llama2 oder Mistral AI zu wechseln und das Optimale für deine Bedürfnisse zu finden. Und falls du Halluzinationen vermeiden möchtest, kannst du sogar deine eigene Knowledge Base hinterlegen und so deinen ganz persönlichen, maßgeschneiderten Assistenten kreieren.\nLass dich von der Macht GenAI basierter Sprachassistenten begeistern und erschaffe in diesem spannenden Workshop dein intelligentes Zuhause der Zukunft!\nIn diesem Workshop erhältst du die Möglichkeit, die neuesten KI-Technologien von Amazon Web Services (AWS) selbst auszuprobieren. Accounts und IoT Hardware werden von AWS mitgebracht.\n",
+    "about_speaker": "(no data)"
+  },
+  {
+    "title": "Build Your Own Cloud-Native AI: A learning story",
+    "time": "Mittwoch 19.06.2024 | 17:00 - 18:45 | Blue Lounge",
+    "speaker": "Michael Friedrich",
+    "company": "GitLab",
+    "keywords": [
+      "AI",
+      "cloudnative",
+      "observability",
+      "ollama"
+    ],
+    "abstract": "AI is everywhere. Existing use cases encourage playful learning: A chat prompt with explanations or your next cover letter pair writer. Users adopt new possibilities and request more features: Go beyond a conversational chat prompt and add intelligent source code suggestions. It is time to look into extending and customizing models. But wait … do we need SaaS AI APIs, or can we start locally somehow?\nJoin this workshop to explore running Large Language Models (LLMs) locally or in self-managed Kubernetes clusters. By the example of Ollama, practical exercises start with simple prompts for different LLMs. The story continues with advanced development by adding more context data and asking refined questions.\nThe workshop concludes with the question: Will it be possible to create our own AI pair programmer? We will see about code suggestions and explore more topics: Privacy concerns, LLM Observability, cost, and performance questions.",
+    "about_speaker": "(no data)"
+  },
+  {
+    "title": "Mit APIs auf dem Pfad zu evolutionären Architekturen",
+    "time": "Mittwoch 19.06.2024 | 11:00 - 13:45 | Red Lounge",
+    "speaker": "Daniel Kocot",
+    "company": "codecentric AG",
+    "keywords": [
+      "API",
+      "Evolutionary Architecture",
+      "Fitness Functions"
+    ],
+    "abstract": "Im dynamischen Kontext der Softwareentwicklung spielen evolutionäre Architekturen eine zentrale Rolle, indem sie Anpassungsfähigkeit und langfristige Robustheit von Systemen sicherstellen. Der Schlüssel zu effektiven evolutionären Architekturen liegt in der intelligenten Nutzung von APIs und der systematischen Bewertung architektonischer Entscheidungen durch Fitness Functions. In unserem eintägigen Workshop \"Mit APIs auf dem Pfad zu evolutionären Architekturen\" tauchen die Teilnehmer tief in die Welt der APIs ein, erkunden ihre Rolle in der Schaffung flexibler Architekturen und lernen, wie Fitness Functions zur kontinuierlichen Bewertung und Verbesserung der Systemarchitektur eingesetzt werden können.\nDer Workshop kombiniert theoretische Einblicke mit praktischen Anwendungen. Teilnehmer erhalten zuerst einen soliden Überblick über evolutionäre Architekturprinzipien, gefolgt von einer detaillierten Betrachtung von API-Designprinzipien, Sicherheitsaspekten und Dokumentationsstrategien. Ein bedeutender Teil des Workshops widmet sich der Einführung und dem Einsatz von Fitness Functions, ein innovatives Konzept zur Messung der \"Gesundheit\" von Softwarearchitekturen.",
+    "about_speaker": "(no data)"
+  },
+  {
+    "title": "HandsOn K8s Operators",
+    "time": "Mittwoch 19.06.2024 | 15:00 - 16:45 | Red Lounge",
+    "speaker": "Matthias Alt",
+    "company": "DATEV eG",
+    "keywords": [
+      "k8s",
+      "operators",
+      "josdk"
+    ],
+    "abstract": "Operatoren ermöglichen es uns unsere Kubernetes-Cluster um zusätzliche Funktionalitäten auf einen  zu erweitern. In dieser 90-minütigen Session werden die Teilnehmer nicht nur die Grundlagen von Operatoren kennenlernen, sondern auch verstehen, wie Operatoren Kubernetes um weitere Funktionen erweitern können.\nWir werden zusammen mit Hilfe des JOSDK einen einfachen Operator implementieren und diesen dann auch in einen Cluster deployen.\nUngefährer Ablauf:\n- Einführung in die Erweiterung der Kubernetes-Funktionalität durch Operatoren (15 Minuten).\n- Java Operator SDK und Einrichtung (20 Minuten).\n- Grundlagen des Operators für Funktionalitätserweiterung (15 Minuten).\n- HandsOn: Entwicklung des Operators (30 Minuten).\n- Testing und Debugging (10 Minuten).\n- Fazit und Ausblick (10 Minuten).\nDieser Workshop bietet eine einzigartige Gelegenheit, tiefer in die Erweiterung der Kubernetes-Funktionalität mittels Operatoren einzutauchen. Die Teilnehmer werden befähigt, Kubernetes optimal auf ihre individuellen Anforderungen anzupassen und die Plattform effektiv zu erweitern.",
+    "about_speaker": "(no data)"
+  },
+  {
+    "title": "Cilium Cluster Mesh",
+    "time": "Mittwoch 19.06.2024 | 17:00 - 18:45 | Red Lounge",
+    "speaker": "stephane karagulmez",
+    "company": "Isovalent",
+    "keywords": [
+      "service mesh",
+      "Kubernetes",
+      "Containers",
+      "Network"
+    ],
+    "abstract": "With the rise of Kubernetes adoption, an increasing number of clusters is deployed for various needs, and it is becoming common for companies to have clusters running on multiple cloud providers, as well as on-premise.\nKubernetes Federation has for a few years brought the promise of connecting these clusters into multi-zone layers, but latency issues are more often than not preventing such architectures.\nCilium Cluster Mesh allows you to connect the networks of multiple clusters in such as way that pods in each cluster can discover and access services in all other clusters of the mesh, provided all the clusters run Cilium as their CNI.\nThis allows to effectively join multiple clusters into a large unified network, regardless of the Kubernetes distribution each of them is running.\nDuring this workshop, we will see how to set up Cilium Cluster Mesh, and the benefits from such an architecture.",
+    "about_speaker": "(no data)"
+  },
+  {
+    "title": "Effiziente Frontendentwicklung: Viele Teams und viele Releases",
+    "time": "Mittwoch 19.06.2024 | 13:00 - 14:45 | Green Lounge",
+    "speaker": "Henry Moser",
+    "company": "SINTEC Informatik GmbH",
+    "keywords": [
+      "Angular",
+      "Frontend",
+      "Team-Organisation",
+      "Micro-Services"
+    ],
+    "abstract": "Der Workshop \"Effiziente Frontendentwicklung: Viele Teams und viele Releases\" bietet einen tiefen Einblick in die Entwicklung von Software-Anwendungen durch mehrere Teams. Wir besprechen die Vor- und Nachteile von drei unterschiedlichen Ansätzen:\n(1) Build-Monolith\n(2) Micro Frontends\n(3 )Module Federation.\nDabei geht es um Auswirkungen auf den Anwender, Organisation von Teams, die Strukturierung von Repositories, Erstellung von Releases sowie Herausforderungen, die sich bei Wartung und Betrieb der Anwendung ergeben.\nIm praktischen Teil des Workshops haben die Teilnehmer die Möglichkeit unter Verwendung von Angular eigene Micro Frontends zu erstellen. Sie entwickeln und deployen die einzelnen Frontends unabhängig voneinander und integrieren diese dann mittels Module Federation dynamisch zur Laufzeit in das Hauptfrontend.",
+    "about_speaker": "(no data)"
+  },
+  {
+    "title": "Der LGTM-Stack: Open Source Observability für hybride Cloud-Infrastruktur",
+    "time": "Mittwoch 19.06.2024 | 16:00 - 18:45 | Green Lounge",
+    "speaker": "Thorsten Wussow",
+    "company": "SLIX Gesellschaft für Computersysteme mbH",
+    "keywords": [
+      "Observability",
+      "Tracing",
+      "Monitoring",
+      "Grafana",
+      "Loki",
+      "Mimir",
+      "LGTM",
+      "DevOps",
+      "Workshop"
+    ],
+    "abstract": "Ohne Observability-Tools ist die Komplexität heutiger hybrider Cloud-Infrastrukturen kaum zu bewältigen. In diesem Workshop geht es um den von Grafana Labs vorgelegten LGTM-Stack: Loki, Grafana, Tempo und Mimir.\nDie Free- und-Open-Source-Produktfamilie baut auf die integrierte Darstellung von Metriken, Logs und Traces in den beliebten Grafana-Dashboards. Das Versprechen lautet: Das Korrelieren von Metriken, Logs und Traces gelingt auf diese Weise mit wenigen Mausklicks auf einer einzigen Oberfläche.\nZusammen mit den Teilnehmenden setzen wir einen LGTM-Stack auf einem lokalen Kubernetes-Cluster (oder in der Cloud) auf und binden später auch eine Cloud-Umgebung ein. Zum sammeln der Daten wird ein Grafana Agent entsprechend konfiguriert. Zum visualisieren der Daten konfigurieren wir entsprechende Grafana-Dashboards und ermöglichen es den Teilnehmenden, dass sie sich selbst einen Eindruck von der Leistungsfähigkeit dieses Ansatzes verschaffen können.\nZusammen mit den eingebrachten Erfahrungen der Teilnehmenden aus dem Umgang mit den „Platzhirschen“ ELK-Stack, Jaeger und Prometheus wird das Ergebnis des Workshops sowohl aus eigenen, praktischen Erfahrungen mit dem spezifischen LGTM-Stack als auch in einem umfassenden Überblick über die aktuelle Observability-Landschaft bestehen.",
+    "about_speaker": "(no data)"
+  },
+  {
+    "title": "Selbstorganisation durch Systemvisualisierung greifbar machen",
+    "time": "Mittwoch 19.06.2024 | 11:00 - 13:45 | QAware Lounge",
+    "speaker": "Dr. Rebekka Mander",
+    "company": "ValueRise Consulting",
+    "keywords": [
+      "Agile",
+      "Selbstorganisation",
+      "Self-Leadership",
+      "Analoges Coaching",
+      "Liberating Structures"
+    ],
+    "abstract": "Im Workshop nehmt ihr Handwerkszeug mit, um eure Teams bei dem Weg in die Selbstorganisation zu unterstützen. Ob Scrum Master, Personalentwicklerinnen oder andere Personen, die Führungsaufgaben übernehmen – ihr werdet durch gemeinsames Ausprobieren lernen, wie Organisationen die passenden Strukturen für selbstorganisierte Teams schaffen können.\nAm Anfang steht ein Transformationsprozess, bei dem es darauf ankommt, einen Schritt nach dem anderen zu gehen und in vernetzten sowie transparenten Strukturen zu denken. Gleichzeitig darf dieser Prozess nicht zu schwergewichtig werden, um bei Änderungen schnell angepasst werden zu können. Wenn selbstorganisierte Teams bereits bestehen, steht die kontinuierliche Verbesserung der Zusammenarbeit und der passenden Strukturen in ihrem Umfeld im Vordergrund.\nWir arbeiten anhand analoger Coachingtechniken heraus, was die Teams benötigen und wie sie abhängig von ihren Anforderungen möglichst gut aufgestellt sind. Durch diese Systemvisualisierung wird für alle Beteiligten greifbar, wie das Zielbild aussieht und welche Rahmenbedingungen dazu gehören. Mögliche ungeklärte Fragen kommen so außerdem frühzeitig ans Licht. Ihr könnt schließlich ein Foto eurer Visualisierung machen und so das Ergebnis mitnehmen.\nUm dem komplexen Thema gerecht zu werden, dauert der Workshop zwei Stunden. Im Anschluss könnt ihr gerne noch bleiben, um Fragen zu besprechen. Ich freue mich über den Austausch und angeregte Diskussionen zu euren bisherigen Erfahrungen.",
+    "about_speaker": "(no data)"
+  },
+  {
+    "title": "Terratest für Terraform - Vertraut eurem IaC-Code",
+    "time": "Mittwoch 19.06.2024 | 14:00 - 15:45 | QAware Lounge",
+    "speaker": "Robert Krul",
+    "company": "SINTEC Informatik GmbH",
+    "keywords": [
+      "Terratest",
+      "Terraform",
+      "IaC",
+      "Test"
+    ],
+    "abstract": "Ihr wollt sicher sein, dass euer Infrastruktur-Code nicht nur funktioniert, sondern auch unter allen Bedingungen stabil bleibt?\nDann ist dieser Workshop genau das Richtige für euch. Wir lernen gemeinsam Terratest - eine auf Go basierende Bibliothek, die speziell für das Testen von Infrastruktur-Code (nicht nur für Terraform) entwickelt wurde. Terratest unterstützt die meisten gängigen Cloud-Native-Infrastruktur-Tools und kann vom Unit-Test bis zum Ende-zu-Ende Test alles abdecken. Dabei wird eine Test-Infrastruktur in eine reale Umgebung geladen, überprüft und anschließend wieder entfernt.\nIm Workshop werden wir das gemeinsam an einem Terraform-Deployment ausprobieren.",
+    "about_speaker": "(no data)"
+  },
+  {
+    "title": "AWS IoT Core <3 Kubernetes - A love story from the edge",
+    "time": "Mittwoch 19.06.2024 | 17:00 - 18:45 | QAware Lounge",
+    "speaker": "Dominic Giebert",
+    "company": "SUSE Software Solutions Germany GmbH",
+    "keywords": [
+      "AWS",
+      "IoT",
+      "Kubernetes",
+      "k3s",
+      "Rancher",
+      "Elemental",
+      "serverless"
+    ],
+    "abstract": "Im Industrial Internet der Dinge (IIoT) entstehen große Datenmengen, die effizient sowohl auf den Endgeräten als auch in der Cloud verarbeitet werden müssen. In unserem Workshop untersuchen wir eine potenzielle Lösung: Kubernetes on Edge in Verbindung mit AWS IoT. Diese Kombination ermöglicht eine übersichtliche Verwaltung und hohe Skalierbarkeit großer Mengen an Edge Devices und Datenpunkten.\nIm Serverumfeld hat sich Kubernetes als der de facto Standard etabliert, um Anwendungen nicht mehr einzeln sondern deklarativ auf Knoten zu verteilen. Wir verwenden im Workshop k3s, eine leichtgewichtige und für Edge-Szenarien optimierte Kubernetes Variante.\nUnter den Hyperscalern hat AWS derzeit das umfangreichste und vielseitigste Angebot an IoT Services. In unserer Demo werden wir einige Services vorstellen, die wir zur Aggregation, Aufbereitung und Auswertung der Daten verwenden.\nWir werden im Raum des Workshops einige Raspberry Pis mit angeschlossenen Sensoren verteilen, die Installation des Betriebssytems, k3s und aller Applikationen erfolgt vollautomatisiert. Anschließend senden die Raspberry Pis Daten an AWS IoT Core, die wir aufbereiten um sie live während des Workshops in AWS Quicksight auszuwerten.\nWir werden einerseits auf die Besonderheiten von Kubernetes on Edge eingehen (inklusive Integration von Sensoren) sowie Best Practices beim Erstellen einer Serverless AWS IoT Lösung.",
+    "about_speaker": "(no data)"
+  },
+  {
+    "title": "Vollständige Home-IT-Automatisierung mit GitHub, Ansible und Semaphore",
+    "time": "Mittwoch 19.06.2024 | 11:00 - 12:45 | Orange Lounge",
+    "speaker": "David Koenig",
+    "company": "shiftavenue GmbH",
+    "keywords": [
+      "Ansible",
+      "Semaphore",
+      "GitHub"
+    ],
+    "abstract": "Wie oft haben wir schon alle unsere IT Businesssysteme zu Hause aufgebaut und nach 3 Monaten festgestellt: Nach den ersten voll motivierten Aktionen ist das System eingestaubt, weil doch viel zu aufwändig der ganze Driss. In diesem Vortrag zeige ich Dir wie du absolut minimalistisch eine Umgebung auf Basis von GitHub, Ansible und Semaphore aufbaust die super easy zu verstehen ist, leicht zu verwalten, wenig Overhead produziert und trotzdem einigermaßen abgesichert ist. Am Ende diesen Workshops, hast du eine vollständig funktionierende Umgebung mit einer Ansible Umgebung, einer grafischen Oberfläche und einem automatisch provisionierten Homeassistent-Container.",
+    "about_speaker": "(no data)"
+  },
+  {
+    "title": "Renovate Bot Advanced Workshop",
+    "time": "Mittwoch 19.06.2024 | 13:00 - 14:45 | Orange Lounge",
+    "speaker": "Dr. Marius Shekow",
+    "company": "SprintEins GmbH",
+    "keywords": [
+      "renovate",
+      "dependency management",
+      "technical debt"
+    ],
+    "abstract": "In diesem Hands-On Workshop setzen wir fortgeschrittene Tricks mit Renovate Bot um. Es gibt vorbereitete Übungsaufgaben und zugehörige Git Repositories, die ihr klont und dann den Renovate Bot auf die geklonten Repositories ansetzt. Wir verwenden unsere eigene, lokale Renovate Bot Instanz, mit Hilfe von Docker. Die Materialien gibt es hier: https://rb.gy/kdaroo\nZu Beginn der Session werden die folgenden Advanced Konzepte in ca. 15 Minuten kurz vorgestellt:\nWo konfiguriere ich was? Globale Config vs. Repository Config\nManagers vs. data sources, was ist der Unterschied?\nPost Upgrade Tasks & RegEx Manager, was ist das und wann brauche ich das?\nWie entwickeln sich unsere technischen Schulden (→ Visualisierung der Renovate PRs)\nIch bringe folgende vorbereitete Aufgaben mit:\nManuelle Gruppierung von Dependencies, um die PR-Anzahl zu reduzieren\nPost Upgrade Task, am Beispiel eines Downloads von Helm Chart Quellcode\nRegEx Manager: Aktualisierung von Tool-Versionen in einem GitHub Actions Workflow\n",
+    "about_speaker": "(no data)"
+  },
+  {
+    "title": "CloudLand Technology Radar",
+    "time": "Mittwoch 19.06.2024 | 15:00 - 16:45 | Orange Lounge",
+    "speaker": "Michel Hartmann",
+    "company": "FLYERALARM BitLabs GmbH",
+    "keywords": [
+      "brainstorming",
+      "diskussion",
+      "austausch",
+      "erfahrungen"
+    ],
+    "abstract": "Das Leben in den Wolken kann so schön sein. Regelmäßig erblicken neue Techniken das Licht der Welt, die uns versprechen, das Arbeitsleben leichter und schöner zu machen. Aber leistet diese Technik tatsächlich, was sie verspricht? Und bringt sie dabei ggf. Nachteile mit sich, durch die der Einsatz weniger zweckdienlich ist?\nUm solche Fragen zu klären, ist es sinnvoll, dass wir uns mit Gleichgesinnten über unsere Erfahrungen austauschen. In einigen Unternehmen wird diese Erfahrung in einem sog. Technology Radar gesammelt, der Aufschluss darüber gibt, welche Technologien zu empfehlen sind und wovon man eher die Finger lassen sollte.\nIm Rahmen dieser Session wollen auch wir die Erfahrungen der Teilnehmer sammeln und zu einem eigenen CloudLand Technology Radar zusammenstellen. Dabei werden wir uns neben der Methodik selbst in einem Rundumschlag intensiv mit verschiedensten Technologien aus dem Cloud-Umfeld beschäftigen.",
+    "about_speaker": "(no data)"
+  },
+  {
+    "title": "It depends... aber was, wenn nicht?",
+    "time": "Mittwoch 19.06.2024 | 18:00 - 18:45 | Orange Lounge",
+    "speaker": "Richard Zimmermann",
+    "company": "Nordcloud Deutschland GmbH",
+    "keywords": [
+      "Platform Engineering",
+      "Architecture",
+      "Automatisierung",
+      "Strategie",
+      "Foundation"
+    ],
+    "abstract": "Wie würde die IT ohne Kompromisse aussehen? Dafür oder dagegen? Alles selber machen oder alles machen lassen? Alles automatisieren oder ClickOps for life? Native Services der Hyperscaler nutzen oder alles Cloud agnostisch in Container packen? Platform Engineering oder Ad-hoc-Entwicklung? Event Driven Architecture oder Batch Processing?\nDas ein oder andere Extrem haben wir in der Vergangenheit schon gesehen. Wir wollen von euch wissen wir ihr dazu steht, welche Konsequenzen eure Entscheidungen haben und wie ihr (hoffentlich) wieder aus dem Schlamassel raus kommt.",
+    "about_speaker": "(no data)"
+  },
+  {
+    "title": "Cloud Migration Journey für Enterprise",
+    "time": "Freitag 21.06.2024 | 11:00 - 11:45 | Stage 1",
+    "speaker": "Hamed Roknizadeh",
+    "company": "CloudMent",
+    "keywords": [
+      "cloud",
+      "cloud migration",
+      "cloud startegy"
+    ],
+    "abstract": "Eine erfolgreiche Cloud-Migration erfordert eine enge Zusammenarbeit zwischen den technischen und organisatorischen Teams, um sicherzustellen, dass alle Aspekte des Umstiegs gut koordiniert sind und die Ziele der Organisation erreicht werden. Daher oft wird es Cloud-Migrationsreise genannt, die beschreibt den Prozess des Umstiegs von einem On-premises auf eine Cloud-Infrastruktur. Dieser Prozess umfasst in der Regel eine sorgfältige Planung und Vorbereitung der Anwendungen und Daten, die in die Cloud migriert werden sollen. Die Migration erfordert oft eine Zusammenarbeit zwischen verschiedenen Teams, wie z.B. den IT-Abteilungen, Entwicklern, CSO und Business-Teams, um sicherzustellen, dass die Migration erfolgreich ist und die Anforderungen der Organisation erfüllt. Die Cloud-Migrationsreise ist eine bedeutende Veränderung, die oft sowohl technische als auch organisatorische Anpassungen erfordert.\nIn meinem Vortrag erfahren Sie, wie der Weg der Cloud-Migration aussieht und wie die Enterprise-Unternehmen mit den Herausforderungen der Cloud-Migration umgehen",
+    "about_speaker": "(no data)"
+  },
+  {
+    "title": "CRUDzefix - Warum APIs unabhängig designed werden sollen",
+    "time": "Freitag 21.06.2024 | 15:00 - 15:45 | Blue Lounge",
+    "speaker": "Uwe Neukam",
+    "keywords": [
+      "Software Architektur",
+      "API Design",
+      "OpenAPI",
+      "Entwicklung"
+    ],
+    "abstract": "APIs sind in der Welt des Internets und der Cloudwelt die Eintrittskarte in Leistungsangebote von Unternehmen. Viele von den Angeboten haben wir selbst schon einmal genutzt und waren einmal mehr, aber auch weniger zufrieden mit den angebotenen APIs. Für Anbieter ist es aber auch nicht einfach, den richtigen Geschmack von Benutzern zu treffen, damit sich der Aufwand für APIs und Unternehmen auch rechnet.\nDie Session zeigt auf, warum manche Design Strategien nicht funktionieren und somit mehr Aufwand, mit wenig Ertrag generieren. Wie diesen begegnet werden kann und vor allen was es an guten Praktiken so gibt, um auch gute APIs zu formulieren, welche Benutzer gerne verwenden.\nLernziele\n- Designschwächen erkennen und korrigieren\n- Kennenlernen von Methodiken für den geeigneten API Schnitt\n- Business- vs. Platform APIs - welcher Typus für welches Problem der richtige ist\n- Was bedeutet API as a Product?\nVorkenntnisse\nEntwicklung",
+    "company": "(no data)",
+    "about_speaker": "(no data)"
+  }
+]
