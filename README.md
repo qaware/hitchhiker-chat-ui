@@ -1,4 +1,9 @@
-## This is a fork of https://github.com/thomashacker/weaviate-magic-chat-demo.git
+#### This is a fork of https://github.com/thomashacker/weaviate-magic-chat-demo.git
+
+
+
+![Alt text](/static/screenshot.png "Screenshot")
+
 
 # Local Setup
 
