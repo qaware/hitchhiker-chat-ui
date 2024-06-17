@@ -129,7 +129,6 @@ with col2:
                     message_placeholder = st.empty()
                     full_response = ""
                     for chunk in chat_response_intro.split():
-                        # print("chunk is '"+chunk+'"')
                         full_response += chunk + " "
                         time.sleep(0.02)
                         # Add a blinking cursor to simulate typing
@@ -147,7 +146,6 @@ with col2:
 
                     full_response = ""
                     for chunk in chat_response_details.split():
-                        # print("chunk is '"+chunk+'"')
                         full_response += chunk + " "
                         time.sleep(0.02)
                         # Add a blinking cursor to simulate typing
@@ -165,7 +163,6 @@ with col2:
                     assistant_response = "Könntest du uns etwas mehr Informationen geben, um das Problem zu beschreiben?"
                     full_response = ""
                     for chunk in assistant_response.split():
-                        # print("chunk is '"+chunk+'"')
                         full_response += chunk + " "
                         time.sleep(0.02)
                         # Add a blinking cursor to simulate typing
@@ -199,9 +196,7 @@ with col2:
                 for line in chat_response.splitlines(keepends=True):
                     message_placeholder = st.empty()
                     full_response = ""
-                    print("line is: "+line)
                     for chunk in line.split():
-                        # print("chunk is '"+chunk+'"')
                         full_response += chunk + " "
                         time.sleep(0.02)
                         # Add a blinking cursor to simulate typing

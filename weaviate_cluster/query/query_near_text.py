@@ -10,8 +10,6 @@ def query_ai_solutions(text):
             query=text,
             return_metadata=weaviate.classes.query.MetadataQuery(certainty=True, distance=True)
         )
-        print("in query_ai_solutions")
-        print(solution_query_result.objects[0])
         return solution_query_result.objects[0]
 
 
@@ -23,7 +21,6 @@ def query_talks(text):
             query=text,
             return_metadata=weaviate.classes.query.MetadataQuery(certainty=True, distance=True)
         )
-        print(talk_query_result.objects[0])
         return talk_query_result.objects
 
 
