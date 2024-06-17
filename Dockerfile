@@ -16,12 +16,12 @@ RUN apt-get update && apt-get install -y \
 USER appuser
 WORKDIR /home/appuser
 
-COPY requirements.txt /home/appuser/
+COPY . /home/appuser/
+
 ENV VIRTUAL_ENV=/home/appuser/venv
 RUN virtualenv ${VIRTUAL_ENV}
 RUN . ${VIRTUAL_ENV}/bin/activate && pip install -r requirements.txt
 
-COPY .. /home/appuser/
 
 EXPOSE 8501
 
