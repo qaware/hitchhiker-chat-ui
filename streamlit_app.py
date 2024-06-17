@@ -1,11 +1,10 @@
-from weaviate_cluster.client.client import connect_to_cluster_as_streamlit
 import streamlit as st
 import time
 
 
 from dotenv import load_dotenv
 
-from weaviate_cluster.query.query_near_text import query_ai_solutions
+from weaviate_cluster.query.query_near_text import query_ai_solutions, query_talks
 
 # Note: This file must be executed using the Streamlit executable!
 
@@ -23,8 +22,18 @@ def display_chat_messages() -> None:
     """
     for message in st.session_state.messages:
         with st.chat_message(message["role"]):
-            st.markdown(message["content"])
+            for line in message["content"]:
+                st.markdown(line)
 
+def proc():
+    st.session_state.mode = mode
+    st.session_state.messages = []
+
+with st.sidebar:
+    mode = st.radio(
+        "Antworten zu...", options=["Cloudland", "QAware AI Lösungen"], index=0,
+        on_change=proc
+    )
 
 # Title
 st.title("QAware @ Cloudland 2024")
@@ -52,27 +61,15 @@ with col2:
     """
     st.markdown(background_image, unsafe_allow_html=True)
 
-    # Connection to Weaviate thorugh Connector
-    conn = connect_to_cluster_as_streamlit()
-
-
     # Initialize chat history
-    if "messages" not in st.session_state:
+    if "messages" not in st.session_state or st.session_state.messages == []:
         st.session_state.messages = []
-        st.session_state.wasGreeted = False
-
+        if mode == "QAware AI Lösungen":
+            st.session_state.messages.append({"role": "assistant", "content": ["Hallo! Ich bin der AI-Chatbot von QAware, Ihr Assistent bei der Suche nach der besten Lösung für Ihr AI-Problem. Los geht's!"]})
+        else:
+            st.session_state.messages.append({"role": "assistant", "content": ["Hallo! Ich bin der AI-Chatbot von QAware und kann Ihnen Talks auf der Cloudland empfehlen."]})
     # Display chat messages from history on app rerun
-    print("Rerunning.")
     display_chat_messages()
-
-    # Greet user
-    if not st.session_state.wasGreeted:
-        with st.chat_message("assistant"):
-            intro = "Hallo! Ich bin der AI-Chatbot von QAware, Ihr Assistent bei der Suche nach der besten Lösung für Ihr AI-Problem. Los geht's!"
-            st.markdown(intro)
-            # Add assistant response to chat history
-            st.session_state.messages.append({"role": "assistant", "content": intro})
-            st.session_state.wasGreeted = True
 
     # Example prompts
     example_prompts = [
@@ -98,21 +95,25 @@ with col2:
 
     button_pressed = ""
 
-    # Display buttons and check for clicks
-    for i, (prompt, help_text) in enumerate(buttons):
-        if rows[i // 3][i % 3].button(prompt, help=help_text):
-            button_pressed = prompt
+    if mode == "QAware AI Lösungen":
+        # Display buttons and check for clicks
+        for i, (prompt, help_text) in enumerate(buttons):
+            if rows[i // 3][i % 3].button(prompt, help=help_text):
+                button_pressed = prompt
+        text = "Vor welchen AI Herausforderungen steht Ihr Unternehmen?"
+    else:
+        text = "Für welche Themenbereiche interessieren Sie sich auf der Cloudland?"
 
-    if prompt := (st.chat_input("Vor welchen AI Herausforderungen steht Ihr Unternehmen?") or button_pressed):
+    if prompt := (st.chat_input(text) or button_pressed):
         # Display user message in chat message container
         with st.chat_message("user"):
             st.markdown(prompt)
         # Add user message to chat history
-        st.session_state.messages.append({"role": "user", "content": prompt})
+        st.session_state.messages.append({"role": "user", "content": [prompt]})
 
         prompt = prompt.replace('"', "").replace("'", "")
 
-        if prompt != "":
+        if prompt != "" and mode == "QAware AI Lösungen":
             # query_talks_and_ai_solutions(prompt)
             first_ai_solution = query_ai_solutions(prompt)
 
@@ -137,7 +138,7 @@ with col2:
                     response += full_response + " "
 
                     st.session_state.messages.append(
-                        {"role": "assistant", "content": response}
+                        {"role": "assistant", "content": [response]}
                     )
                     # ================================================
                     response2 = ""
@@ -157,7 +158,7 @@ with col2:
                     st.link_button(label="Weitere Details", url=first_result.properties["link"])
 
                     st.session_state.messages.append(
-                        {"role": "assistant", "content": response2}
+                        {"role": "assistant", "content": [response2]}
                     )
                 else:
                     message_placeholder = st.empty()
@@ -173,6 +174,43 @@ with col2:
                     response += full_response + " "
 
                     st.session_state.messages.append(
-                        {"role": "assistant", "content": response}
+                        {"role": "assistant", "content": [response]}
                     )
+        # Cloudland questions
+        else:
+            # query_talks_and_ai_solutions(prompt)
+            results = query_talks(prompt)
+
+            response = ""
+            with st.chat_message("assistant"):
+                chat_response = "Die Top 3 relevantesten Talks dazu sind:"
+                for result in results:
+                    talk = result.properties
+
+                    template = """===========================
+                    **{title}**
+                    Speaker: {speaker} ({company})
+                    Wann & Wo: {time}
+                    Abstract: {abstract}
+                    """.format(title=talk['title'], speaker=talk['speaker'], company=talk['company'].replace("\n", ""), time=talk['time'], abstract=talk['abstract'].replace("\n", ""))
+
+                    chat_response += "\n" + template
+
+                for line in chat_response.splitlines(keepends=True):
+                    message_placeholder = st.empty()
+                    full_response = ""
+                    print("line is: "+line)
+                    for chunk in line.split():
+                        # print("chunk is '"+chunk+'"')
+                        full_response += chunk + " "
+                        time.sleep(0.02)
+                        # Add a blinking cursor to simulate typing
+                        message_placeholder.markdown(full_response + "▌")
+
+                    message_placeholder.markdown(full_response)
+                    response += full_response + " "
+                    st.session_state.messages.append(
+                        {"role": "assistant", "content": [response]}
+                    )
+
 

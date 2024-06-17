@@ -119,7 +119,7 @@
       "Change Management"
     ],
     "abstract": "Our presentation outlines the ambitious task of establishing a Smart Factory Platform within a strict 6-month timeline, emphasizing key success factors for transforming an organization (Gustavo Gusto GmbH & CO. KG) into a data-driven entity from scratch. The initial phase focuses on the rapid deployment of a scalable AWS Architecture, laying the foundation for a resilient infrastructure. Subsequent steps include defining a comprehensive Data Strategy, deriving use cases from stakeholders' needs, and adopting a 'Working Backwards' approach to prioritize impactful use cases. The implementation phase underscores concentrating on core strengths and incremental growth.\nThe agenda concludes with an insightful Outlook into the Future, considering the evolving technological landscape. It provides strategic insights for organizations to remain adaptable and future-proof their Smart Factory Platforms. This structured agenda serves as a practical roadmap for organizations to navigate the complexities of setting up a Smart Factory Platform and becoming a data-driven entity within a tight timeframe.",
-    "company": "(no data)",
+    "company": "",
     "about_speaker": "(no data)"
   },
   {
@@ -191,7 +191,7 @@
       "Change Management"
     ],
     "abstract": "Our presentation outlines the ambitious task of establishing a Smart Factory Platform within a strict 6-month timeline, emphasizing key success factors for transforming an organization (Gustavo Gusto GmbH & CO. KG) into a data-driven entity from scratch. The initial phase focuses on the rapid deployment of a scalable AWS Architecture, laying the foundation for a resilient infrastructure. Subsequent steps include defining a comprehensive Data Strategy, deriving use cases from stakeholders' needs, and adopting a 'Working Backwards' approach to prioritize impactful use cases. The implementation phase underscores concentrating on core strengths and incremental growth.\nThe agenda concludes with an insightful Outlook into the Future, considering the evolving technological landscape. It provides strategic insights for organizations to remain adaptable and future-proof their Smart Factory Platforms. This structured agenda serves as a practical roadmap for organizations to navigate the complexities of setting up a Smart Factory Platform and becoming a data-driven entity within a tight timeframe.",
-    "company": "(no data)",
+    "company": "",
     "about_speaker": "(no data)"
   },
   {
@@ -351,7 +351,7 @@
       "Customizing"
     ],
     "abstract": "Identity- und Access Management ist etwas, das auf den ersten Blick einfach klingt (wie schwer kann ein Loginprozess schon sein?) aber in der Regel schon nach kurzer Zeit erstaunlich viele unternehmensspezifische Besonderheiten offenbart. Das beginnt bei der optischen Integration der Loginseiten ins Corporate Design, beinhaltet die Integration des Systems in die Security-Infrastruktur (API-Management, vorgelagerte Policy Enforcement Points usw.) und die Verknüpfung der Accounts mit den Daten dahinterliegender Fachsysteme. Eventuell sollen externe Identity Provider angebunden und ausgeklügelte Registrierungsprozesse umgesetzt werden.\nDann vielleicht noch ein zweiter Faktor oder gleich die Loginmöglichkeit via Passkey? Eventuell besteht auch die Notwendigkeit einer Integration in Mobile Apps inkl. Übergang zu Inhalten im Web-Portal. Und natürlich müssen verschiedene nicht standardisierte Informationen ins Access Token.\nIn diesem Workshop werdet ihr feststellen, warum Keycloak auch im Cloud-Zeitalter die Angebote der großen Provider aussticht: Anpassbarkeit.\nVon Theme-Anpassungen über Custom Token-Mapper bis hin zu größeren Anpassungen wie nicht-standardisierte Loginmethoden werden wir die volle Bandbreite des Keycloak Extension-Modells kennenlernen. Außerdem schauen wir uns ein paar der coolsten out-of-the-box Features wie Passkeys an.",
-    "company": "(no data)",
+    "company": "",
     "about_speaker": "(no data)"
   },
   {
@@ -506,7 +506,7 @@
       "Open Liberty"
     ],
     "abstract": "In this engaging hands-on lab, you will delve into the world of both imperative (REST-based) and reactive (event-driven) cloud-native Java microservices. We will guide you through the process of writing, building, testing, and running these microservices in cloud environments utilizing MicroProfile and Jakarta EE powered by Open Liberty. Moreover, we will examine how the new innovative feature of Liberty remarkably enhances the startup performance using CRIU and scalability of your microservices. With this dynamic learning experience, you will gain valuable insights and hands-on experience in developing efficient cloud-native microservices.",
-    "company": "(no data)",
+    "company": "",
     "about_speaker": "(no data)"
   },
   {
@@ -614,7 +614,7 @@
       "Entwicklungsteam"
     ],
     "abstract": "\"Cloud Migration? Ja klar! Technik hab' ich! Aber was mach ich jetzt mit meinen Mitarbeitenden?!\", ist die humorvoll formulierte Frage, deren Antwort wir uns gemeinsam in diesem interaktiven Workshop nähern wollen. Wird ein Entwicklungsteam automatisch zum eigenverantwortlichen \"DevOps Team\", nur weil ihm nun ein Kubernetes Cluster zur Verfügung steht? Kann ich nicht einfach mein \"Betriebsteam\" zu einem \"Betrieb-as-a-Service-Team\" machen? Muss ich mich als Entwickler jetzt wirklich um alles selbst kümmern? Was ist überhaupt ein Plattform Engineer und welche Skills sollte er haben? Gemeinsam beleuchten wir die Herausforderungen für neue und bestehende Teams in einer IT-Organisation während und nach der Migration in die Cloud. Welche Soft- und Hardskills sind Voraussetzung und nicht an Effizienz oder Effektivität zu verlieren?\nAnhand einer beispielhaften Migration eines fiktiven Unternehmens, führe ich Sie durch die Hürden einer Cloudmigration mit dem Fokus auf Teamentwicklung. Währenddessen teile ich meine Erfahrungen aus diversen Migrationen und zeige auf, welche Fehler in der Praxis vorkommen können. In diesem Beitrag, der explizit zum Mitmachen und Mitdiskutieren auffordert, erstellen wir gemeinsam eine Roadmap, die Führungskräften, Mitarbeiten und auch Consultants dabei unterstützt, die richtigen Entscheidungen zu treffen, die notwendigen Skills zu erlangen oder auch den eigenen Kunden bestmöglich dabei zu unterstützen.",
-    "company": "(no data)",
+    "company": "",
     "about_speaker": "(no data)"
   },
   {
@@ -835,7 +835,7 @@
       "Modernization"
     ],
     "abstract": "In unserer kleinen, beschaulichen Public Cloud Bubble werden zwei Dinge immer wieder wiederholt und kopfnickend bestätigt:\n- Public Cloud ist besser als On Premise\n- Microservices sind besser als Monolithen\nEs ist also nicht verwunderlich, dass die Blog Posts von Basecamp (2022, Why we're leaving the cloud) und Amazon Prime (2023, move from microservices architecture to monolith application) sehr intensiv diskutiert wurden.\nWie sieht's ein paar Monate nach diesen Posts aus? Welchen Einfluss hatten die Meldungen auf uns, unsere Kunden und auf euch?\nReferenzen:\n- https://world.hey.com/dhh/why-we-re-leaving-the-cloud-654b47e0\n- https://www.primevideotech.com/video-streaming/scaling-up-the-prime-video-audio-video-monitoring-service-and-reducing-costs-by-90",
-    "company": "(no data)",
+    "company": "",
     "about_speaker": "(no data)"
   },
   {
@@ -957,7 +957,7 @@
       "kubernetes"
     ],
     "abstract": "Have you ever struggled with deploying and orchestrating Kubernetes clusters across different cloud providers or within a hybrid setup? We feel you!\nFor us, integrating Gardener, an open-source Kubernetes management tool, made the trick. In our talk we will explore key features and benefits of Gardener, guiding you through the integration process while emphasizing key considerations, best practices, and potential pitfalls. To bring theory into practice, a live demonstration will showcase a real-world implementation of Gardener and Kubernetes working seamlessly together..\nJoin us to learn how Gardener streamlines cluster provisioning, management, and scaling, optimizing resource utilization and simplifying the operational landscape.",
-    "company": "(no data)",
+    "company": "",
     "about_speaker": "(no data)"
   },
   {
@@ -1075,7 +1075,7 @@
       "Zusammenarbeit"
     ],
     "abstract": "In den jüngsten Erhebung zum Fachkräfte bedarf in den Unternehmen landeten die Menschen mit Qualifikationen für Veränderungsmanagement unter den TOP DREI. Demzufolge versuchen viele Unternehmen ihre Unternehmenskultur nachhaltig zu verändern und suchen dafür Mitarbeiter*innen mit entsprechenden Ausbildungen. Veränderungen in der Zusammenarbeit durch die Einführung von Rollen wie DevOps oder DevSecOps sowie ähnlich gelagerten Funktionen verändern die Zusammenarbeit und die Prozesse.  In diesem mehrteiligen Workshop möchten in einer Mischung aus Impulsvorträgen, Erfahrungsberichten und Workshops Techniken und Methoden vermitteln, um Veränderungen anzustoßen und zu etablieren. Culture Hacks als eine Möglichkeit eingefahrene Verhaltensweisen nach dem Motto \"Das haben wir immer schon so gemacht\" oder \"Das hat hier noch nie funktioniert\" sichtbar zu machen und alternative Vorgehensweise darzustellen bzw. zu vermitteln wie die Veränderungen wirken und erfolgreichen werden. 3D-Welten zur Gestaltung von Prozessen und Strategien. Spielerisch die Kernpunkte im Unternehmen, Projekt oder Infrastruktur herausarbeiten und transparent werden lassen, wo die Prioritäten der Beteiligten liegen.",
-    "company": "(no data)",
+    "company": "",
     "about_speaker": "(no data)"
   },
   {
@@ -1155,7 +1155,7 @@
       "GitOps-Playground"
     ],
     "abstract": "Sowohl für die Entwicklung von Anwendungen selbst, als auch für deren Infrastruktur und Betriebsprozesse ist es vorteilhaft, eine produktionsnahe Betriebsplattform lokal starten zu können.\nNeben dem Lernen und Ausprobieren ermöglicht diese beispielsweise Entwicklungs- und Plattformteams schneller die Config (YAML, Helm, Kustomize, etc.) zu entwickeln, Abhängigkeiten zwischen verschiedenen Services zu testen, Monitoring, Dashboards und Alerting umzusetzen oder GitOps-Prozesse und Repo-Strukturen zu erproben.\nFür Kubernetes gibt es eine ganze Reihe von Tools, die  das Starten lokaler Cluster vereinfachen. Mit Kubernetes allein ist es allerdings nicht getan: Es ist eine Plattform um Plattformen zu bauen. Es fehlen einige Tools, die wir in der Produktion verwenden: SCM, CI-Server, GitOps-Operator, Monitoring, Secrets Management, Ingress Controller, CertManager etc.\nWie kriegen wir das alles einfach lokal aufgebaut?\nIn diesem Workshop  betrachten wir, wie uns das Open Source Projekt GitOps Playground (https://github.com/cloudogu/gitops-playground) hier helfen kann.\nGemeinsam werden wir damit in kürzester Zeit auf unseren Rechnern eine produktionsreife Betriebsplattform starten.\nAuf dieser betrachten wir dann verschiedene Anwendungsfälle mit Tools wie Argo CD, Prometheus, Grafana, Hashicorp Vault und Jenkins.\nJe nach verfügbarer Zeit und Publikumsinteresse schauen wir uns Beispiele für GitOps-Workflows oder Secrets Management an oder bauen Monitoring in eine Anwendung ein.",
-    "company": "(no data)",
+    "company": "",
     "about_speaker": "(no data)"
   },
   {
@@ -1502,7 +1502,7 @@
       "Kubernetes"
     ],
     "abstract": "In this talk, we will explain in plain English with no buzzwords the difference between the Sidecar model and the Sidecar-less model.\nFor Service Meshes, the sidecar model was the only viable way to ensure that the mesh could take control of the application network.\nWith the evolution of Kubernetes, that assertion has become outdated.\nToday, Istio Service Mesh has brought the alternative. A model which reduces the number of resources needed to make the mesh possible as well as removes the feeling that Istio is in there.\nWith Istio Ambient Mesh, the user who deploys a workload in Kubernetes does not notice that the application is part of a mesh. It is totally transparent.\nKey Takeaways:\n- Concept of service mesh\n- Concept of Sidecar\n- Concept of Sidecar-less\n- Challenges solved by Sidecar-less mode compared to Sidecar mode\n- Istio Ambient Mesh and its components",
-    "company": "(no data)",
+    "company": "",
     "about_speaker": "(no data)"
   },
   {
@@ -1658,7 +1658,7 @@
       "ML"
     ],
     "abstract": "There are a thousand ways to operate Kubernetes clusters on your own or as a managed service in the cloud.\nBut sometimes it just has to be your own local cluster of devices ( maybe a Raspberry Pi or a NUC cluster )…\nFor example…\n - private cluster ( development CI/CD dev / use cases etc - where you don’t want big brother / “AI” snooping.... )\n - IoT use cases ( connected distributed off network devices )\n - Edge use cases ( edge of the network )\n - Local Experimentation of things where you can literally pull the plug [ and put it back in again ! ]…\n - where you can “touch” the hardware until you want to scale up in the cloud ( local version of IoT use case )\n In this presentation, we will look at a small but scalable cluster concept that can demonstrate a local private cloud and a running app to show how easy it could be to set this up at home.\nWe will attempt to demonstrate some use cases for the private cloud cluster, such as :\n - ML powered app stripped down to meet the restrictions of the hardware in question\n - some visualisation metrics and monitoring of the AI application and cluster usage as it is running\nOur goal is to primarily present the setup of the cluster and some use cases after that, and we can have the cluster running after the session to allow audience interaction with the cluster.",
-    "company": "(no data)",
+    "company": "",
     "about_speaker": "(no data)"
   },
   {
@@ -1728,7 +1728,7 @@
       "Privacy Shield"
     ],
     "abstract": "Bisher waren viele public Cloud Angebote nicht im Einklang mit den europäischen Datenschutzgesetzen oder ließen sich für kritische Anwendungsfälle nutzen.\nWir zeigen welche souveräne Cloud Angebote es gibt und welche Möglichkeiten es  gibt, um dabei seine Souveränität in der Cloud zu behalten.\nWir wollen folgende Fragen beantworten und Lösungen aufzeigen:\nWelches sind die drei Ebenen einer digitalen Souveränität? Wie lassen sich diese DSGVO umsetzen?\nWelche Bedeutung hat die EU-US-Datenschutzvereinbarung \"Privacy Shield\"?\nWie lassen sich Abhängigkeiten zu Anbietern minimieren, um einen späteren Wechsel zu erleichtern?\nWie behalte ich die Kontrolle?\nWas ist Confidential Computing und wie kann ich das nutzen?\nWelche Anwendungsfälle kann ich mit souveränen Cloud Angeboten umsetzen?",
-    "company": "(no data)",
+    "company": "",
     "about_speaker": "(no data)"
   },
   {
@@ -2066,7 +2066,7 @@
       "Entwicklung"
     ],
     "abstract": "APIs sind in der Welt des Internets und der Cloudwelt die Eintrittskarte in Leistungsangebote von Unternehmen. Viele von den Angeboten haben wir selbst schon einmal genutzt und waren einmal mehr, aber auch weniger zufrieden mit den angebotenen APIs. Für Anbieter ist es aber auch nicht einfach, den richtigen Geschmack von Benutzern zu treffen, damit sich der Aufwand für APIs und Unternehmen auch rechnet.\nDie Session zeigt auf, warum manche Design Strategien nicht funktionieren und somit mehr Aufwand, mit wenig Ertrag generieren. Wie diesen begegnet werden kann und vor allen was es an guten Praktiken so gibt, um auch gute APIs zu formulieren, welche Benutzer gerne verwenden.\nLernziele\n- Designschwächen erkennen und korrigieren\n- Kennenlernen von Methodiken für den geeigneten API Schnitt\n- Business- vs. Platform APIs - welcher Typus für welches Problem der richtige ist\n- Was bedeutet API as a Product?\nVorkenntnisse\nEntwicklung",
-    "company": "(no data)",
+    "company": "",
     "about_speaker": "(no data)"
   }
 ]

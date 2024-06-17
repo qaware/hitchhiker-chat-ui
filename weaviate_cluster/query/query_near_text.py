@@ -15,29 +15,16 @@ def query_ai_solutions(text):
         return solution_query_result.objects[0]
 
 
-def query_talks_and_ai_solutions(text):
-    result = {}
+def query_talks(text):
     with connect_to_cluster() as client:
         talks = client.collections.get("ConferenceTalks")
         talk_query_result = talks.query.near_text(
-            limit=1,
+            limit=3,
             query=text,
             return_metadata=weaviate.classes.query.MetadataQuery(certainty=True, distance=True)
         )
-        if len(talk_query_result.objects) > 0:
-            result["closest_talk"] = talk_query_result.objects[0]
-
-        solutions = client.collections.get("Solutions")
-        solution_query_result = solutions.query.near_text(
-            limit=1,
-            query=text,
-            return_metadata=weaviate.classes.query.MetadataQuery(certainty=True, distance=True)
-        )
-        if len(solution_query_result.objects) > 0:
-            result["closest_solution"] = solution_query_result.objects[0]
-
-        print(result)
-        return result
+        print(talk_query_result.objects[0])
+        return talk_query_result.objects
 
 
 def query_using_graphql(text):
