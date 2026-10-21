@@ -1,4 +1,4 @@
-FROM python:3.10-slim
+FROM python:3.12-slim
 # taken from https://docs.streamlit.io/deploy/tutorials/kubernetes
 
 RUN groupadd --gid 1000 appuser \
@@ -10,7 +10,6 @@ RUN pip3 install --no-cache-dir --upgrade \
 
 RUN apt-get update && apt-get install -y \
     build-essential \
-    software-properties-common \
     git
 
 USER appuser
